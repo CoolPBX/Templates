@@ -33,6 +33,17 @@ elseif(isset($o['directory'])){
         $x++;
     }
 
+    $files = glob($o['directory'].'/{core,app}/*/app_menu.php', \GLOB_BRACE);
+    if (isset($o['v'])){
+        var_dump($files);
+    }
+    $x = 0;
+    foreach ($files as $file){
+        require_once($file);
+        $x++;
+    }
+
+
     if (isset($o['v'])){
         print_r($apps);
         print_r($vendors);
@@ -80,6 +91,20 @@ switch ($o['type']){
         $yaml = yaml_emit($settings);
         break;
     case 'menu':
+        $menus = [];
+        if (isset($apps[0]) && is_array($apps[0])){
+            foreach ($apps as $app){
+                if (is_array($app['menu']))
+                    foreach ($app['menu'] as $menu)
+                        $menus[] = $menu;
+            }
+        }
+
+        if (isset($o['v'])){
+            print_r($menus);
+        }
+
+        $yaml = yaml_emit($menus);
         break;
     default:
         die('you must specify --type with one of the following options: vendors, permissions, settings, menu.'.PHP_EOL);
