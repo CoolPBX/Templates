@@ -1,11 +1,10 @@
 <?php
-$short = "v";
-$long = ['file:','directory:','type:'];
+$short = "";
+$long = ['file:','directory:','type:', 'debug'];
 $o = getopt($short, $long);
 
-if (isset($o['v'])){
+if (isset($o['debug']))
     var_dump($o);
-}
 
 if (isset($o['file']) && isset($o['directory']))
     die('the parameters --file or --directory can not coexist.'.PHP_EOL);
@@ -17,16 +16,16 @@ if (isset($o['file'])){
     $x = 0;
     require_once($o['file']);
 
-    if (isset($o['v'])){
+    if (isset($o['debug'])){
         print_r($apps);
         print_r($vendors);
     }
 }
 elseif(isset($o['directory'])){
     $files = glob($o['directory'].'/{core,app}/*/app_config.php', \GLOB_BRACE);
-    if (isset($o['v'])){
+    if (isset($o['debug']))
         var_dump($files);
-    }
+
     $x = 0;
     foreach ($files as $file){
         require_once($file);
@@ -34,17 +33,16 @@ elseif(isset($o['directory'])){
     }
 
     $files = glob($o['directory'].'/{core,app}/*/app_menu.php', \GLOB_BRACE);
-    if (isset($o['v'])){
+    if (isset($o['debug']))
         var_dump($files);
-    }
+
     $x = 0;
     foreach ($files as $file){
         require_once($file);
         $x++;
     }
 
-
-    if (isset($o['v'])){
+    if (isset($o['debug'])){
         print_r($apps);
         print_r($vendors);
     }
@@ -52,6 +50,7 @@ elseif(isset($o['directory'])){
 else
     die('--file or --directory are missing.'.PHP_EOL);
 
+$yaml = '';
 switch ($o['type']){
     case 'vendors':
         if (isset($vendors) && is_array($vendors)){
@@ -68,9 +67,8 @@ switch ($o['type']){
             }
         }
 
-        if (isset($o['v'])){
+        if (isset($o['debug']))
             print_r($permissions);
-        }
 
         $yaml = yaml_emit($permissions);
         break;
@@ -84,9 +82,8 @@ switch ($o['type']){
             }
         }
 
-        if (isset($o['v'])){
+        if (isset($o['debug']))
             print_r($settings);
-        }
 
         $yaml = yaml_emit($settings);
         break;
@@ -100,9 +97,8 @@ switch ($o['type']){
             }
         }
 
-        if (isset($o['v'])){
+        if (isset($o['debug']))
             print_r($menus);
-        }
 
         $yaml = yaml_emit($menus);
         break;
