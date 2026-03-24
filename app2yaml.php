@@ -107,3 +107,20 @@ switch ($o['type']){
 }
 
 echo $yaml;
+
+function generate_password($length = 0, $strength = 0) {
+    $password = '';
+    $chars = '';
+    if ($length === 0 && $strength === 0) { //set length and strenth if specified in default settings and strength isn't numeric-only
+        $length = (is_numeric($_SESSION["users"]["password_length"]["numeric"])) ? $_SESSION["users"]["password_length"]["numeric"] : 20;
+        $strength = (is_numeric($_SESSION["users"]["password_strength"]["numeric"])) ? $_SESSION["users"]["password_strength"]["numeric"] : 4;
+    }
+    if ($strength >= 1) { $chars .= "0123456789"; }
+    if ($strength >= 2) { $chars .= "abcdefghijkmnopqrstuvwxyz"; }
+    if ($strength >= 3) { $chars .= "ABCDEFGHIJKLMNPQRSTUVWXYZ"; }
+    if ($strength >= 4) { $chars .= "!^$%*?."; }
+    for ($i = 0; $i < $length; $i++) {
+        $password .= $chars[random_int(0, strlen($chars)-1)];
+    }
+    return $password;
+}
