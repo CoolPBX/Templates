@@ -1,0 +1,3041 @@
+---
+- uuid: c795c58e-7fcc-4aa1-bcc3-e23d9bc45209
+  name: yealink
+  functions:
+  - uuid: e0dfc266-bdab-43b3-8554-aa905e290114
+    label: label-na
+    type: na
+    subtype: ""
+    value: "0"
+    groups:
+    - admin
+    - superadmin
+  - uuid: 236061aa-2ae8-4547-a3d3-e112976c47bc
+    label: label-line
+    type: line
+    subtype: ""
+    value: "15"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 7384b1f7-46d1-4b36-a8c5-3f50c845b62c
+    label: label-conference
+    type: conference
+    subtype: ""
+    value: "1"
+    groups:
+    - superadmin
+    - admin
+  - uuid: a1a1df6b-20db-4611-ae9a-cdea26648455
+    label: label-forward
+    type: forward
+    subtype: ""
+    value: "2"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 3252a1be-0b76-447e-932c-916e18f1e36c
+    label: label-transfer
+    type: transfer
+    subtype: ""
+    value: "3"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 401e9880-2db8-4e85-8ccb-562a457b4ce2
+    label: label-hold
+    type: hold
+    subtype: ""
+    value: "4"
+    groups:
+    - superadmin
+    - admin
+  - uuid: f562dd59-d065-4ea9-b6c6-af0dbdc4a2b0
+    label: label-dnd
+    type: dnd
+    subtype: ""
+    value: "5"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 45408d0a-4635-4088-bf06-714a80115132
+    label: label-redial
+    type: redial
+    subtype: ""
+    value: "6"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 4ec2ab32-5aeb-4c7d-98fe-2541fa0ca06c
+    label: label-call_return
+    type: call_return
+    subtype: ""
+    value: "7"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 33a54620-d188-4510-8876-b5a98dd5452c
+    label: label-sms
+    type: sms
+    subtype: ""
+    value: "8"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 5e72cbd5-43f1-420b-aad7-758c54019255
+    label: label-call_pickup
+    type: call_pickup
+    subtype: ""
+    value: "9"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 9c0ee92c-7753-4cff-b07d-1a01081a8933
+    label: label-call_park
+    type: call_park
+    subtype: ""
+    value: "10"
+    groups:
+    - superadmin
+    - admin
+  - uuid: d14860ff-22e1-4e32-ab68-a29877814780
+    label: label-dtmf
+    type: dtmf
+    subtype: ""
+    value: "11"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 390f5b0f-1db8-475a-80e1-43a20680934c
+    label: label-voicemail
+    type: voicemail
+    subtype: ""
+    value: "12"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 2dca0d4d-5fc5-4d1b-b7b2-965dc1219fd3
+    label: label-speed_dial
+    type: speed_dial
+    subtype: ""
+    value: "13"
+    groups:
+    - superadmin
+    - admin
+  - uuid: e8f16d57-eb7c-4c0e-aaf2-3348059d18ed
+    label: label-intercom
+    type: intercom
+    subtype: ""
+    value: "14"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 170fb2d6-2439-44dd-a3d2-6d9223acc863
+    label: label-blf
+    type: blf
+    subtype: ""
+    value: "16"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 64dfb845-48c6-40e9-8225-5ffde5deb772
+    label: label-url
+    type: url
+    subtype: ""
+    value: "17"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 55e6d0d7-a2e8-4da5-8934-5ab3786add6d
+    label: label-public_hold
+    type: public_hold
+    subtype: ""
+    value: "19"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 10451c99-c39a-4fc7-b679-9edfbe7dad64
+    label: label-private
+    type: private
+    subtype: ""
+    value: "20"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 66f35f0f-1c94-4f31-8c9e-2e8f237f3b78
+    label: label-shared_line
+    type: shared_line
+    subtype: ""
+    value: "21"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 474ddf54-12bd-4120-8721-000af92b1e9d
+    label: label-xml_group
+    type: xml_group
+    subtype: ""
+    value: "22"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 98837b7a-5550-47bb-ac2f-7a699ea1eb46
+    label: label-group_pickup
+    type: group_pickup
+    subtype: ""
+    value: "23"
+    groups:
+    - superadmin
+    - admin
+  - uuid: aca0127d-f6ac-49bb-b9ce-5dfed806467c
+    label: label-paging
+    type: paging
+    subtype: ""
+    value: "24"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 52ed6be6-3b7f-4090-80f8-16c41b34901c
+    label: label-record
+    type: record
+    subtype: ""
+    value: "25"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 387f0592-3100-4336-b30e-7793e2cf4982
+    label: label-xml_browser
+    type: xml_browser
+    subtype: ""
+    value: "27"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 57916839-4a4f-48db-906c-e9157b1cb596
+    label: label-history
+    type: history
+    subtype: ""
+    value: "28"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 5cc84adc-e8f5-4425-90de-aa856d55ff8a
+    label: label-directory
+    type: directory
+    subtype: ""
+    value: "29"
+    groups:
+    - superadmin
+    - admin
+  - uuid: b37b1bd0-1f41-4df1-bcdb-99e4a2e134f6
+    label: label-menu
+    type: menu
+    subtype: ""
+    value: "30"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 4af6c554-de80-4c81-bd95-2e678277912b
+    label: label-new_sms
+    type: new_sms
+    subtype: ""
+    value: "32"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 26af7b6d-3bf9-4ed5-821e-badd0909b416
+    label: label-status
+    type: status
+    subtype: ""
+    value: "33"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 034f9eca-809c-49b9-bcd3-0318e030fe05
+    label: label-hot_desking
+    type: hot_desking
+    subtype: ""
+    value: "34"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 6674f177-ba2c-41c9-9c9f-1bcc8d02e769
+    label: label-url_record
+    type: url_record
+    subtype: ""
+    value: "35"
+    groups:
+    - superadmin
+    - admin
+  - uuid: eabd5324-f01a-4210-882b-805368d50a06
+    label: label-ldap
+    type: ldap
+    subtype: ""
+    value: "38"
+    groups:
+    - superadmin
+    - admin
+  - uuid: e241efea-c81e-4bbf-bf21-5ffdbf8cf705
+    label: label-blf_list
+    type: blf_list
+    subtype: ""
+    value: "39"
+    groups:
+    - superadmin
+    - admin
+  - uuid: d8c2b139-e3d6-4f71-b4cf-d213bf5009f2
+    label: label-prefix
+    type: prefix
+    subtype: ""
+    value: "40"
+    groups:
+    - superadmin
+    - admin
+  - uuid: d1b1966b-4607-4c8f-b00b-7dbf7e721cd4
+    label: label-zero_sp_touch
+    type: zero_sp_touch
+    subtype: ""
+    value: "41"
+    groups:
+    - superadmin
+    - admin
+  - uuid: d631ffb7-5bc9-43b6-a7d3-99a8645330bd
+    label: label-acd
+    type: acd
+    subtype: ""
+    value: "42"
+    groups:
+    - superadmin
+    - admin
+  - uuid: cd2ba79c-75ca-425f-a89a-1ff4d39808bc
+    label: label-local_phonebook
+    type: local_phonebook
+    subtype: ""
+    value: "43"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 456ed439-cc22-4b35-b803-9bed1d817720
+    label: label-broadsoft_phonebook
+    type: broadsoft_phonebook
+    subtype: ""
+    value: "44"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 57b49527-3d88-44ef-ad9e-b48fce326551
+    label: label-local_group
+    type: local_group
+    subtype: ""
+    value: "45"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 4b470213-e279-4695-b53f-3d125640caed
+    label: label-broadsoft_group
+    type: broadsoft_group
+    subtype: ""
+    value: "46"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 90634c22-b09c-4536-90e3-3ff3387c02aa
+    label: label-xml_directory
+    type: xml_directory
+    subtype: ""
+    value: "47"
+    groups:
+    - superadmin
+    - admin
+  - uuid: c52a8e09-ee56-489f-a69f-730ed8a32f07
+    label: label-switch_account_up
+    type: switch_account_up
+    subtype: ""
+    value: "48"
+    groups:
+    - superadmin
+    - admin
+  - uuid: a3ac5013-6cb3-42e6-a77d-9ff3377495b3
+    label: label-switch_account_down
+    type: switch_account_down
+    subtype: ""
+    value: "49"
+    groups:
+    - superadmin
+    - admin
+  - uuid: d9202df4-2deb-481d-8441-ee77909bcd22
+    label: label-keypad_lock
+    type: keypad_lock
+    subtype: ""
+    value: "50"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 1d7494ce-f416-43f7-b26f-2817c758a1c5
+    label: label-paging_list
+    type: paging_list
+    subtype: ""
+    value: "66"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 2effe694-8d44-4757-b3df-8217fd13dcd5
+    label: label-custom
+    type: custom
+    subtype: ""
+    value: "73"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 731602b0-acf7-4178-aae7-be25deb4832a
+    label: label-mobile_line
+    type: mobile_line
+    subtype: ""
+    value: "77"
+    groups:
+    - superadmin
+    - admin
+- uuid: 8b0ce477-92c7-4bbc-a4fd-ee09c261fa2e
+  name: snom
+  functions:
+  - uuid: 64cee4e3-d123-4507-b359-9138b1146fc8
+    label: label-none
+    type: none
+    subtype: ""
+    value: none
+    groups:
+    - superadmin
+    - admin
+  - uuid: 5e373a17-a0b8-403c-b82c-4c769d134174
+    label: label-url
+    type: url
+    subtype: ""
+    value: action_url
+    groups:
+    - superadmin
+    - admin
+  - uuid: 18b6cb1c-5c49-4511-a56d-63dd6a279cfd
+    label: label-auto_answer
+    type: auto_answer
+    subtype: ""
+    value: auto_answer
+    groups:
+    - superadmin
+    - admin
+  - uuid: c7b07a76-1a34-4206-894d-30392940bf84
+    label: label-blf
+    type: blf
+    subtype: ""
+    value: blf
+    groups:
+    - superadmin
+    - admin
+  - uuid: 0545fef7-e2b8-4108-847a-1d41a94706f3
+    label: label-button
+    type: button
+    subtype: ""
+    value: button
+    groups:
+    - superadmin
+    - admin
+  - uuid: 3d190209-ff69-4008-929d-2997acc72329
+    label: label-call_agent
+    type: call_agent
+    subtype: ""
+    value: call_agent
+    groups:
+    - superadmin
+    - admin
+  - uuid: 7c447273-3795-44c5-ac1a-88b6abb752c1
+    label: label-conference
+    type: conference
+    subtype: ""
+    value: conference
+    groups:
+    - superadmin
+    - admin
+  - uuid: 09b8182d-655a-4366-ac96-ddac6d726251
+    label: label-dtmf
+    type: dtmf
+    subtype: ""
+    value: dtmf
+    groups:
+    - superadmin
+    - admin
+  - uuid: 0386cf10-ae8e-40bb-ae3d-cda9a4ea0118
+    label: label-extension
+    type: extension
+    subtype: ""
+    value: dest
+    groups:
+    - superadmin
+    - admin
+  - uuid: b6a95df7-8f62-44b5-b54b-4297e6705015
+    label: label-redirect
+    type: redirect
+    subtype: ""
+    value: redirect
+    groups:
+    - superadmin
+    - admin
+  - uuid: 706fad4b-ebc6-4437-ad93-abb8a8c15275
+    label: label-intercom
+    type: intercom
+    subtype: ""
+    value: icom
+    groups:
+    - superadmin
+    - admin
+  - uuid: ffb3cb46-f01b-4859-977d-26b9937d17d1
+    label: label-ivr
+    type: ivr
+    subtype: ""
+    value: ivr
+    groups:
+    - superadmin
+    - admin
+  - uuid: 630b679d-e3c5-422e-a5d6-b167e4d2b01a
+    label: label-key_event
+    type: key_event
+    subtype: ""
+    value: keyevent
+    groups:
+    - superadmin
+    - admin
+  - uuid: 5b155bd3-f717-4dad-9f11-0971605b44fc
+    label: label-line
+    type: line
+    subtype: ""
+    value: line
+    groups:
+    - superadmin
+    - admin
+  - uuid: 80c6ebc8-d8dd-4327-af2a-6a57fb15610b
+    label: label-multicast_page
+    type: multicast_page
+    subtype: ""
+    value: multicast
+    groups:
+    - superadmin
+    - admin
+  - uuid: dd5995ae-2d18-47ec-b7c3-9abfb02457f5
+    label: label-orbit
+    type: orbit
+    subtype: ""
+    value: orbit
+    groups:
+    - superadmin
+    - admin
+  - uuid: 2aab02e3-402a-4ecd-aee6-0f78b7dca5f4
+    label: label-presence
+    type: presence
+    subtype: ""
+    value: presence
+    groups:
+    - superadmin
+    - admin
+  - uuid: c4fe0550-26aa-400d-8c09-618723a57087
+    label: label-p2t
+    type: p2t
+    subtype: ""
+    value: p2t
+    groups:
+    - superadmin
+    - admin
+  - uuid: e976a144-a343-4761-a735-621f190e2708
+    label: label-shared_line
+    type: shared_line
+    subtype: ""
+    value: mult
+    groups:
+    - superadmin
+    - admin
+  - uuid: a3a12477-1012-4350-8717-ce8c8a279a7a
+    label: label-speed_dial
+    type: speed_dial
+    subtype: ""
+    value: speed
+    groups:
+    - superadmin
+    - admin
+  - uuid: 347c332a-751c-4c35-93a6-1ded6d710249
+    label: label-transfer
+    type: transfer
+    subtype: ""
+    value: transfer
+    groups:
+    - superadmin
+    - admin
+  - uuid: 971596e7-5958-4116-add0-b2b321a916f6
+    label: label-record
+    type: record
+    subtype: ""
+    value: recorder
+    groups:
+    - superadmin
+    - admin
+- uuid: e6a569b0-66fc-441e-acb5-a50b848ed108
+  name: avaya
+  functions:
+  - uuid: 1288257d-5cf5-4af9-8c89-17de0bb9a782
+    label: label-auto_answer
+    type: auto_answer
+    subtype: ""
+    value: autoanswer
+    groups:
+    - superadmin
+    - admin
+  - uuid: d5b39e0d-d317-423c-91aa-7d158fa38e00
+    label: label-blf
+    type: blf
+    subtype: ""
+    value: blf
+    groups:
+    - superadmin
+    - admin
+  - uuid: b531c295-6b8f-4c50-a1a2-63aefbaf91ae
+    label: label-line
+    type: line
+    subtype: ""
+    value: primary
+    groups:
+    - superadmin
+    - admin
+  - uuid: e7e4b34a-984f-4dc9-a537-ce9b65e74332
+    label: label-shared_line
+    type: shared_line
+    subtype: ""
+    value: sca
+    groups:
+    - superadmin
+    - admin
+  - uuid: bb34a14d-cf02-439c-bb0e-b4f06a3b1a0e
+    label: label-phonelock
+    type: phonelock
+    subtype: ""
+    value: lock
+    groups:
+    - superadmin
+    - admin
+  - uuid: ef0d69b9-fe37-49a1-a10b-16dd946766ad
+    label: label-screensaver
+    type: screensaver
+    subtype: ""
+    value: screensaver
+    groups:
+    - superadmin
+    - admin
+  - uuid: e55a1b78-c9b9-42bd-8716-83d93e3a0d0d
+    label: label-speed_dial
+    type: autodial
+    subtype: ""
+    value: autodial
+    groups:
+    - superadmin
+    - admin
+  - uuid: 7d2c589a-9040-4227-9e03-4cbba5e1284c
+    label: label-dnd
+    type: dnd
+    subtype: ""
+    value: dnd
+    groups:
+    - superadmin
+    - admin
+  - uuid: 49854081-98e0-46fd-becb-ba9496ae52c0
+    label: label-call_forward
+    type: callfwd
+    subtype: ""
+    value: callfwd
+    groups:
+    - superadmin
+    - admin
+  - uuid: 6e1f6bd0-5caf-4958-afba-aaca87ba6bd3
+    label: label-call_forward_noanswer
+    type: callfwdna
+    subtype: ""
+    value: callfwdna
+    groups:
+    - superadmin
+    - admin
+  - uuid: 6df5fab5-f338-42cd-bede-8d9ed1f873a5
+    label: label-call_forward_busy
+    type: callfwdbusy
+    subtype: ""
+    value: callfwdbusy
+    groups:
+    - superadmin
+    - admin
+- uuid: cac9a0e3-a7d4-426a-bd6d-a14f7d6a6350
+  name: poly
+  functions:
+  - uuid: 2a64bbc5-3b45-49ae-90cf-7a79fcb517c9
+    label: label-line
+    type: line
+    subtype: ""
+    value: line
+    groups:
+    - superadmin
+    - admin
+  - uuid: ee9ef23b-5c0b-46af-a20c-ed4a92bbe526
+    label: label-automata
+    type: automata
+    subtype: ""
+    value: automata
+    groups:
+    - superadmin
+    - admin
+  - uuid: 5c0c09eb-ba26-400b-9cad-da5939df9788
+    label: label-normal
+    type: normal
+    subtype: ""
+    value: normal
+    groups:
+    - superadmin
+    - admin
+  - uuid: 34f49423-2ad6-4854-b5b6-39329781b51a
+    label: label-messages
+    type: messages
+    subtype: ""
+    value: Messages
+    groups:
+    - superadmin
+    - admin
+  - uuid: 58a2ef99-736e-4c14-9581-7ff7d8af1556
+    label: label-micmute
+    type: micmute
+    subtype: ""
+    value: MicMute
+    groups:
+    - superadmin
+    - admin
+  - uuid: 35c0dd1a-b567-4529-abfc-ce96c72785e6
+    label: label-redial
+    type: redial
+    subtype: ""
+    value: Redial
+    groups:
+    - superadmin
+    - admin
+  - uuid: 411e38d6-a147-4167-b581-221a4fe1a18c
+    label: label-null
+    type: "null"
+    subtype: ""
+    value: "Null"
+    groups:
+    - superadmin
+    - admin
+  - uuid: a9639bfe-ac0d-48f0-92c0-f4e949d3b01f
+    label: label-url
+    type: url
+    subtype: ""
+    value: URL
+    groups:
+    - superadmin
+    - admin
+- uuid: 6baf1a7e-7a43-4a66-9007-bbb911bf947b
+  name: polycom
+  functions:
+  - uuid: 15d0c92d-91e9-43e9-b35d-85f1d5e35fff
+    label: label-line
+    type: line
+    subtype: ""
+    value: line
+    groups:
+    - superadmin
+    - admin
+  - uuid: f18e9a26-09e3-476f-8bd4-35a257a6872b
+    label: label-automata
+    type: automata
+    subtype: ""
+    value: automata
+    groups:
+    - superadmin
+    - admin
+  - uuid: 617e4474-c381-4ef8-950a-2b29b67ed8e3
+    label: label-normal
+    type: normal
+    subtype: ""
+    value: normal
+    groups:
+    - superadmin
+    - admin
+  - uuid: 6f8ac180-b741-4c94-9d45-87fa39fe340b
+    label: label-messages
+    type: messages
+    subtype: ""
+    value: Messages
+    groups:
+    - superadmin
+    - admin
+  - uuid: b0ae3068-fc45-44cf-b052-b8705740acb2
+    label: label-micmute
+    type: micmute
+    subtype: ""
+    value: MicMute
+    groups:
+    - superadmin
+    - admin
+  - uuid: d9cdb61a-3821-4a3a-833b-5beaab212997
+    label: label-redial
+    type: redial
+    subtype: ""
+    value: Redial
+    groups:
+    - superadmin
+    - admin
+  - uuid: 202352b8-beac-4861-8220-4489533c3679
+    label: label-null
+    type: "null"
+    subtype: ""
+    value: "Null"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 0205cce8-2796-4f3d-97c0-dbe51add6270
+    label: label-url
+    type: url
+    subtype: ""
+    value: URL
+    groups:
+    - superadmin
+    - admin
+- uuid: a287e444-95e0-47c4-9742-0a8cec73c799
+  name: aastra
+  functions:
+  - uuid: 913b6eca-3795-4d7d-9403-bbf56276afd4
+    label: label-none
+    type: none
+    subtype: ""
+    value: none
+    groups:
+    - superadmin
+    - admin
+  - uuid: e2f048a2-441d-4488-89cf-ef3b573189b8
+    label: label-empty
+    type: empty
+    subtype: ""
+    value: empty
+    groups:
+    - superadmin
+    - admin
+  - uuid: 8dd7f00e-8f0a-4b73-aa51-98a1ade5b670
+    label: label-blf
+    type: blf
+    subtype: ""
+    value: blf
+    groups:
+    - superadmin
+    - admin
+  - uuid: c921464e-f7cb-45f7-8dd8-8b8bf3c00ae1
+    label: label-blf_xfer
+    type: blf_xfer
+    subtype: ""
+    value: blfxfer
+    groups:
+    - superadmin
+    - admin
+  - uuid: 41a6ce08-39ad-4476-b83f-df53e5425114
+    label: label-blf_list
+    type: blf_list
+    subtype: ""
+    value: list
+    groups:
+    - superadmin
+    - admin
+  - uuid: d0a67640-951c-4587-b266-fc27b1e290db
+    label: label-callers
+    type: callers
+    subtype: ""
+    value: callers
+    groups:
+    - superadmin
+    - admin
+  - uuid: 62320c4e-e68d-43bb-b29a-0e08af9e0855
+    label: label-call_forward
+    type: call_forward
+    subtype: ""
+    value: callforward
+    groups:
+    - superadmin
+    - admin
+  - uuid: d919273a-4500-45d0-ba59-f544e3766815
+    label: label-conf
+    type: conf
+    subtype: ""
+    value: conf
+    groups:
+    - superadmin
+    - admin
+  - uuid: abeeedea-9a2f-4092-8884-f8e9f3f7fce0
+    label: label-dnd
+    type: dnd
+    subtype: ""
+    value: dnd
+    groups:
+    - superadmin
+    - admin
+  - uuid: b5e56de3-65b4-44e9-8f4b-8943c0ddfd50
+    label: label-directory
+    type: directory
+    subtype: ""
+    value: directory
+    groups:
+    - superadmin
+    - admin
+  - uuid: 3111a723-0e2e-4627-bcdc-c6f19a6b8836
+    label: label-flash
+    type: flash
+    subtype: ""
+    value: flash
+    groups:
+    - superadmin
+    - admin
+  - uuid: 7daaf215-4396-4535-9a27-57d1ce67904b
+    label: label-filter
+    type: filter
+    subtype: ""
+    value: filter
+    groups:
+    - superadmin
+    - admin
+  - uuid: b2eb0361-b7fa-43bb-a481-e041dd76c91f
+    label: label-icom
+    type: icom
+    subtype: ""
+    value: icom
+    groups:
+    - superadmin
+    - admin
+  - uuid: 5869b457-97b3-4e52-9a38-435347d039f4
+    label: label-lcr
+    type: lcr
+    subtype: ""
+    value: lcr
+    groups:
+    - superadmin
+    - admin
+  - uuid: dc4f8dcc-7922-4b74-aa69-188dc84046c2
+    label: label-line
+    type: line
+    subtype: ""
+    value: line
+    groups:
+    - superadmin
+    - admin
+  - uuid: 11ff4c26-ca8a-4fa8-ab5e-7a175de644ea
+    label: label-page
+    type: page
+    subtype: ""
+    value: paging
+    groups:
+    - superadmin
+    - admin
+  - uuid: 75481dd7-171c-42f0-8202-37ba9bba29b5
+    label: label-park
+    type: park
+    subtype: ""
+    value: park
+    groups:
+    - superadmin
+    - admin
+  - uuid: 10342103-7f20-4811-89a0-7227dad9f91a
+    label: label-phonelock
+    type: phonelock
+    subtype: ""
+    value: phonelock
+    groups:
+    - superadmin
+    - admin
+  - uuid: a91d0cfb-f175-4012-a687-6f7c7a500d5d
+    label: label-pickup
+    type: pickup
+    subtype: ""
+    value: pickup
+    groups:
+    - superadmin
+    - admin
+  - uuid: caf029fd-ffca-466a-9019-ff3c89ecda08
+    label: label-redial
+    type: redial
+    subtype: ""
+    value: redial
+    groups:
+    - superadmin
+    - admin
+  - uuid: bf9f3003-7593-419f-87b2-ff54e8890d93
+    label: label-sprecode
+    type: sprecode
+    subtype: ""
+    value: sprecode
+    groups:
+    - superadmin
+    - admin
+  - uuid: d539860f-7dfb-4922-805f-9d5d2363a5d4
+    label: label-speed_dial
+    type: speed_dial
+    subtype: ""
+    value: speeddial
+    groups:
+    - superadmin
+    - admin
+  - uuid: 16aa117d-0dd9-4954-b24a-e8f3403acd6c
+    label: label-speed_dial_xfer
+    type: speed_dial_xfer
+    subtype: ""
+    value: speeddialxfer
+    groups:
+    - superadmin
+    - admin
+  - uuid: 358589e9-8be0-4931-a329-7a9e902ab4b8
+    label: label-speed_dial_conf
+    type: speed_dial_conf
+    subtype: ""
+    value: speeddialconf
+    groups:
+    - superadmin
+    - admin
+  - uuid: 2b9245f8-f3ac-4af1-b679-8506ac069ff4
+    label: label-speed_dial_mwi
+    type: speed_dial_mwi
+    subtype: ""
+    value: speeddialmwi
+    groups:
+    - superadmin
+    - admin
+  - uuid: 6dfc8f00-b813-4424-9a6f-fe3e15ff976a
+    label: label-xfer
+    type: xfer
+    subtype: ""
+    value: xfer
+    groups:
+    - superadmin
+    - admin
+  - uuid: c6208fd1-b81e-4349-a2f1-769710df41df
+    label: label-xml
+    type: xml
+    subtype: ""
+    value: xml
+    groups:
+    - superadmin
+    - admin
+- uuid: cbedd8ac-e3f0-45ac-9fd8-dc3089ca133a
+  name: cisco
+  functions:
+  - uuid: 199c6379-e628-4a64-8136-04905b6f739b
+    label: label-blf
+    type: blf
+    subtype: ""
+    value: blf
+    groups:
+    - superadmin
+    - admin
+  - uuid: eb008983-a2b3-411f-baab-10fe5cc152d7
+    label: label-line
+    type: line
+    subtype: ""
+    value: line
+    groups:
+    - superadmin
+    - admin
+  - uuid: 73805147-a9e5-4e26-9573-cdbeadf1703f
+    label: label-disabled
+    type: disabled
+    subtype: ""
+    value: disabled
+    groups:
+    - superadmin
+    - admin
+  - uuid: 72f610e3-2803-404a-96d8-74bfcc6adabe
+    label: label-shared_line
+    type: shared_line
+    subtype: ""
+    value: shared
+    groups:
+    - superadmin
+    - admin
+- uuid: 8116f44f-ccd6-46d5-8e65-46cc2c8cca32
+  name: linksys
+  functions:
+  - uuid: d0a48ae2-0b8a-4f0c-9006-e062e2e3a39c
+    label: label-line
+    type: line
+    subtype: ""
+    value: line
+    groups:
+    - superadmin
+    - admin
+  - uuid: a971c5ab-e473-417a-b2f4-8a0473159722
+    label: label-disabled
+    type: disabled
+    subtype: ""
+    value: disabled
+    groups:
+    - superadmin
+    - admin
+  - uuid: 9a23351d-2578-438f-8a94-7b1190f69c28
+    label: label-shared_line
+    type: shared_line
+    subtype: ""
+    value: shared
+    groups:
+    - superadmin
+    - admin
+- uuid: 30f714c0-b364-4d5b-83f6-d778eaf0dfd0
+  name: escene
+  functions:
+  - uuid: eeba34d5-c146-4a15-b183-5f2cbfb5ac3f
+    label: label-blf
+    type: blf
+    subtype: ""
+    value: "1"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 15484a5e-7cc2-40bf-ab07-030b8b6aa8f1
+    label: label-call_park
+    type: call_park
+    subtype: ""
+    value: "7"
+    groups:
+    - superadmin
+    - admin
+  - uuid: edb0075a-844b-47c0-9987-457d71f8ed2d
+    label: label-dtmf
+    type: dtmf
+    subtype: ""
+    value: "4"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 36b07f22-6696-455b-a9a7-45523a5a056d
+    label: label-speed_dial
+    type: speed_dial
+    subtype: ""
+    value: "5"
+    groups:
+    - superadmin
+    - admin
+  - uuid: e6ca8bb7-203d-4285-ab35-577cfc64bd37
+    label: label-speed_dial_prefix
+    type: speed_dial_prefix
+    subtype: ""
+    value: "2"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 1819d16d-4cbe-4e28-bd15-bb8df3165b7b
+    label: label-intercom
+    type: intercom
+    subtype: ""
+    value: "8"
+    groups:
+    - superadmin
+    - admin
+  - uuid: d6aab974-6c8d-4a51-b098-6994ee383284
+    label: label-pickup
+    type: pickup
+    subtype: ""
+    value: "9"
+    groups:
+    - superadmin
+    - admin
+  - uuid: d81175b6-4d49-4537-84e7-81d665743c7d
+    label: label-broadsoft_group
+    type: broadsoft_group
+    subtype: ""
+    value: "11"
+    groups:
+    - superadmin
+    - admin
+- uuid: 425ae7ef-a25a-402e-91f0-c4a1fbc45cf9
+  name: escene programmable
+  functions:
+  - uuid: e523fd42-03e6-4d8d-a6d4-e91777536a58
+    label: label-default
+    type: default
+    subtype: ""
+    value: "0"
+    groups:
+    - superadmin
+    - admin
+    description: Default
+  - uuid: 70d81149-66a2-4311-98b7-63fa8562e27e
+    label: label-redial
+    type: redial
+    subtype: ""
+    value: "1"
+    groups:
+    - superadmin
+    - admin
+    description: Redial
+  - uuid: c8f0ce02-95e5-4d28-82e2-c2c141d0ff4e
+    label: label-dnd
+    type: dnd
+    subtype: ""
+    value: "2"
+    groups:
+    - superadmin
+    - admin
+    description: DND
+  - uuid: 466b3206-a52f-47a4-8d17-8a55a21936e6
+    label: label-phone_book
+    type: phone_book
+    subtype: ""
+    value: "3"
+    groups:
+    - superadmin
+    - admin
+    description: Contacts
+  - uuid: f2a83ada-0871-4931-abc1-76586c0b5539
+    label: label-ent_phone_book
+    type: ent_phone_book
+    subtype: ""
+    value: "4"
+    groups:
+    - superadmin
+    - admin
+    description: Enterprise Phonebook
+  - uuid: 632b689e-7333-4d7c-b2bd-e13474816bd6
+    label: label-ldap
+    type: ldap
+    subtype: ""
+    value: "5"
+    groups:
+    - superadmin
+    - admin
+    description: LDAP
+  - uuid: bfe8d2d9-dacc-4789-b0f3-83c60e0b4f1a
+    label: label-directory
+    type: directory
+    subtype: ""
+    value: "6"
+    groups:
+    - superadmin
+    - admin
+    description: Directory
+  - uuid: 9cf990cf-5d11-420b-9316-6c25e73b081b
+    label: label-speed_dial
+    type: speed_dial
+    subtype: ""
+    value: "7"
+    groups:
+    - superadmin
+    - admin
+    description: Speed Dial
+  - uuid: 503c86e2-7670-49b0-b2d8-a72497730a17
+    label: label-call_log
+    type: call_log
+    subtype: ""
+    value: "8"
+    groups:
+    - superadmin
+    - admin
+    description: Call List
+  - uuid: 78cec073-4782-464b-8156-ff6e4247409f
+    label: label-missed_calls
+    type: missed_calls
+    subtype: ""
+    value: "9"
+    groups:
+    - superadmin
+    - admin
+    description: Missed Calls
+  - uuid: 44a3ee60-3154-4490-978d-f7c3d1b54ce9
+    label: label-received_calls
+    type: received_calls
+    subtype: ""
+    value: "10"
+    groups:
+    - superadmin
+    - admin
+    description: Received Calls
+  - uuid: 0f9c9343-7c6d-4b6f-87cf-bfa23cbf22ac
+    label: label-dialed_calls
+    type: dialed_calls
+    subtype: ""
+    value: "11"
+    groups:
+    - superadmin
+    - admin
+    description: Dialed Calls
+  - uuid: 165d8867-af41-4a7c-9a19-013b95f6c9b3
+    label: label-menu
+    type: menu
+    subtype: ""
+    value: "12"
+    groups:
+    - superadmin
+    - admin
+    description: Menu
+  - uuid: 153d19a7-a43d-4608-92b7-bede80fb14db
+    label: label-sms
+    type: sms
+    subtype: ""
+    value: "13"
+    groups:
+    - superadmin
+    - admin
+    description: SMS
+  - uuid: 2c504bd8-0f9f-46d3-9cc1-bbedf19fa221
+    label: label-new_sms
+    type: new_sms
+    subtype: ""
+    value: "14"
+    groups:
+    - superadmin
+    - admin
+    description: New SMS
+  - uuid: 396f323b-8aa9-4539-a41e-3acc985b8f30
+    label: label-forward
+    type: forward
+    subtype: ""
+    value: "15"
+    groups:
+    - superadmin
+    - admin
+    description: Call Forward
+  - uuid: 54834857-0c8e-4206-828c-e47d09996a7f
+    label: label-status
+    type: status
+    subtype: ""
+    value: "16"
+    groups:
+    - superadmin
+    - admin
+    description: View Status
+  - uuid: d4be90e4-4776-4cfd-b013-bd5db5976111
+    label: label-enable_account
+    type: enable_account
+    subtype: ""
+    value: "17"
+    groups:
+    - superadmin
+    - admin
+    description: Enable/Disable SIP Account
+  - uuid: cd08d06c-6f9a-4d37-a485-81538a9e18f2
+    label: label-xml_browser
+    type: xml_browser
+    subtype: ""
+    value: "18"
+    groups:
+    - superadmin
+    - admin
+    enabled: "false"
+    description: XML Browser
+  - uuid: a6eafa1b-e31e-4e6c-b414-3358b199b04c
+    label: label-provison_now
+    type: provison_now
+    subtype: ""
+    value: "19"
+    groups:
+    - superadmin
+    - admin
+    description: Auto Provison Now
+  - uuid: c1486704-152b-483d-9b23-f24be29cc62e
+    label: label-hot_desking
+    type: hot_desking
+    subtype: ""
+    value: "20"
+    groups:
+    - superadmin
+    - admin
+    description: Hot Desking
+- uuid: c486dd68-1462-4128-901e-d902d17d1951
+  name: grandstream
+  functions:
+  - uuid: 6515209e-62cb-4c32-966d-ba3d3a29e5bf
+    label: label-line
+    type: line
+    subtype: ""
+    value: line
+    groups:
+    - superadmin
+    - admin
+  - uuid: 4378015c-e7b0-4e64-bc89-b12a4e11edec
+    label: label-shared_line
+    type: shared_line
+    subtype: ""
+    value: shared line
+    groups:
+    - superadmin
+    - admin
+  - uuid: 02497780-6197-4c66-b208-5e94222dab32
+    label: label-speed_dial
+    type: speed_dial
+    subtype: ""
+    value: speed dial
+    groups:
+    - superadmin
+    - admin
+  - uuid: 0ebe3c35-9831-432f-bd36-a2deee8d411b
+    label: label-blf
+    type: blf
+    subtype: ""
+    value: blf
+    groups:
+    - superadmin
+    - admin
+  - uuid: 92aca6be-e8c7-4e0c-bd45-42e12833dde5
+    label: label-presence_watcher
+    type: presence_watcher
+    subtype: ""
+    value: presence watcher
+    groups:
+    - superadmin
+    - admin
+  - uuid: 962aa410-d803-41a2-bfdc-46610b932037
+    label: label-eventlist_blf
+    type: eventlist_blf
+    subtype: ""
+    value: eventlist blf
+    groups:
+    - superadmin
+    - admin
+  - uuid: 93ac59e6-167e-4343-ad39-ba00bce1e6cf
+    label: label-speed_dial_active
+    type: speed_dial_active
+    subtype: ""
+    value: speed dial active
+    groups:
+    - superadmin
+    - admin
+  - uuid: 14994544-b7e6-4191-adc3-d815a65bb0cc
+    label: label-dial_dtmf
+    type: dial_dtmf
+    subtype: ""
+    value: dial dtmf
+    groups:
+    - superadmin
+    - admin
+  - uuid: a7e159bd-552c-49c2-af70-b7b76c549cec
+    label: label-voicemail
+    type: voicemail
+    subtype: ""
+    value: voicemail
+    groups:
+    - superadmin
+    - admin
+  - uuid: f7d4ac4d-b30a-449e-982d-e820ba73de0b
+    label: label-call_return
+    type: call_return
+    subtype: ""
+    value: call return
+    groups:
+    - superadmin
+    - admin
+  - uuid: d4f2ebbe-775f-4018-9122-e8df470511bb
+    label: label-transfer
+    type: transfer
+    subtype: ""
+    value: transfer
+    groups:
+    - superadmin
+    - admin
+  - uuid: be83e643-8477-4dec-942a-00bb00a032d8
+    label: label-call_park
+    type: call_park
+    subtype: ""
+    value: call park
+    groups:
+    - superadmin
+    - admin
+  - uuid: bc318271-5232-477e-ab53-01b3532f74a9
+    label: label-intercom
+    type: intercom
+    subtype: ""
+    value: intercom
+    groups:
+    - superadmin
+    - admin
+  - uuid: 0853b370-e319-4aa9-bb74-ac1d0c248cac
+    label: label-ldap_search
+    type: ldap_search
+    subtype: ""
+    value: ldap search
+    groups:
+    - superadmin
+    - admin
+  - uuid: bbb4c3f9-7a2f-4670-a194-e7ab92c5c3d1
+    label: label-conference
+    type: conference
+    subtype: ""
+    value: conference
+    groups:
+    - superadmin
+    - admin
+  - uuid: 8434d505-36e0-422c-a1ab-8950e7849829
+    label: label-menu
+    type: menu
+    subtype: ""
+    value: menu
+    groups:
+    - superadmin
+    - admin
+  - uuid: 4792c9dd-9342-4894-9987-61c45e46e7d7
+    label: label-monitored_call_park
+    type: monitored_call_park
+    subtype: ""
+    value: monitored call park
+    groups:
+    - superadmin
+    - admin
+  - uuid: 27edbba6-14bb-48e8-8fa6-25f86bfc9ccc
+    label: label-multicast_paging
+    type: multicast_paging
+    subtype: ""
+    value: multicast paging
+    groups:
+    - superadmin
+    - admin
+  - uuid: d28bc679-b984-49a7-963f-7e5d9fc4dbcb
+    label: label-record
+    type: record
+    subtype: ""
+    value: record
+    groups:
+    - superadmin
+    - admin
+  - uuid: f99f55b8-113e-4fbb-aed1-84af66f5320c
+    label: label-none
+    type: none
+    subtype: ""
+    value: none
+    groups:
+    - superadmin
+    - admin
+  - uuid: 5fab2239-b72c-404a-a392-251e22770ec5
+    label: label-phonebook
+    type: phonebook
+    subtype: ""
+    value: phonebook
+    groups:
+    - superadmin
+    - admin
+- uuid: 03931359-917e-455b-b4fc-f875c530b79c
+  name: mitel
+  functions:
+  - uuid: 5d62bf2f-7797-4e05-925a-b33e4c938a58
+    label: label-not_programmed
+    type: not_programmed
+    subtype: ""
+    value: "0"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 2efd0520-a8f2-4693-883f-75a5c4ae0dde
+    label: label-speed_dial
+    type: speed_dial
+    subtype: ""
+    value: "1"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 5512aa21-40c3-4e03-993c-a36dd6b2ff10
+    label: label-shared_line
+    type: shared_line
+    subtype: ""
+    value: "5"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 39fee448-180a-4baa-b58c-0bdffc46218c
+    label: label-line
+    type: line
+    subtype: ""
+    value: "6"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 6326e2b8-065f-4cb0-bec6-3bff9de5438a
+    label: label-call_log
+    type: call_log
+    subtype: ""
+    value: "2"
+    groups:
+    - superadmin
+    - admin
+  - uuid: a2483ded-16f5-4fe5-8d12-4b5a94957119
+    label: label-phone_book
+    type: phone_book
+    subtype: ""
+    value: "15"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 637b1422-8787-457a-b033-54775a35d2ca
+    label: label-forward
+    type: forward
+    subtype: ""
+    value: "16"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 7095e930-fa2e-4e06-8093-fc15924c8152
+    label: label-dnd
+    type: dnd
+    subtype: ""
+    value: "17"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 085e018f-c032-4533-a6b9-dc30628dea2e
+    label: label-advisory_message
+    type: advisory_message
+    subtype: ""
+    value: "3"
+    groups:
+    - superadmin
+    - admin
+  - uuid: a36be3d8-bbbb-404f-8aa4-a5ed9e487fb5
+    label: label-pc_application
+    type: pc_application
+    subtype: ""
+    value: "18"
+    groups:
+    - superadmin
+    - admin
+  - uuid: d6aeb136-eb88-4412-afd6-56a34d2f021e
+    label: label-headset_on_off
+    type: headset_on_off
+    subtype: ""
+    value: "4"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 40845813-9e78-411e-89ef-a52439d47622
+    label: label-rss_feed
+    type: rss_feed
+    subtype: ""
+    value: "19"
+    groups:
+    - superadmin
+    - admin
+  - uuid: c95ab0a9-81da-4582-9443-9c55d161a75e
+    label: label-speed_dial_blf
+    type: speed_dial_blf
+    subtype: ""
+    value: "27"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 7204d088-77e9-4128-a156-d3838b02eeb1
+    label: label-url
+    type: url
+    subtype: ""
+    value: "19"
+    groups:
+    - superadmin
+    - admin
+- uuid: 6a495141-7443-47d9-976d-59f8590b03cf
+  name: sangoma
+  functions:
+  - uuid: 6aa17aa6-2f8f-4a86-8ae4-78a621501b38
+    label: label-line
+    type: line
+    subtype: ""
+    value: "1"
+    groups:
+    - superadmin
+    - admin
+  - uuid: bac93b63-f61c-481e-99d6-b2aa8cedd05a
+    label: label-speed_dial
+    type: speed_dial
+    subtype: ""
+    value: "2"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 9039dfa1-9ca4-4908-bc93-56295ea65b01
+    label: label-blf
+    type: blf
+    subtype: ""
+    value: "3"
+    groups:
+    - superadmin
+    - admin
+  - uuid: a033a6f0-e097-48fd-bd32-79b9869fec64
+    label: label-blf_list
+    type: blf_list
+    subtype: ""
+    value: "4"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 972e31b0-b1d2-4297-8f81-33f2381e385c
+    label: label-voicemail
+    type: voicemail
+    subtype: ""
+    value: "5"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 7a206b38-f415-45b3-9b06-be17f7ebd408
+    label: label-direct_pickup
+    type: direct_pickup
+    subtype: ""
+    value: "6"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 9f407e7f-ba2d-40de-9ab3-2a6cf82cb290
+    label: label-group_pickup
+    type: group_pickup
+    subtype: ""
+    value: "7"
+    groups:
+    - superadmin
+    - admin
+  - uuid: ad751a17-438a-4e0f-b00f-e50c0842ada8
+    label: label-park
+    type: park
+    subtype: ""
+    value: "8"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 49ca8bc1-bbab-42f0-bf8b-1eec800f7dc5
+    label: label-intercom
+    type: intercom
+    subtype: ""
+    value: "9"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 07869844-1647-4699-a707-98aac0301630
+    label: label-dtmf
+    type: dtmf
+    subtype: ""
+    value: "10"
+    groups:
+    - superadmin
+    - admin
+  - uuid: cc5b1533-063e-4993-a24a-25c3c6f6c2b5
+    label: label-prefix
+    type: prefix
+    subtype: ""
+    value: "11"
+    groups:
+    - superadmin
+    - admin
+  - uuid: f412d8cc-b17f-4407-a960-7fc8069230ca
+    label: label-local_group
+    type: local_group
+    subtype: ""
+    value: "12"
+    groups:
+    - superadmin
+    - admin
+  - uuid: fe20acd2-ded3-4c22-a670-940776c53259
+    label: label-xml_group
+    type: xml_group
+    subtype: ""
+    value: "13"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 695bf25c-fc96-4751-a5e4-a696d8503e29
+    label: label-xml_browser
+    type: xml_browser
+    subtype: ""
+    value: "14"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 0f783f47-7a80-4169-844d-5de74cb6a82d
+    label: label-ldap
+    type: ldap
+    subtype: ""
+    value: "15"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 8264a629-8eab-44fe-b584-208ab86fd316
+    label: label-broadsoft_group
+    type: broadsoft_group
+    subtype: ""
+    value: "16"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 668da944-3e66-4010-818a-74f88c476778
+    label: label-conference
+    type: conference
+    subtype: ""
+    value: "17"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 3905b3c2-56e2-451a-b0c3-5efef3035204
+    label: label-forward
+    type: forward
+    subtype: ""
+    value: "18"
+    groups:
+    - superadmin
+    - admin
+  - uuid: ed3ddaef-377a-4430-a3bb-437cad65b326
+    label: label-transfer
+    type: transfer
+    subtype: ""
+    value: "19"
+    groups:
+    - superadmin
+    - admin
+  - uuid: a22a0db5-6bf6-4716-81ea-07977ccd086e
+    label: label-hold
+    type: hold
+    subtype: ""
+    value: "20"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 51510fa0-2e2c-4528-b0fb-31794a327baa
+    label: label-dnd
+    type: dnd
+    subtype: ""
+    value: "21"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 02256a8f-0212-4cd9-9a95-5e5de98830db
+    label: label-redial
+    type: redial
+    subtype: ""
+    value: "22"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 87ef2737-deff-4988-9755-03bb615a0899
+    label: label-park_return
+    type: park_return
+    subtype: ""
+    value: "23"
+    groups:
+    - superadmin
+    - admin
+  - uuid: d6ee7d09-0cc7-4a07-82aa-64d126be6d34
+    label: label-sms
+    type: sms
+    subtype: ""
+    value: "24"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 13f64d30-7474-4bb9-b58c-6ad9c8567f22
+    label: label-record
+    type: record
+    subtype: ""
+    value: "25"
+    groups:
+    - superadmin
+    - admin
+  - uuid: c5553bad-d0d0-42ab-8ee6-e4395fe33743
+    label: label-url_record
+    type: url_record
+    subtype: ""
+    value: "26"
+    groups:
+    - superadmin
+    - admin
+  - uuid: dc6872fe-cc82-490d-ba0e-da9dd5ad9f0f
+    label: label-paging
+    type: paging
+    subtype: ""
+    value: "27"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 196d53ff-02f3-4954-8c26-69d4aa04bd64
+    label: label-group_listening
+    type: group_listening
+    subtype: ""
+    value: "28"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 02aa6f3a-fcdb-4f1b-b617-ffef8cee6319
+    label: label-public_hold
+    type: public_hold
+    subtype: ""
+    value: "29"
+    groups:
+    - superadmin
+    - admin
+  - uuid: c7e07789-4797-4dea-bb20-d82c1943f5dd
+    label: label-private_hold
+    type: private_hold
+    subtype: ""
+    value: "30"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 2a66228e-17eb-4b7b-ad91-5e8f39e02ec7
+    label: label-shared_line
+    type: shared_line
+    subtype: ""
+    value: "31"
+    groups:
+    - superadmin
+    - admin
+  - uuid: eda7b9ff-15b3-452b-9738-f91abcb9fd36
+    label: label-hot_desking
+    type: hot_desking
+    subtype: ""
+    value: "32"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 4d87a1ab-6cb5-4c67-9b6e-dff5f5116a52
+    label: label-acd
+    type: acd
+    subtype: ""
+    value: "33"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 18fb8dd3-c114-4ae5-b342-91c4930f1555
+    label: label-zero_touch
+    type: zero_touch
+    subtype: ""
+    value: "34"
+    groups:
+    - superadmin
+    - admin
+  - uuid: eea35252-f9d6-49fa-8cb5-760f99a99584
+    label: label-url
+    type: url
+    subtype: ""
+    value: "35"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 6a8e6877-d269-4930-bd21-7413b4f9f506
+    label: label-multicast_paging
+    type: multicast_paging
+    subtype: ""
+    value: "47"
+    groups:
+    - superadmin
+    - admin
+- uuid: c4a8bfa2-e91f-4adb-a1df-24c51ef506c7
+  name: audiocodes
+  functions:
+  - uuid: 297a5086-5b4e-4c1e-8cfd-121a3c2897b6
+    label: label-blf
+    type: blf
+    subtype: ""
+    value: SPEED_DIAL_BLF
+    groups:
+    - superadmin
+    - admin
+  - uuid: 91197b89-4732-496a-9613-dd8ce866103f
+    label: label-speed_dial
+    type: speed_dial
+    subtype: ""
+    value: SPEED_DIAL
+    groups:
+    - superadmin
+    - admin
+  - uuid: abd132d4-9ab4-4a74-8cc7-35094f262fe6
+    label: label-page
+    type: page
+    subtype: ""
+    value: PAGING
+    groups:
+    - superadmin
+    - admin
+- uuid: bd2ffe34-30c4-441a-9c1d-5ec0773b9c9b
+  name: obihai
+  functions:
+  - uuid: c8d8b7bc-4147-457e-ab4b-4cda74e93677
+    label: label-auto_answer_intercom
+    type: auto_answer_intercom
+    subtype: ""
+    value: Auto Answer Intercom
+    groups:
+    - superadmin
+    - admin
+  - uuid: 9d7a0a3f-107b-4704-b392-79f760dba4d7
+    label: label-acd_sign_on_off
+    type: acd_sign_on_off
+    subtype: ""
+    value: ACD Sign On/Off
+    groups:
+    - superadmin
+    - admin
+  - uuid: 6c0d2162-c38b-4a02-87da-849f17966efa
+    label: label-blind_transfer
+    type: blind_transfer
+    subtype: ""
+    value: Blind Transfer
+    groups:
+    - superadmin
+    - admin
+  - uuid: a5f4b846-b4f4-4d87-aad3-5547863c8dc2
+    label: label-block_anonymous_call
+    type: block_anonymous_call
+    subtype: ""
+    value: Block Anonymous Call
+    groups:
+    - superadmin
+    - admin
+  - uuid: f141ee5a-2793-4fcd-baa7-fd8ec81547f5
+    label: label-block_caller_id
+    type: block_caller_id
+    subtype: ""
+    value: Block Caller ID
+    groups:
+    - superadmin
+    - admin
+  - uuid: 4b50cf27-657b-4438-9305-682bae78ee28
+    label: label-busy_lamp_field
+    type: busy_lamp_field
+    subtype: ""
+    value: Busy Lamp Field
+    groups:
+    - superadmin
+    - admin
+  - uuid: 3dd5ae9a-5325-40e9-9600-e37cf68540e8
+    label: label-call_appearance
+    type: call_appearance
+    subtype: ""
+    value: Call Appearance
+    groups:
+    - superadmin
+    - admin
+  - uuid: a085b52d-3bae-44e8-975a-fce680149387
+    label: label-call_forward
+    type: call_forward
+    subtype: ""
+    value: Call Forward
+    groups:
+    - superadmin
+    - admin
+  - uuid: 9b961505-c12f-491b-a0cb-d2b6b31bd366
+    label: label-call_park_monitor
+    type: call_park_monitor
+    subtype: ""
+    value: Call Park Monitor
+    groups:
+    - superadmin
+    - admin
+  - uuid: 353f5426-988a-48e3-9faa-9412ae7a4f7c
+    label: label-call_waiting
+    type: call_waiting
+    subtype: ""
+    value: Call Waiting
+    groups:
+    - superadmin
+    - admin
+  - uuid: b1135d34-cc02-4097-a0c4-67dfa4821935
+    label: label-conference
+    type: conference
+    subtype: ""
+    value: conference
+    groups:
+    - superadmin
+    - admin
+  - uuid: 250305df-ec18-4a07-95d0-7b195daf9189
+    label: label-disposition_code
+    type: disposition_code
+    subtype: ""
+    value: Disposition Code
+    groups:
+    - superadmin
+    - admin
+  - uuid: 2768e33a-52ad-495a-be20-cc400b48cc18
+    label: label-do_not_disturb
+    type: do_not_disturb
+    subtype: ""
+    value: Do Not Disturb
+    groups:
+    - superadmin
+    - admin
+  - uuid: cf3205fe-53f3-4987-9472-1bbe72d8fe68
+    label: label-do_not_ring
+    type: do_not_ring
+    subtype: ""
+    value: Do Not Ring
+    groups:
+    - superadmin
+    - admin
+  - uuid: 47e4ff7c-fa68-4dc4-8e8e-a3aa0b56676f
+    label: label-exec_filter_on_off
+    type: exec_filter_on_off
+    subtype: ""
+    value: Exec Filter On/Off
+    groups:
+    - superadmin
+    - admin
+  - uuid: 71cfcccb-9195-4355-ac8f-f91452b9be3c
+    label: label-exec_assistant
+    type: exec_assistant
+    subtype: ""
+    value: Exec Assistant
+    groups:
+    - superadmin
+    - admin
+  - uuid: 446ad3c8-44c9-4c05-b444-31dcea9519f2
+    label: label-hold
+    type: hold
+    subtype: ""
+    value: Hold
+    groups:
+    - superadmin
+    - admin
+  - uuid: 59aa75f0-2402-467a-93bf-a5680a84609a
+    label: label-hoteling
+    type: hoteling
+    subtype: ""
+    value: Hoteling
+    groups:
+    - superadmin
+    - admin
+  - uuid: 01157f62-8ca7-4225-babd-f4f336e0f813
+    label: label-line_monitor
+    type: line_monitor
+    subtype: ""
+    value: Line Monitor
+    groups:
+    - superadmin
+    - admin
+  - uuid: 9b36ac40-3466-4c2b-aa32-4f6dc406eb91
+    label: label-next_tab
+    type: next_tab
+    subtype: ""
+    value: Next Tab
+    groups:
+    - superadmin
+    - admin
+  - uuid: cf1e2cdb-88eb-417c-89b8-45b3e9e2d72d
+    label: label-message_status
+    type: message_status
+    subtype: ""
+    value: Message Status
+    groups:
+    - superadmin
+    - admin
+  - uuid: f2221e92-84ec-42a1-a1e5-d5d18fa5ae91
+    label: label-page_group_1
+    type: page_group_1
+    subtype: ""
+    value: Page Group 1
+    groups:
+    - superadmin
+    - admin
+  - uuid: 9a21cf63-585d-4fac-ae06-5d1731d67b7f
+    label: label-page_group_2
+    type: page_group_2
+    subtype: ""
+    value: Page Group 2
+    groups:
+    - superadmin
+    - admin
+  - uuid: 5ad6d94c-02b6-465f-b87d-92596b4b0dd1
+    label: label-presence_monitor
+    type: presence_monitor
+    subtype: ""
+    value: Presence Monitor
+    groups:
+    - superadmin
+    - admin
+  - uuid: 26c56899-360f-44fe-b56c-8e1846604fce
+    label: label-security_class
+    type: security_class
+    subtype: ""
+    value: Security Class
+    groups:
+    - superadmin
+    - admin
+  - uuid: a1ddfe50-0875-495e-baae-6aaa378b25e8
+    label: label-speed_dial
+    type: speed_dial
+    subtype: ""
+    value: Speed Dial
+    groups:
+    - superadmin
+    - admin
+  - uuid: cf4d625e-a9f2-4f3f-b71a-bc3095ba945b
+    label: label-transfer
+    type: transfer
+    subtype: ""
+    value: Transfer
+    groups:
+    - superadmin
+    - admin
+  - uuid: 3d3df849-97c0-4170-93b4-246306b43c54
+    label: label-action_url
+    type: action_url
+    subtype: ""
+    value: Action URL
+    groups:
+    - superadmin
+    - admin
+  - uuid: 46f2646c-4eaa-4e4e-a8c0-8f757d888dd0
+    label: label-add_to_conference
+    type: add_to_conference
+    subtype: ""
+    value: Add to Conference
+    groups:
+    - superadmin
+    - admin
+- uuid: d0449b9e-4f03-4931-a808-30ece1dffcc3
+  name: htek
+  functions:
+  - uuid: 8a334c6c-7479-49f9-813f-bd82e419d69f
+    label: label-line
+    type: line
+    value: "1"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 298ea214-4773-42e8-ac9b-b72c10be6a75
+    label: label-na
+    type: na
+    subtype: ""
+    value: "0"
+    groups:
+    - superadmin
+    - admin
+  - uuid: f2b3069f-02f6-4035-bccc-2c8c9a37f3fa
+    label: label-speed_dial
+    type: speed_dial
+    subtype: ""
+    value: "2"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 40d23525-b7a3-47dd-b36b-2ba48a7e0fcf
+    label: label-blf
+    type: blf
+    subtype: ""
+    value: "3"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 89808f7b-90e5-4d57-a5b6-c2bf0b4f817b
+    label: label-blf_list
+    type: blf_list
+    subtype: ""
+    value: "4"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 9beff3fb-9d96-4008-8387-ec31b49d4122
+    label: label-voicemail
+    type: voicemail
+    subtype: ""
+    value: "5"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 52d87e74-84a6-4430-bc39-5c902dc41756
+    label: label-direct_pickup
+    type: direct_pickup
+    subtype: ""
+    value: "6"
+    groups:
+    - superadmin
+    - admin
+  - uuid: b88a32da-75b9-4b09-a95e-b03adaca0dde
+    label: label-group_pickup
+    type: group_pickup
+    subtype: ""
+    value: "7"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 6463cac0-5fa3-433e-8bd5-7a0eb81e104e
+    label: label-call_park
+    type: call_park
+    subtype: ""
+    value: "8"
+    groups:
+    - superadmin
+    - admin
+  - uuid: b0455157-921e-4484-a60b-d95ee24ccb3f
+    label: label-intercom
+    type: intercom
+    subtype: ""
+    value: "9"
+    groups:
+    - superadmin
+    - admin
+  - uuid: f718ffaf-d9ea-4a53-a8c6-edd88d82ccf5
+    label: label-dtmf
+    type: dtmf
+    subtype: ""
+    value: "10"
+    groups:
+    - superadmin
+    - admin
+  - uuid: cadba14d-683c-4db5-a472-99e9d317b2ff
+    label: label-prefix
+    type: prefix
+    subtype: ""
+    value: "11"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 191f0b48-c6b5-4419-bc7a-284dffbeea62
+    label: label-local_group
+    type: local_group
+    subtype: ""
+    value: "12"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 45d7bcfa-5509-4b5c-b21d-3a92574e0b97
+    label: label-xml_group
+    type: xml_group
+    subtype: ""
+    value: "13"
+    groups:
+    - superadmin
+    - admin
+  - uuid: d2077c8e-07e4-4674-9390-e583698ecb4b
+    label: label-xml_browser
+    type: xml_browser
+    subtype: ""
+    value: "14"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 506afb1c-98a8-4dfa-bb7e-2172f38c1ba7
+    label: label-ldap
+    type: ldap
+    subtype: ""
+    value: "15"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 0532fc63-00ec-46b1-9f33-d16950584c54
+    label: label-broadsoft_group
+    type: broadsoft_group
+    subtype: ""
+    value: "16"
+    groups:
+    - superadmin
+    - admin
+  - uuid: bc92fa00-bf86-4d92-9cea-498e5d732929
+    label: label-conference
+    type: conference
+    subtype: ""
+    value: "17"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 595fe50f-385d-40cd-89dc-df30a08cb2fb
+    label: label-forward
+    type: forward
+    subtype: ""
+    value: "18"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 7df77bbd-f80a-4206-9e53-ecf9a8d030b4
+    label: label-transfer
+    type: transfer
+    subtype: ""
+    value: "19"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 5353a9a0-0575-4883-a27f-f1730a2d825d
+    label: label-hold
+    type: hold
+    subtype: ""
+    value: "20"
+    groups:
+    - superadmin
+    - admin
+  - uuid: ffcf5a3f-af47-40a6-93d8-7713ff9f9630
+    label: label-dnd
+    type: dnd
+    subtype: ""
+    value: "21"
+    groups:
+    - superadmin
+    - admin
+  - uuid: e04f001c-95b8-486d-a688-427d29acdf7e
+    label: label-redial
+    type: redial
+    subtype: ""
+    value: "22"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 59db5c21-f7f7-4071-9fd5-e601e205a8e6
+    label: label-park_return
+    type: park_return
+    subtype: ""
+    value: "23"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 5c0c2283-7fab-48ce-9d16-4a337aa08d5a
+    label: label-sms
+    type: sms
+    subtype: ""
+    value: "24"
+    groups:
+    - superadmin
+    - admin
+  - uuid: de04995d-6e06-4130-8ea6-194eab31f13e
+    label: label-record
+    type: record
+    subtype: ""
+    value: "25"
+    groups:
+    - superadmin
+    - admin
+  - uuid: fb6debc7-2143-4080-aa22-ad24959d5712
+    label: label-url_record
+    type: url_record
+    subtype: ""
+    value: "26"
+    groups:
+    - superadmin
+    - admin
+  - uuid: aac9c0b6-9bca-4e84-883b-076549e7a558
+    label: label-paging
+    type: paging
+    subtype: ""
+    value: "27"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 211175b1-9eb8-4c5f-a08a-8e4cc1e38c0e
+    label: label-group_listening
+    type: group_listening
+    subtype: ""
+    value: "28"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 25c57eeb-6282-45b3-8378-8f8d2c7b5b05
+    label: label-public_hold
+    type: public_hold
+    subtype: ""
+    value: "29"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 28884e0c-bbab-46cf-ba9f-ccc9bfd5e21d
+    label: label-private_hold
+    type: private_hold
+    subtype: ""
+    value: "30"
+    groups:
+    - superadmin
+    - admin
+  - uuid: d1fa55b2-8580-495a-a1ae-bfdeab9e6890
+    label: label-shared_line
+    type: shared_line
+    subtype: ""
+    value: "31"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 80f9ea17-3879-4b53-b382-bfb4e6d58f12
+    label: label-hot_desking
+    type: hot_desking
+    subtype: ""
+    value: "32"
+    groups:
+    - superadmin
+    - admin
+  - uuid: c34e46d8-d94b-4b63-94e8-fe18358a6954
+    label: label-acd
+    type: acd
+    subtype: ""
+    value: "33"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 0e76495c-a163-4311-abc4-827d6a595407
+    label: label-zero_touch
+    type: zero_touch
+    subtype: ""
+    value: "34"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 88189986-24b9-4fbc-b4c7-fb698384aec4
+    label: label-url
+    type: url
+    subtype: ""
+    value: "35"
+    groups:
+    - superadmin
+    - admin
+  - uuid: a470c72e-4cda-4c2f-9a2c-e905f349a31e
+    label: label-multicast_paging
+    type: multicast_paging
+    subtype: ""
+    value: "47"
+    groups:
+    - superadmin
+    - admin
+- uuid: cb966a64-34b8-4825-b05a-f243adc0014f
+  name: fanvil
+  functions:
+  - uuid: 1050ef7d-219f-4a7d-9944-2b3e7a949c43
+    label: label-line
+    type: line
+    subtype: ""
+    value: "1"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 9f67c457-f04d-45a5-bf4c-cbf11fbc4340
+    label: label-voicemail
+    type: voicemail
+    subtype: ""
+    value: "2"
+    description: You can press the key to listen to voice messages and configure the
+      line. The LED is on if a new voice message is received.
+    groups:
+    - superadmin
+    - admin
+  - uuid: 392bfdeb-cae1-4829-a704-d75bcd3fb2ab
+    label: label-none
+    type: none
+    subtype: ""
+    value: "3"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 5fc20c48-e619-4671-86d1-3fa88a83d88c
+    label: label-intercom
+    type: intercom
+    subtype: ""
+    value: i
+    description: Directly speak without answering the call.
+    groups:
+    - superadmin
+    - admin
+  - uuid: 1cc1b4ff-52cd-4ea7-ab15-5930fc530fec
+    label: label-call_park
+    type: call_park
+    subtype: ""
+    value: c
+    description: If you need to move to another place during a call, use this function.
+    groups:
+    - superadmin
+    - admin
+  - uuid: 330ac56c-c87e-4a65-a0bd-5f8332faeeab
+    label: label-call_forward
+    type: call_forward
+    subtype: ""
+    value: a
+    description: When receiving a call, you can press the key to transfer the call
+      to the specified number.
+    groups:
+    - superadmin
+    - admin
+  - uuid: 6f5d1a1d-19f8-48bb-b4e1-f934b710988f
+    label: label-speed_dial
+    type: speed_dial
+    subtype: ""
+    value: f
+    description: Automatically call the specified number when key is pressed. (No
+      BFL)
+    groups:
+    - superadmin
+    - admin
+  - uuid: b047d0d7-27a8-4a82-ba7f-44efb5bf1734
+    label: label-blf_new
+    type: blf_new
+    subtype: ""
+    value: bc
+    description: BLF - New Call
+    groups:
+    - superadmin
+    - admin
+  - uuid: 89664b9e-9366-4c7f-9a92-3ecfdfa7e91b
+    label: label-blf_new_video
+    type: blf_new_video
+    subtype: ""
+    value: bcV
+    description: BLF - New Video Call
+    groups:
+    - superadmin
+    - admin
+  - uuid: e80b6d6d-dedc-456d-9118-8d8f010a0697
+    label: label-blf_bxfer
+    type: blf_bxfer
+    subtype: ""
+    value: bb
+    description: BLF - Blind Transfer
+    groups:
+    - superadmin
+    - admin
+  - uuid: 55b0a1df-a9a1-48c7-9665-e84925631a6d
+    label: label-blf_axfer
+    type: blf_axfer
+    subtype: ""
+    value: ba
+    description: BLF - Attended Transfer
+    groups:
+    - superadmin
+    - admin
+  - uuid: 9066d58e-7395-4cd0-8a52-e7fa3c24ad54
+    label: label-blf_conference
+    type: blf_conference
+    subtype: ""
+    value: bf
+    description: BLF - Conference
+    groups:
+    - superadmin
+    - admin
+  - uuid: ae238960-aa4c-4d92-b560-848814ed8df8
+    label: label-mwi
+    type: mwi
+    subtype: ""
+    value: m
+    description: MWI - *97 Voicemail
+    groups:
+    - superadmin
+    - admin
+  - uuid: 830c3a51-dd04-4ef2-af4a-7a41b702648b
+    label: label-multicast_paging
+    type: multicast_paging
+    subtype: ""
+    value: "14"
+    description: Multicast Paging
+    groups:
+    - superadmin
+    - admin
+- uuid: dc5ffcb9-5195-4fb8-8b23-f4216ed7f0f6
+  name: algo
+- uuid: da636c41-4551-444b-8b8b-f01fac95bfb5
+  name: atcom
+- uuid: 9ec868f0-8c18-42f1-8eb0-8e80b10891c2
+  name: digium
+  functions:
+  - uuid: 279141ad-473f-48d2-b1f2-331565411dc4
+    label: label-speed_dial
+    type: speed_dial
+    subtype: ""
+    value: speed_dial
+    groups:
+    - superadmin
+    - admin
+  - uuid: 8a76f8d9-8fa6-445c-8b92-4dcfae09b54d
+    label: label-blf
+    type: blf
+    subtype: ""
+    value: blf
+    groups:
+    - superadmin
+    - admin
+- uuid: 86cd5298-3599-4254-9ce5-ce84a31a3596
+  name: panasonic
+- uuid: 699676f9-2690-492b-a40b-043653a8b7d5
+  name: spectralink
+- uuid: d07e0905-9788-4039-ba8e-ca1b50fbf643
+  name: vtech
+- uuid: ""
+  name: flyingvoice
+  functions:
+  - uuid: ""
+    label: label-na
+    type: na
+    subtype: ""
+    value: "0"
+    groups:
+    - admin
+    - superadmin
+  - uuid: ""
+    label: label-line
+    type: line
+    subtype: ""
+    value: "15"
+    groups:
+    - superadmin
+    - admin
+  - uuid: ""
+    label: label-conference
+    type: conference
+    subtype: ""
+    value: "1"
+    groups:
+    - superadmin
+    - admin
+  - uuid: ""
+    label: label-forward
+    type: forward
+    subtype: ""
+    value: "2"
+    groups:
+    - superadmin
+    - admin
+  - uuid: ""
+    label: label-transfer
+    type: transfer
+    subtype: ""
+    value: "3"
+    groups:
+    - superadmin
+    - admin
+  - uuid: ""
+    label: label-hold
+    type: hold
+    subtype: ""
+    value: "4"
+    groups:
+    - superadmin
+    - admin
+  - uuid: ""
+    label: label-dnd
+    type: dnd
+    subtype: ""
+    value: "5"
+    groups:
+    - superadmin
+    - admin
+  - uuid: ""
+    label: label-redial
+    type: redial
+    subtype: ""
+    value: "6"
+    groups:
+    - superadmin
+    - admin
+  - uuid: ""
+    label: label-call_pickup
+    type: call_pickup
+    subtype: ""
+    value: "9"
+    groups:
+    - superadmin
+    - admin
+  - uuid: ""
+    label: label-call_park
+    type: call_park
+    subtype: ""
+    value: "10"
+    groups:
+    - superadmin
+    - admin
+  - uuid: ""
+    label: label-dtmf
+    type: dtmf
+    subtype: ""
+    value: "11"
+    groups:
+    - superadmin
+    - admin
+  - uuid: ""
+    label: label-voicemail
+    type: voicemail
+    subtype: ""
+    value: "12"
+    groups:
+    - superadmin
+    - admin
+  - uuid: ""
+    label: label-speed_dial
+    type: speed_dial
+    subtype: ""
+    value: "13"
+    groups:
+    - superadmin
+    - admin
+  - uuid: ""
+    label: label-intercom
+    type: intercom
+    subtype: ""
+    value: "14"
+    groups:
+    - superadmin
+    - admin
+  - uuid: ""
+    label: label-blf
+    type: blf
+    subtype: ""
+    value: "16"
+    groups:
+    - superadmin
+    - admin
+  - uuid: ""
+    label: label-public_hold
+    type: public_hold
+    subtype: ""
+    value: "19"
+    groups:
+    - superadmin
+    - admin
+  - uuid: ""
+    label: label-private
+    type: private
+    subtype: ""
+    value: "20"
+    groups:
+    - superadmin
+    - admin
+  - uuid: ""
+    label: label-group_pickup
+    type: group_pickup
+    subtype: ""
+    value: "23"
+    groups:
+    - superadmin
+    - admin
+  - uuid: ""
+    label: label-paging
+    type: paging
+    subtype: ""
+    value: "24"
+    groups:
+    - superadmin
+    - admin
+  - uuid: ""
+    label: label-record
+    type: record
+    subtype: ""
+    value: "25"
+    groups:
+    - superadmin
+    - admin
+  - uuid: ""
+    label: label-xml_browser
+    type: xml_browser
+    subtype: ""
+    value: "27"
+    groups:
+    - superadmin
+    - admin
+  - uuid: ""
+    label: label-history
+    type: history
+    subtype: ""
+    value: "28"
+    groups:
+    - superadmin
+    - admin
+  - uuid: ""
+    label: label-directory
+    type: directory
+    subtype: ""
+    value: "29"
+    groups:
+    - superadmin
+    - admin
+  - uuid: ""
+    label: label-menu
+    type: menu
+    subtype: ""
+    value: "30"
+    groups:
+    - superadmin
+    - admin
+  - uuid: ""
+    label: label-new_sms
+    type: new_sms
+    subtype: ""
+    value: "32"
+    groups:
+    - superadmin
+    - admin
+  - uuid: ""
+    label: label-status
+    type: status
+    subtype: ""
+    value: "33"
+    groups:
+    - superadmin
+    - admin
+  - uuid: ""
+    label: label-url_record
+    type: url_record
+    subtype: ""
+    value: "35"
+    groups:
+    - superadmin
+    - admin
+  - uuid: ""
+    label: label-ldap
+    type: ldap
+    subtype: ""
+    value: "38"
+    groups:
+    - superadmin
+    - admin
+  - uuid: ""
+    label: label-blf_list
+    type: blf_list
+    subtype: ""
+    value: "39"
+    groups:
+    - superadmin
+    - admin
+  - uuid: ""
+    label: label-local_phonebook
+    type: local_phonebook
+    subtype: ""
+    value: "43"
+    groups:
+    - superadmin
+    - admin
+  - uuid: ""
+    label: label-local_group
+    type: local_group
+    subtype: ""
+    value: "45"
+    groups:
+    - superadmin
+    - admin
+  - uuid: ""
+    label: label-switch_account_up
+    type: switch_account_up
+    subtype: ""
+    value: "48"
+    groups:
+    - superadmin
+    - admin
+  - uuid: ""
+    label: label-switch_account_down
+    type: switch_account_down
+    subtype: ""
+    value: "49"
+    groups:
+    - superadmin
+    - admin
+  - uuid: ""
+    label: label-paging_list
+    type: paging_list
+    subtype: ""
+    value: "66"
+    groups:
+    - superadmin
+    - admin
+- uuid: 0f5b8507-3799-4a95-848b-1edfd5484869
+  name: yeastar
+- uuid: 89959f8f-946a-4d4d-be7f-1385bf8b0d64
+  name: telekonnectors
+  functions:
+  - uuid: e0a8724c-00cf-48b2-a720-fb9d5b6138bd
+    label: label-line
+    name: line
+    value: "1"
+    groups:
+    - superadmin
+    - admin
+  - uuid: f0b90ca4-789b-4506-8759-f7b6d9f3de84
+    label: label-voicemail
+    name: voicemail
+    value: "2"
+    description: You can press the key to listen to voice messages and configure the
+      line. The LED is on if a new voice message is received.
+    groups:
+    - superadmin
+    - admin
+  - uuid: bcc98c1d-6439-4e4e-861f-a314ad73c4d2
+    label: label-none
+    name: none
+    value: "3"
+    groups:
+    - superadmin
+    - admin
+  - uuid: 362c807f-9285-47a1-b6cd-869906cb0d09
+    label: label-intercom
+    name: intercom
+    value: i
+    description: Directly speak without answering the call.
+    groups:
+    - superadmin
+    - admin
+  - uuid: 764d2e10-956a-4981-976d-90f5f7844d3b
+    label: label-call_park
+    name: call_park
+    value: c
+    description: If you need to move to another place during a call, use this function.
+    groups:
+    - superadmin
+    - admin
+  - uuid: 2db58854-30c9-49f2-961c-4f3c5a68bab0
+    label: label-call_forward
+    name: call_forward
+    value: a
+    description: When receiving a call, you can press the key to transfer the call
+      to the specified number.
+    groups:
+    - superadmin
+    - admin
+  - uuid: d5035ae5-8fbf-4f77-b128-427f2dd12c94
+    label: label-speed_dial
+    name: speed_dial
+    value: f
+    description: Automatically call the specified number when key is pressed. (No
+      BFL)
+    groups:
+    - superadmin
+    - admin
+  - uuid: 6239d755-216b-46e9-8e91-4b56dbc1d1b8
+    label: label-blf_new
+    name: blf_new
+    value: bc
+    description: BLF - New Call
+    groups:
+    - superadmin
+    - admin
+  - uuid: a1ed7304-309e-4693-bd16-84407b647676
+    label: label-blf_bxfer
+    name: blf_bxfer
+    value: bb
+    description: BLF - Blind Transfer
+    groups:
+    - superadmin
+    - admin
+  - uuid: 6a80b5ef-7772-448c-a507-895392875e2f
+    label: label-blf_axfer
+    name: blf_axfer
+    value: ba
+    description: BLF - Attended Transfer
+    groups:
+    - superadmin
+    - admin
+  - uuid: 4f724ec1-88bb-4f0e-a0ea-91c38c6dbae1
+    label: label-blf_conference
+    name: blf_conference
+    value: bf
+    description: BLF - Conference
+    groups:
+    - superadmin
+    - admin
+  - uuid: 92ccbd64-4b5a-43b6-874e-27dbdb80b146
+    label: label-mwi
+    name: mwi
+    value: m
+    description: MWI
+    groups:
+    - superadmin
+    - admin
+  - uuid: d1c84262-cc77-49a7-923f-df4d7bbab903
+    label: label-presence
+    name: presence
+    value: p
+    description: Presence
+    groups:
+    - superadmin
+    - admin
+  - uuid: 5aa2a694-edec-4f38-85ab-66d959cd8771
+    label: label-dtmf
+    name: dtmf
+    value: bd
+    description: BLF/DTMF
+    groups:
+    - superadmin
+    - admin
+- uuid: a2eeb8e0-c30d-4f21-b3eb-7b2ac3b3e84d
+  name: bittel
+- uuid: 782bc1cc-149f-406f-b8e2-24a2bc484fad
+  name: linphone
+- uuid: d3e71b2e-f272-4455-ae46-6ac94bdd75cc
+  name: sipnetic
+- uuid: 9c616373-99fb-4f7d-8713-d5b1da9aaef3
+  name: acrobits
+- uuid: c0a455ea-756e-48eb-991c-fb144770a059
+  name: groundwire
+...

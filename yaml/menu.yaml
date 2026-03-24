@@ -1,0 +1,2561 @@
+---
+- title:
+    en-us: Dashboard
+    en-gb: Dashboard
+    ar-eg: "\u0627\u0644\u0635\u0641\u062D\u0647 \u0627\u0644\u0631\u0626\u064A\u0633\u064A\u0647
+      \u0644\u0644\u0645\u0633\u062A\u062E\u062F\u0645"
+    de-at: "Benutzer\xFCbersicht"
+    de-ch: "Benutzer\xFCbersicht"
+    de-de: "Benutzer\xFCbersicht"
+    es-cl: Dashboard Usuario
+    es-mx: Dashboard
+    fr-ca: Tableau de bord
+    fr-fr: Tableau de bord de l'utilisateur
+    he-il: "\u05DE\u05DE\u05E9\u05E7 \u05DE\u05E9\u05EA\u05DE\u05E9"
+    it-it: Pannello di Controllo
+    nl-nl: Dashboard
+    pl-pl: "Panel u\u017Cytkownik\xF3w"
+    pt-br: Painel de Controle
+    pt-pt: "Painel de Controle do Usu\xE1rio"
+    ro-ro: Panou control utilizator
+    ru-ru: "\u041F\u0430\u043D\u0435\u043B\u044C \u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044F"
+    sv-se: "Anv\xE4ndarpanel"
+    uk-ua: "\u041F\u0430\u043D\u0435\u043B\u044C \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430"
+    tr-tr: "G\xF6sterge Paneli"
+    zh-cn: "\u4EEA\u8868\u677F"
+    ja-jp: "\u30C0\u30C3\u30B7\u30E5\u30DC\u30FC\u30C9"
+    ko-kr: "\uB300\uC2DC\uBCF4\uB4DC"
+  uuid: 92c8ffdb-3c82-4f08-aec0-82421ec41bb5
+  parent_uuid: 02194288-6d56-6d3e-0b1a-d53a2bc10788
+  category: internal
+  icon: ""
+  path: /core/dashboard/
+  order: ""
+  groups:
+  - superadmin
+  - admin
+  - user
+  - agent
+- title:
+    en-us: Databases
+    en-gb: Databases
+    ar-eg: "\u0642\u0648\u0627\u0639\u062F \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A"
+    de-at: Datenbanken
+    de-ch: Datenbanken
+    de-de: Datenbanken
+    el-gr: "\u0392\u03AC\u03C3\u03B5\u03B9\u03C2 \u03B4\u03B5\u03B4\u03BF\u03BC\u03AD\u03BD\u03C9\u03BD"
+    es-cl: Bases de datos
+    es-mx: bases de datos
+    fr-ca: "Bases de donn\xE9es"
+    fr-fr: BDD
+    he-il: "\u05DE\u05D0\u05D2\u05E8\u05D9 \u05DE\u05D9\u05D3\u05E2"
+    it-it: Banche dati
+    nl-nl: Databanken
+    pl-pl: Bazy danych
+    pt-br: Banco de dados
+    pt-pt: Base de Dados
+    ro-ro: Baze de date
+    ru-ru: "\u0411\u0430\u0437\u044B \u0434\u0430\u043D\u043D\u044B\u0445"
+    sv-se: Databaser
+    uk-ua: "\u0411\u0430\u0437\u0438 \u0434\u0430\u043D\u0438\u0445"
+    tr-tr: "veritabanlar\u0131"
+    zh-cn: "\u6570\u636E\u5E93"
+    ja-jp: "\u30C7\u30FC\u30BF\u30D9\u30FC\u30B9"
+    ko-kr: "\uAD00\uB828 \uAE30\uC0AC"
+  uuid: ebbd754d-ca74-d5b1-a77e-9206ba3ecc3f
+  parent_uuid: 594d99c5-6128-9c88-ca35-4b33392cec0f
+  category: internal
+  icon: ""
+  path: /core/databases/databases.php
+  order: ""
+  groups:
+  - superadmin
+- title:
+    en-us: Default Settings
+    en-gb: Default Settings
+    ar-eg: Default Settings
+    de-at: Standardeinstellungen
+    de-de: Standardeinstellungen
+    es-cl: Conf. Predeterminada
+    es-mx: Ajustes predeterminados
+    fr-ca: "Param\xE8tres par d\xE9faut"
+    fr-fr: "Confs par D\xE9faut"
+    he-il: "\u05D4\u05D2\u05D3\u05E8\u05D5\u05EA Default Settings"
+    it-it: Parametri di Default
+    nl-nl: Standaard instellingen
+    pl-pl: "Ustawienia domy\u015Blne"
+    pt-br: "Configura\xE7\xF5es Padr\xE3o"
+    pt-pt: "Predefini\xE7\xF5es"
+    ro-ro: ""
+    ru-ru: "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438 \u043F\u043E \u0443\u043C\u043E\u043B\u0447\u0430\u043D\u0438\u044E"
+    sv-se: "Standard Inst\xE4llningar"
+    uk-ua: "\u041D\u0430\u043B\u0430\u0448\u0442\u0443\u0432\u0430\u043D\u043D\u044F
+      \u0437\u0430 \u0437\u0430\u043C\u043E\u0432\u0447\u0443\u0432\u0430\u043D\u043D\u044F\u043C"
+    zh-cn: "\u8FDD\u7EA6\u60C5\u51B5"
+    ja-jp: "\u30C7\u30D5\u30A9\u30EB\u30C8\u8A2D\u5B9A"
+    ko-kr: "\uAE30\uBCF8 \uC124\uC815"
+  uuid: 834b2739-9e99-4345-9b0b-7ec3ca332b67
+  parent_uuid: 594d99c5-6128-9c88-ca35-4b33392cec0f
+  category: internal
+  icon: ""
+  path: /core/default_settings/default_settings.php
+  order: ""
+  groups:
+  - superadmin
+- title:
+    en-us: Domains
+    en-gb: Domains
+    ar-eg: Domains
+    de-at: "Dom\xE4nen"
+    de-de: "Dom\xE4nen"
+    es-cl: Dominios
+    es-mx: Dominios
+    fr-ca: Domaines
+    fr-fr: domaines
+    he-il: "\u05D3\u05D5\u05DE\u05D9\u05D9\u05E0\u05D9\u05DD"
+    it-it: Domini
+    nl-nl: Domains
+    pl-pl: Domeny
+    pt-br: "Dom\xEDnios"
+    pt-pt: "Dom\xEDnios"
+    ro-ro: ""
+    ru-ru: "\u0414\u043E\u043C\u0435\u043D\u044B"
+    sv-se: "Dom\xE4ner"
+    uk-ua: "\u0414\u043E\u043C\u0435\u043D\u0438"
+    zh-cn: "\u9886\u57DF"
+    ja-jp: "\u30C9\u30E1\u30A4\u30F3"
+    ko-kr: "\uC774\uB984 *"
+  uuid: 4fa7e90b-6d6c-12d4-712f-62857402b801
+  parent_uuid: 594d99c5-6128-9c88-ca35-4b33392cec0f
+  category: internal
+  icon: ""
+  path: /core/domains/domains.php
+  order: ""
+  groups:
+  - superadmin
+- title:
+    en-us: Group Manager
+    en-gb: Group Manager
+    es-cl: "Administraci\xF3n de Grupos"
+    fr-fr: Gestion des groupes
+    pt-pt: "'Gest\xE3o de Grupos"
+    pt-br: Gerenciar grupos
+    pl: "Mened\u017Cer grup"
+    ru-ru: "\u0423\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0435 \u0433\u0440\u0443\u043F\u043F\u0430\u043C\u0438"
+    uk: "\u0413\u0440\u0443\u043F\u0438"
+    sv-se: "Grupp Inst\xE4llningar"
+    de-at: Gruppenverwaltung
+    he: "\u05DE\u05E0\u05D4\u05DC \u05E7\u05D1\u05D5\u05E6\u05D4"
+    zh-cn: "\u4E00\u822C\u4E8B\u52A1/\u5176\u4ED6\u804C\u7B49"
+    ja-jp: "\u30B0\u30EB\u30FC\u30D7\u30DE\u30CD\u30FC\u30B8\u30E3\u30FC"
+    ko-kr: "\uADF8\uB8F9 \uAD00\uB9AC\uC790"
+  uuid: 3b4acc6d-827b-f537-bf21-0093d94ffec7
+  parent_uuid: 594d99c5-6128-9c88-ca35-4b33392cec0f
+  category: internal
+  icon: ""
+  path: /core/groups/groups.php
+  order: ""
+  groups:
+  - superadmin
+- title:
+    en-us: Menu Manager
+    en-gb: Menu Manager
+    ar-eg: Menu Manager
+    de-at: "Men\xFC Einstellungen"
+    de-de: "Men\xFC Einstellungen"
+    el-gr: "\u0394\u03B9\u03B1\u03C7\u03B5\u03B9\u03C1\u03B9\u03C3\u03C4\u03AE\u03C2
+      \u039C\u03B5\u03BD\u03BF\u03CD"
+    es-cl: "Gestor de Men\xFA"
+    es-mx: "Gestor de Men\xFA"
+    fr-ca: Gestion des Menus
+    fr-fr: Gestion des Menus
+    he-il: "\u05DE\u05E0\u05D4\u05DC \u05EA\u05E4\u05E8\u05D9\u05D8"
+    it-it: Gestione dei Menu
+    nl-nl: Menu Manager
+    pl-pl: "Mened\u017Cer menu"
+    pt-br: Gerenciador de Menus
+    pt-pt: Gestor de Menus
+    ro-ro: Manager de meniu
+    ru-ru: "\u0423\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0435 \u043C\u0435\u043D\u044E"
+    sv-se: "Meny Inst\xE4llningar"
+    uk-ua: "\u041C\u0435\u043D\u0435\u0434\u0436\u0435\u0440 \u043C\u0435\u043D\u044E"
+    zh-cn: "\u83DC\u5355\u7BA1\u7406\u5668"
+    ja-jp: "\u30E1\u30CB\u30E5\u30FC\u30DE\u30CD\u30FC\u30B8\u30E3\u30FC"
+    ko-kr: "\uBA54\uB274 \uAD00\uB9AC\uC790"
+  uuid: da3a9ab4-c28e-ea8d-50cc-e8405ac8e76e
+  parent_uuid: 594d99c5-6128-9c88-ca35-4b33392cec0f
+  category: internal
+  icon: ""
+  path: /core/menu/menu.php
+  order: ""
+  groups:
+  - superadmin
+- title:
+    en-us: Home
+    en-gb: Home
+    ar-eg: "\u0627\u0644\u0628\u064A\u062A"
+    de-at: Home
+    de-de: Home
+    el-gr: "\u0391\u03C1\u03C7\u03B9\u03BA\u03AE"
+    es-cl: Inicio
+    es-mx: Inicio
+    fr-ca: Accueil
+    fr-fr: Maison
+    he-il: "\u05D1\u05D9\u05EA"
+    it-it: Home
+    nl-nl: Thuis
+    pl-pl: "G\u0142\xF3wne"
+    pt-br: Principal
+    pt-pt: Casa
+    ro-ro: "Acas\u0103"
+    ru-ru: "\u041E\u0441\u043D\u043E\u0432\u043D\u044B\u0435"
+    sv-se: Hem
+    uk-ua: "\u041E\u0441\u043D\u043E\u0432\u043D\u0435"
+    zh-cn: "\u5BB6"
+    ja-jp: "\u30DB\u30FC\u30E0"
+    ko-kr: "\uC9D1"
+  uuid: 02194288-6d56-6d3e-0b1a-d53a2bc10788
+  parent_uuid: ""
+  category: internal
+  icon: fa-home
+  path: ""
+  order: "5"
+  groups:
+  - superadmin
+  - admin
+  - user
+  - agent
+  - fax
+- title:
+    en-us: Accounts
+    en-gb: Accounts
+    ar-eg: "\u0627\u0644\u062D\u0633\u0627\u0628\u0627\u062A"
+    de-at: Konten
+    de-de: Konten
+    el-gr: "\u039B\u03BF\u03B3\u03B1\u03C1\u03B9\u03B1\u03C3\u03BC\u03BF\u03AF"
+    es-cl: Cuentas
+    es-mx: Cuentas
+    fr-ca: Comptes
+    fr-fr: Comptes
+    he-il: "\u05D7\u05E9\u05D1\u05D5\u05E0\u05D5\u05EA"
+    it-it: Credenziali
+    nl-nl: Accounts
+    pl-pl: Konta
+    pt-br: Contas
+    pt-pt: Contas
+    ro-ro: Conturi
+    ru-ru: "\u0423\u0447\u0435\u0442\u043D\u044B\u0435 \u0417\u0430\u043F\u0438\u0441\u0438"
+    sv-se: Konton
+    uk-ua: "\u041E\u0431\u043B\u0456\u043A\u043E\u0432\u0456 \u0437\u0430\u043F\u0438\u0441\u0438"
+    zh-cn: "\u8D26\u6237"
+    ja-jp: "\u30A2\u30AB\u30A6\u30F3\u30C8"
+    ko-kr: "\uACC4\uC815"
+  uuid: bc96d773-ee57-0cdd-c3ac-2d91aba61b55
+  parent_uuid: ""
+  category: internal
+  icon: fa-user
+  path: ""
+  order: "10"
+  groups:
+  - admin
+  - superadmin
+- title:
+    en-us: Applications
+    en-gb: Applications
+    ar-eg: "\u0627\u0644\u062A\u0637\u0628\u064A\u0642\u0627\u062A"
+    de-at: Applikationen
+    de-de: Applikationen
+    es-cl: Aplicaciones
+    es-mx: Aplicaciones
+    fr-ca: Applications
+    fr-fr: Applications
+    he-il: "\u05D9\u05D9\u05E9\u05D5\u05DE\u05D9\u05DD"
+    it-it: Applicazioni
+    nl-nl: Applicaties
+    pl-pl: Aplikacje
+    pt-br: "Aplica\xE7\xF5es"
+    pt-pt: "Aplica\xE7\xF5es"
+    ro-ro: "Aplica\u021Bii"
+    ru-ru: "\u041F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F"
+    sv-se: Appar
+    uk-ua: "\u0414\u043E\u0434\u0430\u0442\u043A\u0438"
+    zh-cn: "\u5E94\u7528"
+    ja-jp: "\u30A2\u30D7\u30EA\u30B1\u30FC\u30B7\u30E7\u30F3"
+    ko-kr: "\uC560\uD50C\uB9AC\uCF00\uC774\uC158"
+  uuid: fd29e39c-c936-f5fc-8e2b-611681b266b5
+  parent_uuid: ""
+  category: internal
+  icon: fa-paper-plane
+  path: ""
+  order: "20"
+  groups:
+  - superadmin
+  - admin
+  - user
+  - agent
+  - fax
+- title:
+    en-us: Status
+    en-gb: Status
+    ar-eg: "\u0627\u0644\u062D\u0627\u0644\u0629"
+    de-at: Status
+    de-de: Status
+    el-gr: "\u039A\u03B1\u03C4\u03AC\u03C3\u03C4\u03B1\u03C3\u03B7"
+    es-cl: Estado
+    es-mx: Estado
+    fr-ca: Etat
+    fr-fr: Etat
+    he-il: "\u05E1\u05D8\u05D8\u05D5\u05E1"
+    it-it: Stato
+    nl-nl: Status
+    pl-pl: 'Status '
+    pt-br: Estado
+    pt-pt: Estado
+    ro-ro: stare
+    ru-ru: "\u0421\u0442\u0430\u0442\u0443\u0441"
+    sv-se: Status
+    uk-ua: "\u0421\u0442\u0430\u0442\u0443\u0441"
+    zh-cn: "\u73B0\u51B5"
+    ja-jp: "\u30B9\u30C6\u30FC\u30BF\u30B9"
+    ko-kr: "\uC0C1\uD0DC"
+  uuid: 0438b504-8613-7887-c420-c837ffb20cb1
+  parent_uuid: ""
+  category: internal
+  icon: fa-chart-bar
+  path: ""
+  order: "25"
+  groups:
+  - admin
+  - superadmin
+- title:
+    en-us: Advanced
+    en-gb: Advanced
+    ar-eg: "\u0645\u062A\u0642\u062F\u0645"
+    de-at: Erweitert
+    de-de: Erweitert
+    el-gr: "\u0393\u03B9\u03B1 \u03C0\u03C1\u03BF\u03C7\u03C9\u03C1\u03B7\u03BC\u03AD\u03BD\u03BF\u03C5\u03C2"
+    es-cl: Avanzado
+    es-mx: Avanzado
+    fr-ca: "Avanc\xE9"
+    fr-fr: "Avanc\xE9"
+    he-il: "\u05DE\u05EA\u05E7\u05D3\u05DD"
+    it-it: Avanzato
+    nl-nl: 'Vertaling:'
+    pl-pl: Zaawansowane
+    pt-br: "Avan\xE7ado"
+    pt-pt: "Avan\xE7ado"
+    ro-ro: Avansat
+    ru-ru: "\u0414\u043E\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0435"
+    sv-se: Avancerad
+    uk-ua: "\u0420\u043E\u0437\u0448\u0438\u0440\u0435\u043D\u0456"
+    zh-cn: "\u5148\u8FDB\u7684"
+    ja-jp: "\u9AD8\u5EA6"
+    ko-kr: "\uACE0\uAE09\uC758"
+  uuid: 594d99c5-6128-9c88-ca35-4b33392cec0f
+  parent_uuid: ""
+  category: internal
+  icon: fa-cog
+  path: ""
+  order: "30"
+  groups:
+  - superadmin
+- title:
+    en-us: Login
+    en-gb: Login
+    ar-eg: "\u062A\u0633\u062C\u064A\u0644 \u0627\u0644\u062F\u062E\u0648\u0644"
+    de-at: Anmelden
+    de-de: Anmelden
+    el-gr: "\u0395\u03AF\u03C3\u03BF\u03B4\u03BF\u03C2"
+    es-cl: Ingresar
+    es-mx: Ingresar
+    fr-ca: Connexion
+    fr-fr: Connexion
+    he-il: "\u05DB\u05E0\u05D9\u05E1\u05D4"
+    it-it: Login
+    nl-nl: Login
+    pl-pl: Logina
+    pt-br: Entrar
+    pt-pt: Entrar
+    ro-ro: Log in
+    ru-ru: "\u0412\u043E\u0439\u0442\u0438"
+    sv-se: Login
+    uk-ua: "\u041B\u043E\u0433\u0456\u043D"
+    zh-cn: "\u4F10\u6728"
+    ja-jp: "\u30ED\u30B0\u30A4\u30F3"
+    ko-kr: "\uB85C\uADF8\uC778"
+  uuid: c85bf816-b88d-40fa-8634-11b456928afa
+  parent_uuid: ""
+  category: internal
+  icon: fa-sign-in-alt
+  path: /login.php
+  order: "99"
+  groups:
+  - public
+- title:
+    en-us: Logout
+    en-gb: Logout
+    ar-eg: "\u062A\u0633\u062C\u064A\u0644 \u062E\u0631\u0648\u062C"
+    de-at: Abmelden
+    de-de: Abmelden
+    el-gr: "\u0388\u03BE\u03BF\u03B4\u03BF\u03C2"
+    es-cl: Salir
+    es-mx: Salir
+    fr-ca: "D\xE9connexion"
+    fr-fr: "D\xE9connexion"
+    he-il: "\u05DC\u05D4\u05EA\u05E0\u05EA\u05E7"
+    it-it: Logout
+    nl-nl: Uitloggen
+    pl-pl: Wyloguj
+    pt-br: Sair
+    pt-pt: Logotipo
+    ro-ro: Log out
+    ru-ru: "\u0412\u044B\u0439\u0442\u0438"
+    sv-se: Logout
+    uk-ua: "\u0432\u0438\u0439\u0442\u0438"
+    zh-cn: "\u767B\u51FA"
+    ja-jp: "\u30ED\u30B0\u30A2\u30A6\u30C8"
+    ko-kr: "\uB85C\uADF8\uC544\uC6C3"
+  uuid: 0d29e9f4-0c9b-9d8d-cd2d-454899dc9bc4
+  parent_uuid: 02194288-6d56-6d3e-0b1a-d53a2bc10788
+  category: internal
+  icon: fa-sign-out-alt
+  path: /logout.php
+  order: ""
+  groups:
+  - superadmin
+  - admin
+  - user
+  - agent
+  - fax
+- title:
+    en-us: Notifications
+    en-gb: Notifications
+    ar-eg: "\u0627\u0644\u0625\u062E\u0637\u0627\u0631\u0627\u062A"
+    de-at: Benachrichtigungen
+    de-de: Benachrichtigungen
+    el-gr: "\u0393\u03BD\u03C9\u03C3\u03C4\u03BF\u03C0\u03BF\u03B9\u03AE\u03C3\u03B5\u03B9\u03C2"
+    es-cl: Notificaciones
+    es-mx: Notificaciones
+    fr-ca: Notifications
+    fr-fr: Notifications
+    he-il: Notifications
+    it-it: Notifiche
+    nl-nl: Verklaringen
+    pl-pl: Powiadomienia
+    pt-br: "Notifica\xE7\xF5es"
+    pt-pt: "Notifica\xE7\xF5es"
+    ro-ro: ""
+    ru-ru: "\u0423\u0432\u0435\u0434\u043E\u043C\u043B\u0435\u043D\u0438\u044F"
+    sv-se: Meddelanden
+    uk-ua: "\u0421\u043F\u043E\u0432\u0456\u0449\u0435\u043D\u043D\u044F"
+    zh-cn: "\u901A\u77E5"
+    ja-jp: "\u304A\u77E5\u3089\u305B"
+    ko-kr: "\uACF5\uC9C0\uC0AC\uD56D"
+  uuid: f8d65f91-0f4a-405a-b5ac-24cb3c4f10ba
+  parent_uuid: 594d99c5-6128-9c88-ca35-4b33392cec0f
+  category: internal
+  icon: ""
+  path: /core/notifications/notification_edit.php
+  order: ""
+- title:
+    en-us: Upgrade
+    en-gb: Upgrade
+    ar-eg: "\u0623\u0639\u0644\u0649"
+    de-at: Aktualisierung
+    de-de: Aktualisierung
+    es-cl: Actualizar
+    es-mx: "Actualizaci\xF3n"
+    fr-ca: "Mise \xE0 niveau"
+    fr-fr: "Mise \xE0 jour"
+    he-il: "\u05E9\u05D3\u05E8\u05D5\u05D2"
+    it-it: Aggiorna
+    nl-nl: Upgrade
+    pl-pl: Aktualizacja
+    pt-br: "Atualiza\xE7\xE3o"
+    pt-pt: Actualizar BD
+    ro-ro: ""
+    ru-ru: "\u041E\u0431\u043D\u043E\u0432\u043B\u0435\u043D\u0438\u0435"
+    sv-se: Uppgardera
+    uk-ua: "\u041E\u043D\u043E\u0432\u043B\u0435\u043D\u043D\u044F"
+    zh-cn: "\u5347\u7EA7"
+    ja-jp: "\u30A2\u30C3\u30D7\u30B0\u30EC\u30FC\u30C9"
+    ko-kr: "\uC9C0\uC6D0\uD558\uB2E4"
+  uuid: 8c826e92-be3c-0944-669a-24e5b915d562
+  parent_uuid: 594d99c5-6128-9c88-ca35-4b33392cec0f
+  category: internal
+  icon: ""
+  path: /core/upgrade/index.php
+  order: ""
+  groups:
+  - superadmin
+- title:
+    en-us: User Logs
+    en-gb: User Logs
+    ar-eg: "\u0627\u0644\u0645\u0633\u062A\u0639\u0645\u0644"
+    de-at: Benutzerprotokolle
+    de-ch: Benutzerprotokolle
+    de-de: Benutzerprotokolle
+    es-cl: User Logs
+    es-mx: User Logs
+    fr-ca: Connexions utilisateur
+    fr-fr: Connexions utilisateur
+    he-il: User Logs
+    it-it: Log utente
+    nl-nl: Gebruiker logs
+    pl-pl: Logos
+    pt-br: "Logs de usu\xE1rio"
+    pt-pt: "Logs de usu\xE1rio"
+    ro-ro: ""
+    ru-ru: "\u0416\u0443\u0440\u043D\u0430\u043B\u044B \u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0435\u0439"
+    sv-se: "Anv\xE4ndarloggar"
+    uk-ua: "\u041B\u043E\u0433\u0438 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0456\u0432"
+    zh-cn: "\u7528\u6237"
+    ja-jp: "\u30E6\u30FC\u30B6\u30FC\u30ED\u30B0"
+    ko-kr: "\uC0AC\uC6A9\uC790 \uB85C\uADF8\uC778"
+  uuid: 88e5773a-2e33-43dc-9a6e-07d46d200e9c
+  parent_uuid: 0438b504-8613-7887-c420-c837ffb20cb1
+  category: internal
+  icon: ""
+  path: /core/user_logs/user_logs.php
+  order: ""
+  groups:
+  - superadmin
+- title:
+    en-us: Users
+    en-gb: Users
+    ar-eg: "\u0627\u0644\u0645\u0633\u062A\u062E\u062F\u0645\u0648\u0646"
+    de-at: Benutzerverwaltung
+    de-de: Benutzerverwaltung
+    es-cl: Gestor de Usuarios
+    es-mx: Usuarios
+    fr-ca: Utilisteurs
+    fr-fr: Gestion des utilisteurs
+    he-il: "\u05DE\u05E0\u05D4\u05DC \u05DE\u05E9\u05EA\u05DE\u05E9"
+    it-it: Utenti
+    nl-nl: Gebruik
+    pl-pl: "Mened\u017Cer u\u017Cytkownik\xF3w"
+    pt-br: "Gerenciar Usu\xE1rios"
+    pt-pt: "Gest\xE3o de Utilizadores"
+    ro-ro: ""
+    ru-ru: "\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438"
+    sv-se: "Anv\xE4ndar Inst\xE4llningar"
+    uk-ua: "\u041A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0456"
+    zh-cn: "\u7528\u6237"
+    ja-jp: "\u30E6\u30FC\u30B6\u540D"
+    ko-kr: "\uC774\uB984 *"
+  uuid: 0d57cc1e-1874-47b9-7ddd-fe1f57cec99b
+  parent_uuid: bc96d773-ee57-0cdd-c3ac-2d91aba61b55
+  category: internal
+  icon: ""
+  path: /core/users/users.php
+  order: ""
+  groups:
+  - admin
+  - superadmin
+- title:
+    en-us: Account Settings
+    en-gb: Account Settings
+    ar-eg: "\u0625\u0639\u062F\u0627\u062F\u0627\u062A \u0627\u0644\u062D\u0633\u0627\u0628"
+    de-at: Kontoeinstellungen
+    es-cl: Config de Cuenta
+    es-mx: Ajustes de la cuenta
+    fr-ca: "Param\xE8tre du Compte"
+    fr-fr: Configuration du Compte
+    he-il: "\u05D4\u05D2\u05D3\u05E8\u05EA \u05D7\u05E9\u05D1\u05D5\u05DF"
+    it-it: Impostazioni Utente
+    nl-nl: Accountinstellingen
+    pl-pl: Ustawienia konta
+    pt-br: "Configura\xE7\xF5es da conta"
+    pt-pt: "Configura\xE7\xF5es da Conta"
+    ro-ro: "Set\u0103ri cont"
+    ru-ru: "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0430 \u0443\u0447\u0435\u0442\u043D\u043E\u0439
+      \u0437\u0430\u043F\u0438\u0441\u0438"
+    sv-se: "Kontoinst\xE4llningar"
+    uk-ua: "\u041E\u0431\u043B\u0456\u043A\u043E\u0432\u0438\u0439 \u0437\u0430\u043F\u0438\u0441"
+    zh-cn: "\u8D26\u6237\u8BBE\u7F6E"
+    ja-jp: "\u30A2\u30AB\u30A6\u30F3\u30C8\u8A2D\u5B9A"
+    ko-kr: "\uACC4\uC815 \uC124\uC815"
+  uuid: 4d532f0b-c206-c39d-ff33-fc67d668fb69
+  parent_uuid: 02194288-6d56-6d3e-0b1a-d53a2bc10788
+  category: internal
+  icon: ""
+  path: /core/users/user_edit.php?id=user
+  order: ""
+  groups:
+  - superadmin
+  - admin
+  - user
+  - agent
+- title:
+    en-us: Access Controls
+    en-gb: Access Controls
+    ar-eg: "\u0639\u0646\u0627\u0635\u0631 \u0627\u0644\u062A\u062D\u0643\u0645 \u0641\u064A
+      \u0627\u0644\u0648\u0635\u0648\u0644"
+    de-at: Zugriffskontrolle
+    de-ch: Zugriffskontrollen
+    de-de: Zugriffskontrolle
+    es-cl: Controles de acceso
+    es-mx: Controles de acceso
+    fr-ca: "Contr\xF4les d'acc\xE8s"
+    fr-fr: "Contr\xF4les d'acc\xE8s"
+    he-il: "\u05D1\u05E7\u05E8\u05EA \u05D2\u05D9\u05E9\u05D4"
+    it-it: Controlli Accesso
+    nl-nl: Toegangs Controle
+    pl-pl: "Kontrola dost\u0119pu"
+    pt-br: Controles de Acesso
+    pt-pt: Controles de Acesso
+    ro-ro: Controale de acces
+    ru-ru: "\u041A\u043E\u043D\u0442\u0440\u043E\u043B\u044C \u0434\u043E\u0441\u0442\u0443\u043F\u0430"
+    uk-ua: "\u043A\u043E\u043D\u0442\u0440\u043E\u043B\u044C \u0434\u043E\u0441\u0442\u0443\u043F\u0443"
+    sv-se: "\xC5tkomstkontroll"
+    zh-cn: "\u51FA\u5165\u63A7\u5236"
+    ja-jp: "\u30A2\u30AF\u30BB\u30B9\u5236\u5FA1"
+    ko-kr: "\uC561\uC138\uC2A4 \uC81C\uC5B4"
+  uuid: bd47c972-5498-4541-b44a-d4bbfac69496
+  parent_uuid: 594d99c5-6128-9c88-ca35-4b33392cec0f
+  category: internal
+  icon: ""
+  path: /app/access_controls/access_controls.php
+  order: ""
+  groups:
+  - superadmin
+- title:
+    en-us: Operator Panel
+    en-gb: Operator Panel
+    ar-eg: "\u0644\u0648\u062D\u0629 \u0627\u0644\u0645\u0634\u063A\u0644"
+    de-at: Bedienfeld
+    de-ch: Bedienfeld
+    de-de: Bedienfeld
+    es-cl: Panel del operador
+    es-mx: Panel del operador
+    fr-ca: Panneau de commande
+    fr-fr: Panneau Operateur
+    he-il: "\u05DC\u05D5\u05D7 \u05DE\u05E4\u05E2\u05D9\u05DC"
+    it-it: Pannello Operatore
+    nl-nl: Bedienings paneel
+    pl-pl: Panel operatora
+    pt-br: Painel do operador
+    pt-pt: Painel operador
+    ro-ro: Panoul operator
+    ru-ru: "\u041F\u0430\u043D\u0435\u043B\u044C \u043E\u043F\u0435\u0440\u0430\u0442\u043E\u0440\u0430"
+    sv-se: Telefonist Panel
+    uk-ua: "\u041F\u0430\u043D\u0435\u043B\u044C \u043E\u043F\u0435\u0440\u0430\u0442\u043E\u0440\u0430"
+    zh-cn: "\u64CD\u4F5C\u9762\u677F"
+    ja-jp: "\u30AA\u30DA\u30EC\u30FC\u30BF \u30D1\u30CD\u30EB"
+    ko-kr: "\uC6B4\uC601\uC790 \uD328\uB110"
+  uuid: dd3d173a-5d51-4231-ab22-b18c5b712bb2
+  parent_uuid: fd29e39c-c936-f5fc-8e2b-611681b266b5
+  category: internal
+  icon: ""
+  path: /app/basic_operator_panel/index.php
+  order: ""
+  groups:
+  - superadmin
+  - admin
+- title:
+    en-us: Bridges
+    en-gb: Bridges
+    ar-eg: "\u0627\u0644\u062C\u0633\u0648\u0631"
+    de-at: "Br\xFCcken"
+    de-ch: "Br\xFCcken"
+    de-de: "Br\xFCcken"
+    es-cl: Puentes
+    es-mx: Puentes
+    fr-fr: Ponts
+    fr-ca: Ponts
+    he-il: "\u05D2\u05E9\u05E8\u05D9\u05DD"
+    it-it: Ponti
+    nl-nl: Bridges
+    pl-pl: Mostkowania
+    pt-br: pontes
+    pt-pt: pontes
+    ro-ro: Poduri
+    ru-ru: "\u041C\u043E\u0441\u0442\u044B"
+    sv-se: Broar
+    uk-ua: "\u041C\u0456\u0441\u0442\u0430"
+    zh-cn: "\u6865\u6881"
+    ja-jp: "\u30D6\u30EA\u30C3\u30B8"
+    ko-kr: "\uAD50\uB7C9"
+  uuid: 345f0aad-8321-4a8b-9f08-c4730297660c
+  parent_uuid: fd29e39c-c936-f5fc-8e2b-611681b266b5
+  category: internal
+  icon: ""
+  path: /app/bridges/bridges.php
+  order: ""
+  groups:
+  - superadmin
+- title:
+    en-us: Call Block
+    en-gb: Call Block
+    ar-eg: "\u062D\u0638\u0631 \u0627\u0644\u0645\u0643\u0627\u0644\u0645\u0627\u062A"
+    de-at: Sperrlisten
+    de-ch: Einloggen
+    de-de: Sperrlisten
+    el-gr: "\u039B\u03AF\u03C3\u03C4\u03B1 \u03B1\u03C0\u03BF\u03C1\u03C1\u03AF\u03C8\u03B5\u03C9\u03BD"
+    es-cl: Bloqueo de llamadas
+    es-mx: Call Block
+    fr-ca: Call Block
+    fr-fr: Liste Noire
+    he-il: "\u05D7\u05E1\u05D9\u05DE\u05EA \u05DE\u05E1\u05E4\u05E8"
+    it-it: Blocco Chiamate
+    nl-nl: Oproep blokkade
+    pl-pl: "Blokowanie rozm\xF3w"
+    pt-br: Bloqueio de chamadas
+    pt-pt: Bloqueio de Chamadas
+    ro-ro: Blocare apel
+    ru-ru: "\u0427\u0435\u0440\u043D\u044B\u0439 \u0441\u043F\u0438\u0441\u043E\u043A"
+    sv-se: Blockera Samtal
+    uk-ua: "\u0411\u043B\u043E\u043A\u0443\u0432\u0430\u043D\u043D\u044F \u0434\u0437\u0432\u0456\u043D\u043A\u0456\u0432"
+    zh-cn: "\u547C\u53EB\u5757"
+    ja-jp: "\u30B3\u30FC\u30EB \u30D6\u30ED\u30C3\u30AF"
+    ko-kr: "\uD1B5\uD654 \uCC28\uB2E8"
+  uuid: 29295c90-b1b9-440b-9c7E-c8363c6e8975
+  parent_uuid: fd29e39c-c936-f5fc-8e2b-611681b266b5
+  category: internal
+  icon: ""
+  path: /app/call_block/call_block.php
+  order: ""
+  groups:
+  - superadmin
+  - admin
+  - user
+- title:
+    en-us: Call Broadcast
+    en-gb: Call Broadcast
+    ar-eg: "\u0627\u062A\u0635\u0644 \u0628\u0627\u0644\u0625\u0630\u0627\u0639\u0629"
+    de-at: Rundrufe
+    de-ch: Rundrufe
+    de-de: Rundrufe
+    es-cl: Llamada Broadcast
+    es-mx: Call Broadcast
+    fr-ca: "T\xE9l\xE9phone"
+    fr-fr: Campagne d'Appels
+    he-il: "\u05E9\u05D9\u05D3\u05D5\u05E8 \u05E9\u05D9\u05D7\u05D4"
+    it-it: Chiamate Multiple
+    nl-nl: Omroep
+    pl-pl: "Rozsy\u0142anie rozm\xF3w"
+    pt-br: Chamada em broadcast
+    pt-pt: Chamada em Broadcast
+    ro-ro: Apel Broadcast
+    ru-ru: "\u041C\u0430\u0441\u0441\u043E\u0432\u044B\u0435 \u0432\u044B\u0437\u043E\u0432\u044B"
+    sv-se: Samtalsdistribution
+    uk-ua: "\u0422\u0440\u0430\u043D\u0441\u043B\u044F\u0446\u0456\u044F \u0434\u0437\u0432\u0456\u043D\u043A\u0430"
+    zh-cn: "\u7535\u8BDD\u5E7F\u64AD"
+    ja-jp: "\u30B3\u30FC\u30EB\u30D6\u30ED\u30FC\u30C9\u30AD\u30E3\u30B9\u30C8"
+    ko-kr: "\uD1B5\uD654 \uBE0C\uB85C\uB4DC\uCE90\uC2A4\uD2B8"
+  uuid: 50153bbf-78c5-b49e-7bd9-4b3e4b1134e6
+  parent_uuid: fd29e39c-c936-f5fc-8e2b-611681b266b5
+  category: internal
+  icon: ""
+  path: /app/call_broadcast/call_broadcast.php
+  order: ""
+  groups:
+  - admin
+  - superadmin
+- title:
+    en-us: Active Call Center
+    en-gb: Active Call Center
+    ar-eg: "\u0645\u0631\u0643\u0632 \u0627\u0644\u0627\u062A\u0635\u0627\u0644 \u0627\u0644\u0646\u0634\u0637"
+    de-at: Aktive Callcenter
+    de-ch: Active Call Center
+    de-de: Aktive Callcenter
+    es-cl: Centro de Llamada Activo
+    es-mx: Active Call Center
+    fr-ca: Centre d'Appels Active
+    fr-fr: Centre d'Appel Actif
+    he-il: "\u05DE\u05E8\u05DB\u05D6 \u05E7\u05E8\u05D9\u05D0\u05D4 \u05E4\u05E2\u05D9\u05DC"
+    it-it: Call Center Attivi
+    nl-nl: Aktieve Callcenter
+    pl-pl: "Aktywno\u015B\u0107 w Call Center "
+    pt-br: Call Center ativos
+    pt-pt: Centro de Chamadas Activo
+    ro-ro: Centru de apeluri activ
+    ru-ru: "\u0410\u043A\u0442\u0438\u0432\u043D\u044B\u0435 \u041A\u043E\u043B\u043B-\u0446\u0435\u043D\u0442\u0440\u044B"
+    sv-se: Aktivt Call Center
+    uk-ua: "\u0426\u0435\u043D\u0442\u0440 \u0430\u043A\u0442\u0438\u0432\u043D\u043E\u0433\u043E
+      \u0432\u0438\u043A\u043B\u0438\u043A\u0443"
+    zh-cn: "\u4E3B\u52A8\u547C\u53EB\u4E2D\u5FC3"
+    ja-jp: "\u30A2\u30AF\u30C6\u30A3\u30D6\u30B3\u30FC\u30EB\u30BB\u30F3\u30BF\u30FC"
+    ko-kr: "\uD65C\uC131 \uCF5C \uC13C\uD130"
+  uuid: 7fb0dd87-e984-9980-c512-2c76b887aeb2
+  parent_uuid: 0438b504-8613-7887-c420-c837ffb20cb1
+  category: internal
+  icon: ""
+  path: /app/call_center_active/call_center_queue.php
+  order: ""
+  groups:
+  - admin
+  - superadmin
+- title:
+    en-us: Call Centers
+    en-gb: Call Centers
+    ar-eg: "\u0645\u0631\u0627\u0643\u0632 \u0627\u0644\u0627\u062A\u0635\u0627\u0644"
+    de-at: Callcenter
+    de-ch: Call Centers
+    de-de: Callcenter
+    es-cl: Centro de Llamadas
+    es-mx: Call Centers
+    fr-ca: Centre d' appels
+    fr-fr: Centre d'appel
+    he-il: Call Centers
+    it-it: Stato Agenti
+    nl-nl: Call-Centers
+    pl-pl: 'Call Center '
+    pt-br: Call Center
+    pt-pt: Centro de Chamadas
+    ro-ro: Centre de apeluri
+    ru-ru: "\u041A\u043E\u043B\u043B-\u0446\u0435\u043D\u0442\u0440"
+    sv-se: Call Center
+    uk-ua: "\u041A\u043E\u043B-\u0446\u0435\u043D\u0442\u0440"
+    zh-cn: "\u547C\u53EB\u4E2D\u5FC3"
+    ja-jp: "\u30B3\u30FC\u30EB\u30BB\u30F3\u30BF\u30FC"
+    ko-kr: "\uCF5C\uC13C\uD130"
+  uuid: 6c072b29-5b6c-49fc-008e-95e24c77de99
+  parent_uuid: fd29e39c-c936-f5fc-8e2b-611681b266b5
+  category: internal
+  icon: ""
+  path: /app/call_centers/call_center_queues.php
+  order: ""
+  groups:
+  - superadmin
+  - admin
+- title:
+    en-us: Agent Status
+    en-gb: Agent Status
+    ar-eg: "\u0627\u0644\u0648\u0643\u064A\u0644"
+    de-at: Agenten Status
+    de-ch: Status
+    de-de: Agenten Status
+    es-cl: Estado de Agente
+    es-mx: Agente Status
+    fr-ca: Agent Status
+    fr-fr: "\xC9tat de l'agent"
+    he-il: "\u05DE\u05E6\u05D1 \u05D4\u05E1\u05D5\u05DB\u05DF"
+    it-it: Stato dell'agente
+    nl-nl: Agent status
+    pl-pl: Status agenta
+    pt-br: Estado do agente
+    pt-pt: Estado do Agente
+    ro-ro: Statutul agentului
+    ru-ru: "\u0421\u0442\u0430\u0442\u0443\u0441 \u0430\u0433\u0435\u043D\u0442\u0430"
+    sv-se: Agent Status
+    uk-ua: "\u0421\u0442\u0430\u0442\u0443\u0441 \u043E\u043F\u0435\u0440\u0430\u0442\u043E\u0440\u0430"
+    zh-cn: "\u4EE3\u7406\u72B6\u6001"
+    ja-jp: "\u30A8\u30FC\u30B8\u30A7\u30F3\u30C8\u30B9\u30C6\u30FC\u30BF\u30B9"
+    ko-kr: "\uC5D0\uC774\uC804\uD2B8 \uC0C1\uD0DC"
+  uuid: 597c483a-51a9-f95a-8d54-ea7d87ada2b8
+  parent_uuid: 0438b504-8613-7887-c420-c837ffb20cb1
+  category: internal
+  icon: ""
+  path: /app/call_centers/call_center_agent_status.php
+  order: ""
+  groups:
+  - admin
+  - superadmin
+- title:
+    en-us: Call Flows
+    es-cl: Flujo de Llamada
+    de-de: Anruf Steuerung
+    de-ch: Call Flows
+    de-at: Anruf Steuerung
+    fr-fr: "cin\xE9matiques d'Appel"
+    fr-ca: Circulation d'Appel
+    fr-ch: Billing
+    pt-pt: Fluxos de chamadas
+    pt-br: Fluxo de chamadas
+    en-gb: Call Flows
+    ar-eg: "\u0627\u062A\u0635\u0644 \u0628\u0627\u0644\u062A\u062F\u0641\u0642\u0627\u062A"
+    es-mx: Call Flows
+    he-il: Call Flows
+    it-it: Deviatori di Chiamata
+    nl-nl: Oproep besturing
+    pl-pl: "Przep\u0142yw rozm\xF3w"
+    ro-ro: Fluxuri de apeluri
+    ru-ru: "\u041F\u0435\u0440\u0435\u043A\u043B\u044E\u0447\u0430\u0442\u0435\u043B\u044C
+      \u0432\u044B\u0437\u043E\u0432\u043E\u0432"
+    sv-se: "Samtalsfl\xF6den"
+    uk-ua: "\u041F\u043E\u0442\u043E\u043A\u0438 \u0434\u0437\u0432\u0456\u043D\u043A\u0456\u0432"
+    zh-cn: "\u901A\u8BDD\u6D41\u7A0B"
+    ja-jp: "\u30B3\u30FC\u30EB\u30D5\u30ED\u30FC"
+    ko-kr: "\uD1B5\uD654 \uD750\uB984"
+  uuid: b0939384-7055-44e8-8b4c-9f72293e1878
+  parent_uuid: fd29e39c-c936-f5fc-8e2b-611681b266b5
+  category: internal
+  path: /app/call_flows/call_flows.php
+  groups:
+  - superadmin
+  - admin
+  - user
+  - superadmin
+  - admin
+  icon: ""
+  order: ""
+- title:
+    en-us: Call Forward
+    en-gb: Call Forward
+    ar-eg: "\u0646\u062F\u0627\u0621 \u0625\u0644\u0649 \u0627\u0644\u0623\u0645\u0627\u0645"
+    de-at: Rufumleitung
+    de-ch: Rufumleitung
+    de-de: Rufumleitung
+    es-cl: Reenvio de Llamadas
+    es-mx: Reenvio de Llamadas
+    fr-ca: Renvoi d'appel
+    fr-fr: Renvoi d'appel
+    he-il: "\u05D4\u05E2\u05D1\u05E8 \u05E9\u05D9\u05D7\u05D4"
+    it-it: Inoltro
+    nl-nl: Oproep doorsturen
+    pl-pl: Przekierowanie
+    pt-br: Encaminhamento de chamadas
+    pt-pt: Encaminhamento de Chamadas
+    ro-ro: Redirectionare apel
+    ru-ru: "\u041F\u0435\u0440\u0435\u0430\u0434\u0440\u0435\u0441\u0430\u0446\u0438\u044F"
+    sv-se: Vidarekoppling
+    uk-ua: "\u041F\u0435\u0440\u0435\u0430\u0434\u0440\u0435\u0441\u0430\u0446\u0456\u044F"
+    zh-cn: "\u547C\u53EB\u8F6C\u79FB"
+    ja-jp: "\u30B3\u30FC\u30EB\u30D5\u30A9\u30EF\u30FC\u30C9"
+    ko-kr: "\uCC29\uC2E0 \uC804\uD658"
+  uuid: 4e4df00b-aafb-45a8-82c1-cdabc921889c
+  parent_uuid: fd29e39c-c936-f5fc-8e2b-611681b266b5
+  category: internal
+  icon: ""
+  path: /app/call_forward/call_forward.php
+  order: ""
+  groups:
+  - user
+  - admin
+  - superadmin
+- title:
+    en-us: Call Recordings
+    en-gb: Call Recordings
+    ar-eg: "\u062A\u0633\u062C\u064A\u0644\u0627\u062A \u0627\u0644\u0645\u0643\u0627\u0644\u0645\u0627\u062A"
+    de-at: Anrufaufnahmen
+    de-ch: Anrufaufnahmen
+    de-de: Anrufaufnahmen
+    el-gr: "\u0397\u03C7\u03BF\u03B3\u03C1\u03B1\u03C6\u03AE\u03C3\u03B5\u03B9\u03C2
+      \u03BA\u03BB\u03AE\u03C3\u03B5\u03C9\u03BD"
+    es-cl: "Grabaci\xF3n de llamadas"
+    es-mx: "Grabaci\xF3n de llamadas"
+    fr-fr: Enregistrements d'appels
+    fr-ca: Enregistrements d'appels
+    he-il: "\u05D4\u05E7\u05DC\u05D8\u05D5\u05EA \u05E9\u05D9\u05D7\u05D5\u05EA"
+    it-it: Registrazioni delle chiamate
+    nl-nl: Gespreksopnamen
+    pl-pl: "Nagrania Rozm\xF3w"
+    pt-br: "Grava\xE7\xF5es de chamadas"
+    pt-pt: "Grava\xE7\xF5es de chamadas"
+    ro-ro: "\xCEnregistr\u0103ri de apeluri"
+    ru-ru: "\u0417\u0430\u043F\u0438\u0441\u0438 \u0437\u0432\u043E\u043D\u043A\u043E\u0432"
+    sv-se: Samtalsinspelningar
+    uk-ua: "\u0417\u0430\u043F\u0438\u0441 \u0434\u0437\u0432\u0456\u043D\u043A\u0456\u0432"
+    zh-cn: "\u901A\u8BDD\u5F55\u97F3"
+    ja-jp: "\u30B3\u30FC\u30EB\u9332\u97F3"
+    ko-kr: "\uD1B5\uD654 \uB179\uC74C"
+  uuid: d5b7bd0e-5e56-4d87-b2d5-7d7b2f7307ef
+  parent_uuid: fd29e39c-c936-f5fc-8e2b-611681b266b5
+  category: internal
+  icon: ""
+  path: /app/call_recordings/call_recordings.php
+  order: ""
+  groups:
+  - superadmin
+- title:
+    en-us: Active Calls
+    en-gb: Active Calls
+    ar-eg: "\u0627\u0644\u062F\u0639\u0648\u0627\u062A \u0627\u0644\u0646\u0634\u0637\u0629"
+    de-at: "Aktive Gespr\xE4che"
+    de-ch: Aktive Anrufe
+    de-de: "Aktive Gespr\xE4che"
+    es-cl: Llamadas Activas
+    es-mx: Llamadas activas
+    fr-ca: Appels actifs
+    fr-fr: Appels en cours
+    he-il: "\u05E9\u05D9\u05D7\u05D5\u05EA \u05E4\u05E2\u05D9\u05DC\u05D5\u05EA"
+    it-it: Chiamate Attive
+    nl-nl: Aktieve gesprekken
+    pl-pl: "Aktywne po\u0142\u0105czenia"
+    pt-br: Chamadas ativas
+    pt-pt: Chamadas Activas
+    ro-ro: Apeluri active
+    ru-ru: "\u0410\u043A\u0442\u0438\u0432\u043D\u044B\u0435 \u0432\u044B\u0437\u043E\u0432\u044B"
+    sv-se: Aktiva samtal
+    uk-ua: "\u0410\u043A\u0442\u0438\u0432\u043D\u0456 \u0434\u0437\u0432\u0456\u043D\u043A\u0438"
+    zh-cn: "\u4E3B\u52A8\u901A\u8BDD"
+    ja-jp: "\u30A2\u30AF\u30C6\u30A3\u30D6 \u30B3\u30FC\u30EB"
+    ko-kr: "\uD65C\uC131 \uD1B5\uD654"
+  uuid: eba3d07f-dd5c-6b7b-6880-493b44113ade
+  parent_uuid: 0438b504-8613-7887-c420-c837ffb20cb1
+  category: internal
+  icon: ""
+  path: /app/calls_active/calls_active.php
+  order: ""
+  groups:
+  - superadmin
+  - admin
+- title:
+    en-us: Click to Call
+    en-gb: Click to Call
+    ar-eg: "\u0627\u0636\u063A\u0637 \u0644\u0644\u0627\u062A\u0635\u0627\u0644"
+    de-at: Click to Call
+    de-ch: Klicken Sie auf Anruf
+    de-de: Click to Call
+    es-cl: Pulse para Llamar
+    es-mx: Haga clic para llamar
+    fr-ca: Cliquez pour appeler
+    fr-fr: Cliquez pour Appeller
+    he-il: "\u05DC\u05D7\u05E6\u05D5 \u05E2\u05DC Call"
+    it-it: Clicca e Chiama
+    nl-nl: Klik voor oproep
+    pl-pl: Click to Call
+    pt-br: Clique para ligar
+    pt-pt: Clicar para Chamadas
+    ro-ro: "F\u0103 clic pentru a apela"
+    ru-ru: "\u0412\u044B\u0437\u043E\u0432 \u043F\u043E \u043A\u043B\u0438\u043A\u0443"
+    sv-se: "Klicka f\xF6r att ringa"
+    uk-ua: "\u041D\u0430\u0442\u0438\u0441\u043D\u0456\u0442\u044C, \u0449\u043E\u0431
+      \u0432\u0438\u043A\u043B\u0438\u043A\u0430\u0442\u0438"
+    zh-cn: "\u70B9\u51FB\u901A\u8BDD"
+    ja-jp: "\u96FB\u8A71\u3059\u308B\u306B\u306F\u30AF\u30EA\u30C3\u30AF"
+    ko-kr: "\uD074\uB9AD \uD22C \uCF5C"
+  uuid: f862556f-9ddd-2697-fdf4-bed08ec63aa5
+  parent_uuid: fd29e39c-c936-f5fc-8e2b-611681b266b5
+  category: internal
+  icon: ""
+  path: /app/click_to_call/click_to_call.php
+  order: ""
+- title:
+    en-us: Conference Centers
+    en-gb: Conference Centers
+    ar-eg: "\u0645\u0631\u0627\u0643\u0632 \u0627\u0644\u0645\u0624\u062A\u0645\u0631\u0627\u062A"
+    de-at: Konferenz Zentrale
+    de-ch: Konferenzzentren
+    de-de: Konferenz Zentrale
+    es-cl: Cent. de Conferencias
+    es-mx: Conference Centers
+    fr-ca: "Centres de conf\xE9rences"
+    fr-fr: "Centre de Conf\xE9rences"
+    he-il: "\u05DE\u05E8\u05DB\u05D6\u05D9 \u05DB\u05E0\u05E1\u05D9\u05DD"
+    it-it: Centro Conferenze
+    nl-nl: Conferentie centra
+    pl-pl: Centrum Konferencyjne
+    pt-br: "Centro de Confer\xEAncia"
+    pt-pt: Conferencias
+    ro-ro: "Centre de conferin\u021Be"
+    ru-ru: "\u041A\u043E\u043D\u0444\u0435\u0440\u0435\u043D\u0446-\u0446\u0435\u043D\u0442\u0440"
+    sv-se: Konferenscenter
+    uk-ua: "\u041A\u043E\u043D\u0444\u0435\u0440\u0435\u043D\u0446-\u0446\u0435\u043D\u0442\u0440"
+    zh-cn: "\u4F1A\u8BAE\u4E2D\u5FC3"
+    ja-jp: "\u30AB\u30F3\u30D5\u30A1\u30EC\u30F3\u30B9\u30BB\u30F3\u30BF\u30FC"
+    ko-kr: "\uCEE8\uD37C\uB7F0\uC2A4 \uC13C\uD130"
+  uuid: 95f88726-4706-43f0-b52b-9504a0b8046f
+  parent_uuid: fd29e39c-c936-f5fc-8e2b-611681b266b5
+  category: internal
+  icon: ""
+  path: /app/conference_centers/conference_centers.php
+  order: ""
+  groups:
+  - superadmin
+  - admin
+- title:
+    en-us: Conference Centers
+    ar-eg: "\u0645\u0631\u0627\u0643\u0632 \u0627\u0644\u0645\u0624\u062A\u0645\u0631\u0627\u062A"
+    de-at: Konferenz Zentrale
+    de-ch: Konferenzzentren
+    de-de: Konferenz Zentrale
+    es-cl: Cent. de Conferencias
+    es-mx: Conference Centers
+    fr-ca: "Centres de conf\xE9rences"
+    fr-fr: "Centre de Conf\xE9rences"
+    he-il: "\u05DE\u05E8\u05DB\u05D6\u05D9 \u05DB\u05E0\u05E1\u05D9\u05DD"
+    it-it: Centro Conferenze
+    nl-nl: Conferentie centra
+    pl-pl: Centrum Konferencyjne
+    pt-br: "Centro de Confer\xEAncia"
+    pt-pt: Conferencias
+    ro-ro: "Centre de conferin\u021Be"
+    ru-ru: "\u041A\u043E\u043D\u0444\u0435\u0440\u0435\u043D\u0446-\u0446\u0435\u043D\u0442\u0440"
+    sv-se: Konferenscenter
+    uk-ua: "\u041A\u043E\u043D\u0444\u0435\u0440\u0435\u043D\u0446-\u0446\u0435\u043D\u0442\u0440"
+    zh-cn: "\u4F1A\u8BAE\u4E2D\u5FC3"
+    ja-jp: "\u30AB\u30F3\u30D5\u30A1\u30EC\u30F3\u30B9\u30BB\u30F3\u30BF\u30FC"
+    ko-kr: "\uCEE8\uD37C\uB7F0\uC2A4 \uC13C\uD130"
+  uuid: b99cb768-ca19-4374-a954-02e344313d84
+  parent_uuid: fd29e39c-c936-f5fc-8e2b-611681b266b5
+  category: internal
+  icon: ""
+  path: /app/conference_centers/conference_rooms.php
+  order: ""
+  groups:
+  - user
+- title:
+    en-us: Conference Controls
+    en-gb: Conference Controls
+    ar-eg: "\u0636\u0648\u0627\u0628\u0637 \u0627\u0644\u0645\u0624\u062A\u0645\u0631\u0627\u062A"
+    de-at: Konferenzsteuerung
+    de-ch: Konferenzsteuerungen
+    de-de: Konferenzsteuerung
+    es-cl: Controles de conferencias
+    es-mx: Controles de conferencias
+    fr-ca: "Contr\xF4les des conf\xE9rences"
+    fr-fr: "Contr\xF4les des conf\xE9rences"
+    he-il: "\u05D1\u05E7\u05E8\u05D5\u05EA \u05D5\u05E2\u05D9\u05D3\u05D4"
+    it-it: Controlli Conferenza
+    nl-nl: Conferentie besturing
+    pl-pl: Kontrola Konferencji
+    pt-br: "Controles de confer\xEAncia"
+    pt-pt: "Controles de Confer\xEAncia"
+    ro-ro: "Controale conferin\u021Bei"
+    ru-ru: "\u041A\u043E\u043D\u0444\u0435\u0440\u0435\u043D\u0446\u0438\u0438 \u0423\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0435"
+    sv-se: Konferenskontroller
+    uk-ua: "\u041A\u043E\u043D\u0442\u0440\u043E\u043B\u044C \u043A\u043E\u043D\u0444\u0435\u0440\u0435\u043D\u0446\u0456\u0457"
+    zh-cn: "\u4F1A\u8BAE\u63A7\u5236"
+    ja-jp: "\u4F1A\u8B70\u30B3\u30F3\u30C8\u30ED\u30FC\u30EB"
+    ko-kr: "\uD68C\uC758 \uCEE8\uD2B8\uB864"
+  uuid: 9896d4b5-507f-4d0e-8db7-caa7f4655202
+  parent_uuid: fd29e39c-c936-f5fc-8e2b-611681b266b5
+  category: internal
+  icon: ""
+  path: /app/conference_controls/conference_controls.php
+  order: ""
+  groups:
+  - superadmin
+- title:
+    en-us: Conference Profiles
+    en-gb: Conference Profiles
+    ar-eg: "\u0645\u0648\u062C\u0632\u0627\u062A \u0627\u0644\u0645\u0624\u062A\u0645\u0631\u0627\u062A"
+    de-at: Konferenzprofile
+    de-ch: Tagungsprofile
+    de-de: Konferenzprofile
+    es-cl: Perfiles de conferencias
+    es-mx: Perfiles de conferencias
+    fr-ca: "Profils des conf\xE9rences"
+    fr-fr: "Profils des conf\xE9rences"
+    he-il: "\u05E4\u05E8\u05D5\u05E4\u05D9\u05DC\u05D9\u05DD"
+    it-it: Profili Conferenza
+    nl-nl: Conferentie profielen
+    pl-pl: Profile Konferencji
+    pt-br: "Perfis de confer\xEAncia"
+    pt-pt: "Perfis de confer\xEAncia"
+    ro-ro: Profiluri conferinte
+    ru-ru: "\u041A\u043E\u043D\u0444\u0435\u0440\u0435\u043D\u0446\u0438\u0438 \u041F\u0440\u043E\u0444\u0438\u043B\u0438"
+    sv-se: Konferensprofiler
+    uk-ua: "\u041F\u0440\u043E\u0444\u0456\u043B\u0456 \u043A\u043E\u043D\u0444\u0435\u0440\u0435\u043D\u0446\u0456\u0457"
+    zh-cn: "\u4F1A\u8BAE\u7B80\u4ECB"
+    ja-jp: "\u4F1A\u8B70\u30D7\u30ED\u30D5\u30A3\u30FC\u30EB"
+    ko-kr: "\u4F1A\u8B70\u30D7\u30ED\u30D5\u30A1\u30A4\u30EB"
+  uuid: 6ebe7b9c-e964-4349-a002-288ea6ad08ca
+  parent_uuid: fd29e39c-c936-f5fc-8e2b-611681b266b5
+  category: internal
+  icon: ""
+  path: /app/conference_profiles/conference_profiles.php
+  order: ""
+  groups:
+  - superadmin
+- title:
+    en-us: Conferences
+    en-gb: Conferences
+    ar-eg: "\u0627\u0644\u0645\u0624\u062A\u0645\u0631\u0627\u062A"
+    de-at: Konferenzen
+    de-ch: Konferenzen
+    de-de: Konferenzen
+    es-cl: Conferencias
+    es-mx: Conferencias
+    fr-ca: "Conf\xE9rences"
+    fr-fr: "Conf\xE9rences"
+    he-il: "\u05D5\u05E2\u05D9\u05D3\u05EA"
+    it-it: Conferenze
+    nl-nl: Conferenties
+    pl-pl: Konferencja
+    pt-br: "Confer\xEAncias"
+    pt-pt: Conferencias
+    ro-ro: "Conferin\u021Be"
+    ru-ru: "\u041A\u043E\u043D\u0444\u0435\u0440\u0435\u043D\u0446\u0438\u0438"
+    sv-se: Konferenser
+    uk-ua: "\u041A\u043E\u043D\u0444\u0435\u0440\u0435\u043D\u0446\u0456\u0457"
+    zh-cn: "\u4F1A\u8BAE"
+    ja-jp: "\u30AB\u30F3\u30D5\u30A1\u30EC\u30F3\u30B9"
+    ko-kr: "\uCEE8\uD37C\uB7F0\uC2A4"
+  uuid: 9f2a8c08-3e65-c41c-a716-3b53d42bc4d4
+  parent_uuid: fd29e39c-c936-f5fc-8e2b-611681b266b5
+  category: internal
+  icon: ""
+  path: /app/conferences/conferences.php
+  order: ""
+  groups:
+  - admin
+  - superadmin
+- title:
+    en-us: Active Conferences
+    en-gb: Active Conferences
+    ar-eg: "\u0627\u0644\u0645\u0624\u062A\u0645\u0631\u0627\u062A \u0627\u0644\u0646\u0634\u0637\u0629"
+    de-at: Aktive Konferenzen
+    de-ch: Aktive Konferenzen
+    de-de: Aktive Konferenzen
+    es-cl: Conferencias Activas
+    es-mx: Conferencias activas
+    fr-ca: "Conf\xE9rences actives"
+    fr-fr: "Conf\xE9rences en cours"
+    he-il: "\u05DB\u05E0\u05E1\u05D9\u05DD \u05E4\u05E2\u05D9\u05DC\u05D9\u05DD"
+    it-it: Conferenze attive
+    nl-nl: Aktieve conferenties
+    pl-pl: Aktywne rozmowy konferencyjne
+    pt-br: "Confer\xEAncia ativa"
+    pt-pt: Conferencias Activas
+    ro-ro: "Conferin\u021Be active"
+    ru-ru: "\u041A\u043E\u043D\u0444\u0435\u0440\u0435\u043D\u0446\u0438\u0438 \u0410\u043A\u0442\u0438\u0432\u043D\u044B\u0435"
+    sv-se: Aktiva Konferenser
+    uk-ua: "\u0410\u043A\u0442\u0438\u0432\u043D\u0456 \u043A\u043E\u043D\u0444\u0435\u0440\u0435\u043D\u0446\u0456\u0457"
+    zh-cn: "\u6D3B\u52A8\u4F1A\u8BAE"
+    ja-jp: "\u30A2\u30AF\u30C6\u30A3\u30D6\u306A\u4F1A\u8B70"
+    ko-kr: "\uD65C\uC131 \uD68C\uC758"
+  uuid: 2d857bbb-43b9-b8f7-a138-642868e0453a
+  parent_uuid: 0438b504-8613-7887-c420-c837ffb20cb1
+  category: internal
+  icon: ""
+  path: /app/conferences_active/conferences_active.php
+  order: ""
+  groups:
+  - admin
+  - superadmin
+- title:
+    en-us: Contacts
+    en-gb: Contacts
+    ar-eg: "\u0627\u0644\u0627\u062A\u0635\u0627\u0644\u0627\u062A"
+    de-at: Kontakte
+    de-ch: Ansprechpartner
+    de-de: Kontakte
+    es-cl: Contactos
+    es-mx: Contactos
+    fr-ca: Contacts
+    fr-fr: Contacts
+    he-il: "\u05D0\u05E0\u05E9\u05D9 \u05E7\u05E9\u05E8"
+    it-it: Contatti
+    nl-nl: Contacten
+    pl-pl: Kontakty
+    pt-br: Contatos
+    pt-pt: Contactos
+    ro-ro: Contacte
+    ru-ru: "\u041A\u043E\u043D\u0442\u0430\u043A\u0442\u044B"
+    sv-se: Kontakter
+    uk-ua: "\u041A\u043E\u043D\u0442\u0430\u043A\u0442\u0438"
+    zh-cn: "\u8054\u7CFB\u4EBA"
+    ja-jp: "\u30B3\u30F3\u30BF\u30AF\u30C8"
+    ko-kr: "\uCF58\uD0DD\uD2B8 \uB80C\uC988"
+  uuid: f14e6ab6-6565-d4e6-cbad-a51d2e3e8ec6
+  parent_uuid: fd29e39c-c936-f5fc-8e2b-611681b266b5
+  category: internal
+  icon: ""
+  path: /app/contacts/contacts.php
+  order: ""
+  groups:
+  - admin
+  - superadmin
+- title:
+    en-us: Transactions
+    en-gb: Transactions
+    ar-eg: "\u0627\u0644\u0645\u0639\u0627\u0645\u0644\u0627\u062A"
+    de-at: Datenbank Transaktionen
+    de-ch: Transaktionen
+    de-de: Datenbank Transaktionen
+    es-cl: Transacciones
+    es-mx: Actas
+    fr-fr: Transactions
+    fr-ca: Transactions
+    he-il: "\u05E2\u05E1\u05E7\u05D0\u05D5\u05EA"
+    it-it: Transazioni
+    nl-nl: Transacties
+    pl-pl: Transakcje
+    pt-br: "Transa\xE7\xF5es"
+    pt-pt: "Transa\xE7\xF5es"
+    ro-ro: "Tranzac\u021Bii"
+    ru-ru: "\u0418\u0437\u043C\u0435\u043D\u0435\u043D\u0438\u044F \u0432 \u0411\u0414"
+    sv-se: Transaktioner
+    uk-ua: "\u0422\u0432\u0438\u0442\u043D\u0443\u0442\u044C"
+    zh-cn: "\u4EA4\u6613"
+    ja-jp: "\u53D6\u5F15"
+    ko-kr: "\uC5C5\uBB34"
+  uuid: ffc57bea-df1d-4099-b7e5-835d68f09006
+  parent_uuid: 594d99c5-6128-9c88-ca35-4b33392cec0f
+  category: internal
+  icon: ""
+  path: /app/database_transactions/database_transactions.php
+  order: ""
+  groups:
+  - superadmin
+- title:
+    en-us: Destinations
+    en-gb: Destinations
+    ar-eg: "\u062C\u0647\u0627\u062A \u0627\u0644\u0623\u062A\u0635\u0627\u0644"
+    de-at: Ziele
+    de-ch: Reiseziele
+    de-de: Ziele
+    es-cl: Destinos
+    es-mx: Destinos
+    fr-ca: Destinations
+    fr-fr: Destinations
+    he-il: "\u05D9\u05E2\u05D3"
+    it-it: Destinazioni
+    nl-nl: Bestemmingen
+    pl-pl: Destynacje
+    pt-br: Destinos
+    pt-pt: Destinos
+    ro-ro: "Destina\u021Bii"
+    ru-ru: "\u041D\u0430\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F"
+    sv-se: Destinationer
+    uk-ua: "\u041D\u043E\u043C\u0435\u0440\u0438"
+    zh-cn: "\u76EE\u7684\u5730"
+    ja-jp: "\u884C\u304D\u5148"
+    ko-kr: "\uBAA9\uC801\uC9C0"
+  uuid: fd2a708a-ff03-c707-c19d-5a4194375eba
+  parent_uuid: b94e8bd9-9eb5-e427-9c26-ff7a6c21552a
+  category: internal
+  icon: ""
+  path: /app/destinations/destinations.php
+  order: ""
+  groups:
+  - superadmin
+  - admin
+- title:
+    en-us: Devices
+    en-gb: Devices
+    ar-eg: "\u0627\u0644\u0623\u062C\u0647\u0632\u0629"
+    de-at: "Ger\xE4te"
+    de-ch: "Ger\xE4te"
+    de-de: "Ger\xE4te"
+    es-cl: Dispositivos
+    es-mx: Dispositivos
+    fr-ca: Dispositifs
+    fr-fr: Equipements
+    he-il: "\u05D4\u05EA\u05E7\u05E0\u05D9\u05DD"
+    it-it: Dispositivi
+    nl-nl: Toestellen
+    pl-pl: "Urz\u0105dzenia"
+    pt-br: Telefones IP
+    pt-pt: Telefones
+    ro-ro: Dispozitive
+    ru-ru: "\u0423\u0441\u0442\u0440\u043E\u0439\u0441\u0442\u0432\u0430"
+    sv-se: Enheter
+    uk-ua: "\u041F\u0440\u0438\u0441\u0442\u0440\u043E\u0457"
+    zh-cn: "\u8BBE\u5907"
+    ja-jp: "\u30C7\u30D0\u30A4\u30B9"
+    ko-kr: "\uC7A5\uCE58"
+  uuid: f9dce498-b7f9-740f-e592-9e8ff3dac2a0
+  parent_uuid: bc96d773-ee57-0cdd-c3ac-2d91aba61b55
+  category: internal
+  icon: ""
+  path: /app/devices/devices.php
+  order: ""
+  groups:
+  - admin
+  - superadmin
+- title:
+    en-us: Inbound Routes
+    en-gb: Inbound Routes
+    ar-eg: "\u0637\u0631\u0642 \u0627\u0644\u062F\u062E\u0648\u0644"
+    de-at: Eingehendes Routing
+    de-ch: Inbound Routen
+    de-de: Eingehendes Routing
+    es-cl: Rutas de entrada
+    es-mx: Rutas de entrada
+    fr-ca: "Itin\xE9raires entrants"
+    fr-fr: Routes Entrantes
+    he-il: "\u05E0\u05EA\u05D9\u05D1\u05D9\u05DD Inbound"
+    it-it: Rotte di Ingresso
+    nl-nl: Inkomende routes
+    pl-pl: "Trasy przychodz\u0105ce"
+    pt-br: Rotas de Entrada
+    pt-pt: Rotas de Entrada
+    ro-ro: Rute de intrare
+    ru-ru: "\u041C\u0430\u0440\u0448\u0440\u0443\u0442\u0438\u0437\u0430\u0446\u0438\u044F
+      \u0432\u0445\u043E\u0434\u044F\u0449\u0438\u0445"
+    sv-se: Inbound Routes
+    uk-ua: "\u0412\u0445\u0456\u0434\u043D\u0456 \u043C\u0430\u0440\u0448\u0440\u0443\u0442\u0438"
+    zh-cn: "\u5165\u5883\u822A\u7EBF"
+    ja-jp: "\u30A4\u30F3\u30D0\u30A6\u30F3\u30C9\u30EB\u30FC\u30C8"
+    ko-kr: "\uC778\uBC14\uC6B4\uB4DC \uACBD\uB85C"
+  uuid: b64b2bbf-f99b-b568-13dc-32170515a687
+  parent_uuid: b94e8bd9-9eb5-e427-9c26-ff7a6c21552a
+  category: internal
+  icon: ""
+  path: /app/dialplans/dialplans.php?app_uuid=c03b422e-13a8-bd1b-e42b-b6b9b4d27ce4
+  order: ""
+  groups:
+  - superadmin
+- title:
+    en-us: Outbound Routes
+    en-gb: Outbound Routes
+    ar-eg: "\u0627\u0644\u0637\u0631\u0642 \u0627\u0644\u062E\u0627\u0631\u062C\u064A\u0629"
+    de-at: Ausgehendes Routing
+    de-ch: "Ausw\xE4rtsrouten"
+    de-de: Ausgehendes Routing
+    es-cl: Rutas de salida
+    es-mx: Rutas de salida
+    fr-ca: "Itin\xE9raires sortants"
+    fr-fr: Routes Sortantes
+    he-il: "\u05DB\u05D1\u05D9\u05E9\u05D9\u05DD \u05DE\u05D4\u05D9\u05E8\u05D9\u05DD"
+    it-it: Rotte di Uscita
+    nl-nl: Uitgaande routes
+    pl-pl: "Trasy wyj\u015Bciowe"
+    pt-br: "Rotas de sa\xEDda"
+    pt-pt: "Rotas de Sa\xEDda"
+    ro-ro: "Rute de ie\u0219ire"
+    ru-ru: "\u041C\u0430\u0440\u0448\u0440\u0443\u0442\u0438\u0437\u0430\u0446\u0438\u044F
+      \u0438\u0441\u0445\u043E\u0434\u044F\u0449\u0438\u0445"
+    sv-se: Outbound Routes
+    uk-ua: "\u0412\u0438\u0445\u0456\u0434\u043D\u0456 \u043C\u0430\u0440\u0448\u0440\u0443\u0442\u0438"
+    zh-cn: "\u51FA\u5883\u822A\u7EBF"
+    ja-jp: "\u30A2\u30A6\u30C8\u30D0\u30A6\u30F3\u30C9\u30EB\u30FC\u30C8"
+    ko-kr: "\uC544\uC6C3\uBC14\uC6B4\uB4DC \uB8E8\uD2B8"
+  uuid: 17e14094-1d57-1106-db2a-a787d34015e9
+  parent_uuid: b94e8bd9-9eb5-e427-9c26-ff7a6c21552a
+  category: internal
+  icon: ""
+  path: /app/dialplans/dialplans.php?app_uuid=8c914ec3-9fc0-8ab5-4cda-6c9288bdc9a3
+  order: ""
+  groups:
+  - superadmin
+- title:
+    en-us: Dialplan
+    en-gb: Dialplan
+    ar-eg: "\u062E\u0637\u0629 \u0627\u0644\u0637\u0639\u0627\u0645"
+    de-at: "W\xE4hlplan"
+    de-ch: Dialplan
+    de-de: "W\xE4hlplan"
+    es-cl: Plan de Marcado
+    es-mx: Plan de Marcado
+    fr-ca: "Plan de num\xE9rotation"
+    fr-fr: "Plan de num\xE9rotation"
+    he-il: "\u05EA\u05D5\u05DB\u05E0\u05D9\u05EA \u05D7\u05D9\u05D5\u05D2"
+    it-it: Piano Numerazioni
+    nl-nl: Belplan
+    pl-pl: Plan wybierania
+    pt-br: plano de discagem
+    pt-pt: plano de discagem
+    ro-ro: Dialplan
+    ru-ru: "\u041F\u043B\u0430\u043D \u043D\u0443\u043C\u0435\u0440\u0430\u0446\u0438\u0438"
+    sv-se: Nummerplan
+    uk-ua: "\u041C\u0430\u0440\u0448\u0440\u0443\u0442\u0438\u0437\u0430\u0446\u0456\u044F"
+    zh-cn: "\u62E8\u53F7\u65B9\u6848"
+    ja-jp: "\u30C0\u30A4\u30A2\u30EB\u30D7\u30E9\u30F3"
+    ko-kr: "\uB2E4\uC774\uC5BC\uD50C\uB79C"
+  uuid: b94e8bd9-9eb5-e427-9c26-ff7a6c21552a
+  parent_uuid: ""
+  category: internal
+  icon: fa-exchange-alt
+  path: ""
+  order: "15"
+  groups:
+  - admin
+  - superadmin
+- title:
+    en-us: Dialplan Manager
+    en-gb: Dialplan Manager
+    ar-eg: "\u0645\u062F\u064A\u0631 Dialplan"
+    de-at: "W\xE4hlplan Einstellungen"
+    de-ch: Dialplan Manager
+    de-de: "W\xE4hlplan Einstellungen"
+    es-cl: Gest. de Plan de Marcado
+    es-mx: Administrador de Planes de Marcado
+    fr-ca: Administrateur de Dialplan
+    fr-fr: "Gestion du Plan de Num\xE9rotation"
+    he-il: "\u05DE\u05E0\u05D4\u05DC Dialplan"
+    it-it: Manager di Dialplan
+    nl-nl: Belplan beheer
+    pl-pl: "Menad\u017Cer dialplanu"
+    pt-br: Gerenciador de Dialplan
+    pt-pt: Gestor de Dialplan
+    ro-ro: Manager Dialplan
+    ru-ru: "\u0423\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0435 \u043F\u043B\u0430\u043D\u043E\u043C
+      \u043D\u0443\u043C\u0435\u0440\u0430\u0446\u0438\u0438"
+    sv-se: "Nummerplan Inst\xE4llningar"
+    uk-ua: "\u041A\u0435\u0440\u0443\u0432\u0430\u043D\u043D\u044F \u043C\u0430\u0440\u0448\u0440\u0443\u0442\u0438\u0437\u0430\u0446\u0456\u0454\u044E"
+    zh-cn: "\u62E8\u53F7\u65B9\u6848\u7BA1\u7406\u5668"
+    ja-jp: "\u30C0\u30A4\u30E4\u30EB\u30D7\u30E9\u30F3 \u30DE\u30CD\u30FC\u30B8\u30E3\u30FC"
+    ko-kr: "\uB2E4\uC774\uC5BC\uD50C\uB79C \uAD00\uB9AC\uC790"
+  uuid: 52929fee-81d3-4d94-50b7-64842d9393c2
+  parent_uuid: b94e8bd9-9eb5-e427-9c26-ff7a6c21552a
+  category: internal
+  icon: ""
+  path: /app/dialplans/dialplans.php
+  order: ""
+  groups:
+  - admin
+  - superadmin
+- title:
+    en-us: Email Queue
+    en-gb: Email Queue
+    ar-eg: "\u0642\u0627\u0626\u0645\u0629 \u0627\u0646\u062A\u0638\u0627\u0631 \u0627\u0644\u0628\u0631\u064A\u062F
+      \u0627\u0644\u0625\u0644\u0643\u062A\u0631\u0648\u0646\u064A"
+    de-at: "Zur\xFCck zur \xDCbersicht"
+    de-ch: "Zur\xFCck zur \xDCbersicht"
+    de-de: "Zur\xFCck zur \xDCbersicht"
+    es-cl: "Correo electr\xF3nico"
+    es-mx: "Correo electr\xF3nico"
+    fr-ca: Email Queue
+    fr-fr: Email Queue
+    he-il: "\u05D3\u05D5\u05D0\u05E8 \u05D0\u05DC\u05E7\u05D8\u05E8\u05D5\u05E0\u05D9
+      Queue"
+    it-it: Coda di posta elettronica
+    nl-nl: Email Wachtrij
+    pl-pl: Kolejka e-maili
+    pt-br: Enquete de Email
+    pt-pt: Enquete de Email
+    ro-ro: Coada de e-mailuri
+    ru-ru: "\u041E\u0447\u0435\u0440\u0435\u0434\u044C \u044D\u043B\u0435\u043A\u0442\u0440\u043E\u043D\u043D\u043E\u0439
+      \u043F\u043E\u0447\u0442\u044B"
+    sv-se: "E-postk\xF6"
+    uk-ua: "\u0415\u043B\u0435\u043A\u0442\u0440\u043E\u043D\u043D\u0430 \u043F\u043E\u0448\u0442\u0430"
+    zh-cn: "\u7535\u5B50\u90AE\u4EF6\u961F\u5217"
+    ja-jp: "\u30E1\u30FC\u30EB\u30AD\u30E5\u30FC"
+    ko-kr: "\uC774\uBA54\uC77C \uB300\uAE30\uC5F4"
+  uuid: dfa6a878-e2b0-4051-acaf-f6ffc13b9abf
+  parent_uuid: 0438b504-8613-7887-c420-c837ffb20cb1
+  category: internal
+  icon: ""
+  path: /app/email_queue/email_queue.php
+  order: ""
+  groups:
+  - superadmin
+- title:
+    en-us: Email Templates
+    en-gb: Email Templates
+    ar-eg: "\u0642\u0648\u0627\u0644\u0628 \u0627\u0644\u0628\u0631\u064A\u062F \u0627\u0644\u0625\u0644\u0643\u062A\u0631\u0648\u0646\u064A"
+    de-at: E-Mail-Vorlagen
+    de-ch: E-Mail-Vorlagen
+    de-de: E-Mail-Vorlagen
+    es-cl: "Plantillas de correo electr\xF3nico"
+    es-mx: "Plantillas de correo electr\xF3nico"
+    fr-fr: "Mod\xE8les de courriel"
+    fr-ca: "Mod\xE8les de courriel"
+    he-il: "\u05EA\u05D1\u05E0\u05D9\u05D5\u05EA \u05D0\u05D9\u05DE\u05D9\u05D9\u05DC"
+    it-it: Modelli di posta elettronica
+    nl-nl: E-mailsjablonen
+    pl-pl: Szablony Email
+    pt-br: Modelos de e-mail
+    pt-pt: Modelos de e-mail
+    ro-ro: "\u0218abloane de e-mail"
+    ru-ru: "\u0428\u0430\u0431\u043B\u043E\u043D\u044B \u044D\u043B\u0435\u043A\u0442\u0440\u043E\u043D\u043D\u043E\u0439
+      \u043F\u043E\u0447\u0442\u044B"
+    sv-se: E-postmallar
+    uk-ua: "\u0428\u0430\u0431\u043B\u043E\u043D\u0438 \u0435\u043B\u0435\u043A\u0442\u0440\u043E\u043D\u043D\u043E\u0457
+      \u043F\u043E\u0448\u0442\u0438"
+    zh-cn: "\u7535\u5B50\u90AE\u4EF6\u6A21\u677F"
+    ja-jp: "\u30E1\u30FC\u30EB \u30C6\u30F3\u30D7\u30EC\u30FC\u30C8"
+    ko-kr: "\uC774\uBA54\uC77C \uD15C\uD50C\uB9BF"
+  uuid: 5e548de3-ff1a-44e4-a2e6-f3917dac85a3
+  parent_uuid: 594d99c5-6128-9c88-ca35-4b33392cec0f
+  category: internal
+  icon: ""
+  path: /app/email_templates/email_templates.php
+  order: ""
+  groups:
+  - superadmin
+- title:
+    en-us: Event Guard
+    en-gb: Event Guard
+    ar-eg: "\u062D\u0631\u0627\u0633 \u0627\u0644\u0623\u062D\u062F\u0627\u062B"
+    de-at: Eventgarde
+    de-ch: Eventgarde
+    de-de: Eventgarde
+    es-cl: Guardia de eventos
+    es-mx: Guardia de eventos
+    fr-ca: Event Guard
+    fr-fr: Event Guard
+    he-il: "\u05DE\u05E9\u05DE\u05E8 \u05D0\u05D9\u05E8\u05D5\u05E2\u05D9\u05DD"
+    it-it: Guardia di evento
+    nl-nl: Evenementenbewaker
+    pl-pl: "Stra\u017Cnik wydarze\u0144"
+    pt-br: Guarda de Eventos
+    pt-pt: Guarda de Eventos
+    ro-ro: Garda de evenimente
+    ru-ru: "\u0417\u0430\u0449\u0438\u0442\u043D\u0438\u043A \u0441\u043E\u0431\u044B\u0442\u0438\u0439"
+    sv-se: Event Guard
+    uk-ua: "\u041E\u0445\u043E\u0440\u043E\u043D\u0430 \u043F\u043E\u0434\u0456\u0439"
+    zh-cn: "\u4E8B\u4EF6\u5B88\u536B"
+    ja-jp: "\u30A4\u30D9\u30F3\u30C8\u30AC\u30FC\u30C9"
+    ko-kr: "\uC774\uBCA4\uD2B8 \uAC00\uB4DC"
+  uuid: e80a81ae-7894-4003-9c0a-6df56c8148eb
+  parent_uuid: 0438b504-8613-7887-c420-c837ffb20cb1
+  category: internal
+  icon: ""
+  path: /app/event_guard/event_guard_logs.php
+  order: ""
+  groups:
+  - superadmin
+- title:
+    en-us: Extensions
+    en-gb: Extensions
+    ar-eg: "\u0627\u0644\u0623\u0631\u0642\u0627\u0645 \u0627\u0644\u062F\u0627\u062E\u0644\u064A\u0629"
+    de-at: Nebenstellen
+    de-ch: Erweiterungen
+    de-de: Nebenstellen
+    es-cl: Extensiones
+    es-mx: Extensiones
+    fr-ca: "Post t\xE9l\xE9phonique"
+    fr-fr: Extensions
+    he-il: "\u05E9\u05DC\u05D5\u05D7\u05D5\u05EA"
+    it-it: Interni
+    nl-nl: Extensies
+    pl-pl: "Numery wewn\u0119trzne"
+    pt-br: Ramais
+    pt-pt: "Extens\xF5es"
+    ro-ro: Extensii
+    ru-ru: "\u0412\u043D\u0443\u0442\u0440\u0435\u043D\u043D\u0438\u0435 \u043D\u043E\u043C\u0435\u0440\u0430"
+    sv-se: Anknytningar
+    uk-ua: "\u0420\u043E\u0437\u0448\u0438\u0440\u0435\u043D\u043D\u044F"
+    zh-cn: "\u6269\u5C55"
+    ja-jp: "\u62E1\u5F35\u6A5F\u80FD"
+    ko-kr: "\uD655\uC7A5 \uD504\uB85C\uADF8\uB7A8"
+  uuid: d3036a99-9a9f-2ad6-a82a-1fe7bebbe2d3
+  parent_uuid: bc96d773-ee57-0cdd-c3ac-2d91aba61b55
+  category: internal
+  icon: ""
+  path: /app/extensions/extensions.php
+  order: ""
+  groups:
+  - admin
+  - superadmin
+- title:
+    en-us: Fax Server
+    en-gb: Fax Server
+    ar-eg: "\u062E\u0627\u062F\u0645 \u0627\u0644\u0641\u0627\u0643\u0633"
+    de-at: Faxserver
+    de-ch: Faxserver
+    de-de: Faxserver
+    es-cl: Servidor de Fax
+    es-mx: Servidor de Fax
+    fr-ca: Serveur du fax
+    fr-fr: Serveur Fax
+    he-il: "\u05E9\u05E8\u05EA \u05E4\u05E7\u05E1\u05D9\u05DD"
+    it-it: Fax Server
+    nl-nl: Fax Server
+    pl-pl: Serwer faksowy
+    pt-br: Servidor de Fax
+    pt-pt: Servidor de Fax
+    ro-ro: Server de fax
+    ru-ru: "\u0421\u0435\u0440\u0432\u0435\u0440 \u0444\u0430\u043A\u0441\u043E\u0432"
+    sv-se: Fax Server
+    uk-ua: "\u0421\u0442\u0430\u0442\u0443\u0441 \u043D\u0430 \u0441\u0435\u0440\u0432\u0435\u0440\u0438"
+    zh-cn: "\u4F20\u771F\u670D\u52A1\u5668"
+    ja-jp: "\u30D5\u30A1\u30C3\u30AF\u30B9 \u30B5\u30FC\u30D0\u30FC"
+    ko-kr: "\uD329\uC2A4 \uC11C\uBC84"
+  uuid: 9c9642e4-2b9b-2785-18d0-6c0a4ede2b2f
+  parent_uuid: fd29e39c-c936-f5fc-8e2b-611681b266b5
+  category: internal
+  icon: ""
+  path: /app/fax/fax.php
+  order: ""
+  groups:
+  - user
+  - admin
+  - superadmin
+  - fax
+- title:
+    en-us: FAX Queue
+    en-gb: FAX Queue
+    ar-eg: "\u0642\u0627\u0626\u0645\u0629 \u0627\u0646\u062A\u0638\u0627\u0631 \u0627\u0644\u0641\u0627\u0643\u0633"
+    de-at: FAX Frage
+    de-ch: FAX Frage
+    de-de: FAX Frage
+    el-gr: "\u039F\u03C5\u03C1\u03AC FAX"
+    es-cl: Cola de FAX
+    es-mx: Cola de FAX
+    fr-ca: FAX Queue
+    fr-fr: FAX Queue
+    he-il: "\u05EA\u05D5\u05E8 \u05E4\u05E7\u05E1"
+    it-it: Coda FAX
+    nl-nl: Fax wachtrij
+    pl-pl: "Kolejka faks\xF3w"
+    pt-br: Fila de FAX
+    pt-pt: Fila de FAX
+    ro-ro: Coada de faxuri
+    ru-ru: "\u041E\u0447\u0435\u0440\u0435\u0434\u044C \u0444\u0430\u043A\u0441\u0430"
+    sv-se: "FAX-k\xF6"
+    uk-ua: "\u0424\u0410\u0421 \u041A\u043B\u0435\u0439"
+    zh-cn: "\u4F20\u771F\u961F\u5217"
+    ja-jp: "FAX \u30AD\u30E5\u30FC"
+    ko-kr: "\uD329\uC2A4 \uB300\uAE30\uC5F4"
+  uuid: 88fd4b3e-30b2-4514-be1d-6870aa97d652
+  parent_uuid: 0438b504-8613-7887-c420-c837ffb20cb1
+  category: internal
+  icon: ""
+  path: /app/fax_queue/fax_queue.php
+  order: ""
+  groups:
+  - superadmin
+- title:
+    en-us: Queues
+    en-gb: Queues
+    ar-eg: "\u0630\u064A\u0648\u0644"
+    de-at: Warteschlangen
+    de-ch: Warteschlangen
+    de-de: Warteschlangen
+    es-cl: Colas
+    es-mx: Colas
+    fr-ca: Queues
+    fr-fr: Queues
+    he-il: "\u05E4\u05E8\u05B8\u05D0\u05E7"
+    it-it: Code
+    nl-nl: Wachtrijen
+    pl-pl: Kolejki
+    pt-br: Caudas
+    pt-pt: Caudas
+    ro-ro: Cozi
+    ru-ru: "\u041E\u0447\u0435\u0440\u0435\u0434\u0438"
+    sv-se: Svansar
+    uk-ua: "\u041A\u043B\u0435\u0439"
+    zh-cn: "\u5C3E\u5DF4"
+    ja-jp: "\u30AD\u30E5\u30FC"
+    ko-kr: "\uAF2C\uB9AC"
+  uuid: c535ac0b-1da1-0f9c-4653-7934c6f4732c
+  parent_uuid: fd29e39c-c936-f5fc-8e2b-611681b266b5
+  category: internal
+  icon: ""
+  path: /app/dialplans/dialplans.php?app_uuid=16589224-c876-aeb3-f59f-523a1c0801f7
+  order: ""
+  groups:
+  - admin
+  - superadmin
+- title:
+    en-us: Active Queues
+    en-gb: Active Queues
+    ar-eg: "\u0627\u0644\u0646\u0634\u064A\u0637\u0629"
+    de-at: Aktive Warteschlangen
+    de-ch: Aktive Queues
+    de-de: Aktive Warteschlangen
+    es-cl: Colas activas
+    es-mx: Colas activas
+    fr-ca: Queues actives
+    fr-fr: Queues Actives
+    he-il: "\u05D4\u05DE\u05D5\u05E0\u05D7\u05D9\u05DD: Active Queues"
+    it-it: Code Attive
+    nl-nl: Aktieve wachtrijen
+    pl-pl: Aktywne kolejki
+    pt-br: Filas ativas
+    pt-pt: Filas Activas
+    ro-ro: Cozi active
+    ru-ru: "\u0410\u043A\u0442\u0438\u0432\u043D\u044B\u0435 \u041E\u0447\u0435\u0440\u0435\u0434\u0438"
+    sv-se: "Aktiva K\xF6er"
+    uk-ua: "\u0410\u043A\u0442\u0438\u0432\u043D\u0456 \u0447\u0435\u0440\u0433\u0438"
+    zh-cn: "\u6D3B\u52A8\u961F\u5217"
+    ja-jp: "\u30A2\u30AF\u30C6\u30A3\u30D6\u306A\u30AD\u30E5\u30FC"
+    ko-kr: "\uD65C\uC131 \uB300\uAE30\uC5F4"
+  uuid: 450f1225-9187-49ac-a119-87bc26025f7d
+  parent_uuid: 0438b504-8613-7887-c420-c837ffb20cb1
+  category: internal
+  icon: ""
+  path: /app/fifo_list/fifo_list.php
+  order: ""
+  groups:
+  - admin
+  - superadmin
+- title:
+    en-us: Follow Me
+    en-gb: Follow Me
+    ar-eg: "\u0627\u062A\u0628\u0639\u0646\u064A"
+    de-at: Follow Me
+    de-ch: Follow Me
+    de-de: Follow Me
+    es-cl: "S\xEDgueme"
+    es-mx: "S\xEDgueme"
+    fr-ca: Suis-moi.
+    fr-fr: Follow Me
+    he-il: "\u05E2\u05E7\u05D1\u05D5 \u05D0\u05D7\u05E8\u05D9 me"
+    it-it: Seguimi
+    nl-nl: Volg me
+    pl-pl: "Chod\u017A za mn\u0105"
+    pt-br: Siga-me
+    pt-pt: Siga-me
+    ro-ro: "Urma\u021Bi-m\u0103"
+    ru-ru: "\u0421\u043B\u0435\u0434\u0443\u0439 \u0437\u0430 \u043C\u043D\u043E\u0439"
+    sv-se: "F\xF6lj mig"
+    uk-ua: "\u041F\u0440\u043E \u043D\u0430\u0441"
+    zh-cn: "\u8DDF\u6211\u6765"
+    ja-jp: "\u30D5\u30A9\u30ED\u30FC\u3057\u3066\u304F\u3060\u3055\u3044"
+    ko-kr: "\uB098\uB97C \uB530\uB974\uB77C"
+  uuid: a1144e12-873e-4722-9818-02da1adb6ba3
+  parent_uuid: fd29e39c-c936-f5fc-8e2b-611681b266b5
+  category: internal
+  icon: ""
+  path: /app/call_forward/call_forward.php
+  order: ""
+  groups:
+  - superadmin
+  - admin
+  - user
+  - agent
+- title:
+    en-us: Gateways
+    en-gb: Gateways
+    ar-eg: "\u0627\u0644\u0628\u0648\u0627\u0628\u0627\u062A"
+    de-at: Gateways
+    de-de: Gateways
+    es-cl: Pasarelas
+    es-mx: Pasarelas
+    fr-ca: Passerelles
+    fr-fr: Passerelles
+    he-il: "\u05E9\u05E2\u05E8\u05D5\u05EA"
+    it-it: Gateways
+    nl-nl: Gateways
+    pl-pl: "Brama wyj\u015Bciowa "
+    pt-br: Troncos
+    pt-pt: Gateways
+    ro-ro: Gateway-uri
+    ru-ru: "\u0428\u043B\u044E\u0437\u044B"
+    sv-se: Gateways
+    uk-ua: "\u0428\u043B\u044E\u0437\u0438"
+    zh-cn: "\u7F51\u5173"
+    ja-jp: "\u30B2\u30FC\u30C8\u30A6\u30A7\u30A4"
+    ko-kr: "\uAC8C\uC774\uD2B8\uC6E8\uC774"
+  uuid: 237a512a-f8fe-1ce4-b5d7-e71c401d7159
+  parent_uuid: bc96d773-ee57-0cdd-c3ac-2d91aba61b55
+  category: internal
+  icon: ""
+  path: /app/gateways/gateways.php
+  order: ""
+  groups:
+  - superadmin
+- title:
+    en-us: GS Wave
+    en-gb: GS Wave
+    ar-eg: "\u062E \u0639 \u0645"
+    de-at: GS-Welle
+    de-de: GS-Welle
+    es-cl: GS Wave
+    es-mx: GS Wave
+    fr-ca: GS Wave
+    fr-fr: GS Wave
+    he-il: "\u05D2\u05DC GS"
+    it-it: GS Wave
+    nl-nl: GS Wave
+    pl-pl: GS Wave (ang.).
+    pt-br: Onda de GS
+    pt-pt: Onda de GS
+    ro-ro: GS Wave
+    ru-ru: GS Wave
+    sv-se: GS Wave
+    uk-ua: "GS \u0425\u0432\u0438\u043B\u044F"
+    zh-cn: "GS\u6CE2"
+    ja-jp: "GS\u306E\u6CE2"
+    ko-kr: "GS \uC6E8\uC774\uBE0C"
+  uuid: 4c737fd8-145e-4e1d-9662-20a5ba1e82e0
+  parent_uuid: fd29e39c-c936-f5fc-8e2b-611681b266b5
+  category: internal
+  icon: ""
+  path: /app/gswave/index.php
+  order: ""
+  groups:
+  - superadmin
+  - admin
+  - user
+- title:
+    en-us: IVR Menus
+    en-gb: IVR Menus
+    ar-eg: "\u0642\u0648\u0627\u0626\u0645 IVR"
+    de-at: Automatische Vermittlung
+    de-ch: Automatische Vermittlung
+    de-de: Automatische Vermittlung
+    fr-fr: IVR Menus
+    es-mx: "IVR Men\xFAs"
+    fr-ca: IVR Menus
+    he-il: "IVR \u05EA\u05E4\u05E8\u05D9\u05D8\u05D9\u05DD"
+    it-it: Menu IVR
+    nl-nl: IVR menu
+    pl-pl: "Zapowiedzi g\u0142osowe (IVR)"
+    pt-br: Menu de IVR
+    pt-pt: Menu de IVR
+    ro-ro: Meniuri IVR
+    ru-ru: "\u0413\u043E\u043B\u043E\u0441\u043E\u0432\u044B\u0435 \u043C\u0435\u043D\u044E
+      (IVR)"
+    sv-se: IVR Meny
+    uk-ua: "\u0412\u0456\u0434\u0435\u043E \u041A\u043E\u0448\u0438\u043A"
+    zh-cn: "IVR \u83DC\u5355"
+    ja-jp: "IVR \u30E1\u30CB\u30E5\u30FC"
+    ko-kr: "IVR \uBA54\uB274"
+  uuid: 72259497-a67b-e5aa-cac2-0f2dcef16308
+  parent_uuid: fd29e39c-c936-f5fc-8e2b-611681b266b5
+  category: internal
+  icon: ""
+  path: /app/ivr_menus/ivr_menus.php
+  order: ""
+  groups:
+  - admin
+  - superadmin
+- title:
+    en-us: Log Viewer
+    en-gb: Log Viewer
+    ar-eg: "\u0633\u062C\u0644 \u0627\u0644\u0645\u0634\u0627\u0647\u062F"
+    de-at: Log Betrachter
+    de-ch: Log Betrachter
+    de-de: Log Betrachter
+    es-cl: Visor de eventos
+    es-mx: Log Viewer
+    fr-ca: Log Viewer
+    fr-fr: Voir les Logs
+    he-il: "\u05D4\u05E6\u05D5\u05E4\u05D4 \u05D9\u05D5\u05DE\u05DF"
+    it-it: Log Viewer
+    nl-nl: Bekijk logs
+    pl-pl: "Podgl\u0105d log\xF3w"
+    pt-br: Visualizar Log
+    pt-pt: Visualizar Log
+    ro-ro: Vizualizator de jurnal
+    ru-ru: "\u041F\u0440\u043E\u0441\u043C\u043E\u0442\u0440 \u043B\u043E\u0433\u043E\u0432"
+    sv-se: Loggvisare
+    uk-ua: "\u041F\u0435\u0440\u0435\u0433\u043B\u044F\u0434\u0430\u0447 \u0436\u0443\u0440\u043D\u0430\u043B\u0443"
+    zh-cn: "\u65E5\u5FD7\u67E5\u770B\u5668"
+    ja-jp: "\u30ED\u30B0\u30D3\u30E5\u30FC\u30A2"
+    ko-kr: "\uB85C\uADF8 \uBDF0\uC5B4"
+  uuid: 781ebbec-a55a-9d60-f7bb-f54ab2ee4e7e
+  parent_uuid: 0438b504-8613-7887-c420-c837ffb20cb1
+  category: internal
+  icon: ""
+  path: /app/log_viewer/log_viewer.php
+  order: ""
+  groups:
+  - superadmin
+- title:
+    en-us: Modules
+    en-gb: Modules
+    ar-eg: "\u0627\u0644\u0648\u062D\u062F\u0627\u062A"
+    de-at: Module
+    de-de: Module
+    el-gr: "\u03A0\u03C1\u03CC\u03C3\u03B8\u03B5\u03C4\u03B1"
+    es-cl: "M\xF3dulos"
+    es-mx: "M\xF3dulos"
+    fr-ca: Modules
+    fr-fr: Modules
+    he-il: "\u05DE\u05D5\u05D3\u05D5\u05DC\u05D9\u05DD"
+    it-it: Moduli
+    nl-nl: Modulen
+    pl-pl: "Modu\u0142y"
+    pt-br: "M\xF3dulos"
+    pt-pt: Modulos
+    ro-ro: Module
+    ru-ru: "\u041C\u043E\u0434\u0443\u043B\u0438"
+    sv-se: Moduler
+    uk-ua: "\u041C\u043E\u0434\u0443\u043B\u0456"
+    zh-cn: "\u6A21\u5757"
+    ja-jp: "\u30E2\u30B8\u30E5\u30FC\u30EB"
+    ko-kr: "\uBAA8\uB4C8"
+  uuid: 49fdb4e1-5417-0e7a-84b3-eb77f5263ea7
+  parent_uuid: 594d99c5-6128-9c88-ca35-4b33392cec0f
+  category: internal
+  icon: ""
+  path: /app/modules/modules.php
+  order: ""
+  groups:
+  - superadmin
+- title:
+    en-us: Music on Hold
+    en-gb: Music on Hold
+    ar-eg: "\u0627\u0644\u0645\u0648\u0633\u064A\u0642\u0649 \u0645\u062A\u0648\u0642\u0641\u0629"
+    de-at: Wartemusik
+    de-de: Wartemusik
+    es-cl: "M\xFAsica en espera"
+    es-mx: "M\xFAsica en Hold"
+    fr-ca: Musique sur Hold
+    fr-fr: Musique d'attente
+    he-il: "\u05DE\u05D5\u05E1\u05D9\u05E7\u05D4 \u05D1\u05D4\u05DE\u05EA\u05E0\u05D4"
+    it-it: Musica d'attesa
+    nl-nl: Wachtmuziek
+    pl-pl: Muzyka na czekanie
+    pt-br: "M\xFAsica de espera"
+    pt-pt: Musica em Espera
+    ro-ro: "Muzic\u0103 \xEEn a\u0219teptare"
+    ru-ru: "\u041C\u0443\u0437\u044B\u043A\u0430 \u043D\u0430 \u0443\u0434\u0435\u0440\u0436\u0430\u043D\u0438\u0438"
+    sv-se: "V\xE4ntmusik"
+    uk-ua: "\u041C\u0443\u0437\u0438\u043A\u0430 \u043D\u0430 \u0443\u0442\u0440\u0438\u043C\u0430\u043D\u043D\u0456"
+    zh-cn: "\u4FDD\u7559\u97F3\u4E50"
+    ja-jp: "\u4FDD\u7559\u97F3"
+    ko-kr: "\uC74C\uC545 \uBCF4\uB958"
+  uuid: 1cd1d6cb-912d-db32-56c3-e0d5699feb9d
+  parent_uuid: fd29e39c-c936-f5fc-8e2b-611681b266b5
+  category: internal
+  icon: ""
+  path: /app/music_on_hold/music_on_hold.php
+  order: ""
+  groups:
+  - superadmin
+- title:
+    en-us: Number Translations
+    en-gb: Number Translations
+    ar-eg: "\u0639\u062F\u062F \u0627\u0644\u062A\u0631\u062C\u0645\u0629"
+    de-at: "Nummer \xDCbersetzung"
+    de-ch: "Nummer \xDCbersetzung"
+    de-de: "Nummer \xDCbersetzung"
+    es-cl: "Traducci\xF3n de n\xFAmeros"
+    es-mx: "Traducci\xF3n de n\xFAmeros"
+    fr-ca: Traductions de nombres
+    fr-fr: Traductions de nombres
+    he-il: "\u05EA\u05E8\u05D2\u05D5\u05DD \u05DE\u05E1\u05E4\u05E8"
+    it-it: Traduzione numero
+    nl-nl: Nummer Vertaling
+    pl-pl: "T\u0142umaczenie liczbowe"
+    pt-br: "Tradu\xE7\xE3o num\xE9rica"
+    pt-pt: "Tradu\xE7\xE3o num\xE9rica"
+    ro-ro: Traducerea numerelor
+    ru-ru: "\u041F\u0440\u0435\u043E\u0431\u0440\u0430\u0437\u043E\u0432\u0430\u043D\u0438\u0435
+      \u043D\u043E\u043C\u0435\u0440\u0430"
+    sv-se: "Antal \xF6vers\xE4ttning"
+    uk-ua: "\u043A\u0456\u043B\u044C\u043A\u0456\u0441\u0442\u044C \u043F\u0435\u0440\u0435\u043A\u043B\u0430\u0434\u0456\u0432"
+    zh-cn: "\u6570\u5B57\u7FFB\u8BD1"
+    ja-jp: "\u6570\u306E\u7FFB\u8A33"
+    ko-kr: "\uC22B\uC790 \uBC88\uC5ED"
+  uuid: 6ad5505c-4909-11e7-a919-92ebcb67fe33
+  parent_uuid: 594d99c5-6128-9c88-ca35-4b33392cec0f
+  category: internal
+  icon: ""
+  path: /app/number_translations/number_translations.php
+  order: ""
+  groups:
+  - superadmin
+- title:
+    en-us: Phrases
+    en-gb: Phrases
+    ar-eg: "\u0627\u0644\u0635\u064A\u063A\u0629"
+    de-at: Phrasen
+    de-de: Phrasen
+    es-cl: Grabaciones
+    es-mx: Frases
+    fr-ca: Phrases
+    fr-fr: Guides Vocaux
+    he-il: Phrases
+    it-it: Frasi
+    nl-nl: Uitspraken
+    pl-pl: Zwroty
+    pt-br: "Grava\xE7\xF5es"
+    pt-pt: "Grava\xE7\xF5es"
+    ro-ro: Expresii
+    ru-ru: "\u0424\u0440\u0430\u0437\u044B"
+    sv-se: Fraser
+    uk-ua: "\u0424\u0440\u0430\u0437\u0438"
+    zh-cn: "\u77ED\u8BED"
+    ja-jp: "\u30D5\u30EC\u30FC\u30BA"
+    ko-kr: "\uC2E4\uC5C6\uB294 \uB9D0"
+  uuid: a5caa6dc-a6d7-41c3-a484-e556ffd0d2ff
+  parent_uuid: fd29e39c-c936-f5fc-8e2b-611681b266b5
+  category: internal
+  icon: ""
+  path: /app/phrases/phrases.php
+  order: ""
+  groups:
+  - admin
+  - superadmin
+- title:
+    en-us: PIN Numbers
+    en-gb: PIN Numbers
+    ar-eg: "\u0623\u0631\u0642\u0627\u0645 PIN"
+    de-at: PIN Nummern
+    de-ch: PIN Nummern
+    de-de: PIN Nummern
+    es-cl: "N\xFAmeros de PIN"
+    es-mx: "N\xFAmeros de PIN"
+    fr-ca: "Num\xE9ros PIN"
+    fr-fr: "Num\xE9ros PIN"
+    he-il: "\u05DE\u05E1\u05E4\u05E8\u05D9\u05DD"
+    it-it: Numeri PIN
+    nl-nl: PIN codes
+    pl-pl: Numer PIN
+    pt-br: "N\xFAmeros de PIN"
+    pt-pt: "N\xFAmeros de PIN"
+    ro-ro: Numerele PIN
+    ru-ru: "PIN \u043A\u043E\u0434\u044B"
+    sv-se: PIN-nummer
+    uk-ua: "PIN \u041A\u0456\u043B\u044C\u043A\u0456\u0441\u0442\u044C"
+    zh-cn: "\u5BC6\u7801"
+    ja-jp: "\u6697\u8A3C\u756A\u53F7"
+    ko-kr: "PIN \uBC88\uD638"
+  uuid: 2e3d8f49-5beb-44a8-9617-0bffc5b418c2
+  parent_uuid: fd29e39c-c936-f5fc-8e2b-611681b266b5
+  category: internal
+  icon: ""
+  path: /app/pin_numbers/pin_numbers.php
+  order: ""
+- title:
+    en-us: Recordings
+    en-gb: Recordings
+    ar-eg: "\u0627\u0644\u0633\u062C\u0644\u0627\u062A"
+    de-at: Aufnahmen
+    de-de: Aufnahmen
+    es-cl: Grabaciones
+    es-mx: Grabaciones
+    fr-ca: Guides vocaux
+    fr-fr: Guides vocaux
+    he-il: "\u05D4\u05E7\u05DC\u05D8\u05D5\u05EA"
+    it-it: Registrazioni Audio
+    nl-nl: Opnamen
+    pl-pl: "Nagrywanie rozm\xF3w"
+    pt-br: "Grava\xE7\xF5es"
+    pt-pt: "Grava\xE7\xF5es"
+    ro-ro: "\xCEnregistr\u0103ri"
+    ru-ru: "\u0417\u0430\u043F\u0438\u0441\u0438"
+    sv-se: Inspelningar
+    uk-ua: "\u0417\u0430\u043F\u0438\u0441\u0438"
+    zh-cn: "\u5F55\u97F3"
+    ja-jp: "\u9332\u97F3"
+    ko-kr: "\uB179\uC74C"
+  uuid: e4290fd2-3ccc-a758-1714-660d38453104
+  parent_uuid: fd29e39c-c936-f5fc-8e2b-611681b266b5
+  category: internal
+  icon: ""
+  path: /app/recordings/recordings.php
+  order: ""
+  groups:
+  - admin
+  - superadmin
+- title:
+    en-us: Registrations
+    en-gb: Registrations
+    ar-eg: "\u0627\u0644\u062A\u0633\u062C\u064A\u0644\u0627\u062A"
+    de-at: Registrierungen
+    de-ch: Registrierungen
+    de-de: Registrierungen
+    es-cl: Registros
+    es-mx: Registros
+    fr-ca: Inscriptions
+    fr-fr: Enregistrements SIP
+    he-il: "\u05E8\u05D9\u05E9\u05D5\u05DE\u05D9\u05DD"
+    it-it: Registrazioni SIP
+    nl-nl: Registraties
+    pl-pl: Rejestracje
+    pt-br: Registros
+    pt-pt: Registos
+    ro-ro: "\xCEnregistr\u0103ri"
+    ru-ru: "\u0420\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u0438 SIP"
+    sv-se: Registreringar
+    uk-ua: "\u0420\u0435\u0454\u0441\u0442\u0440\u0430\u0446\u0456\u0457"
+    zh-cn: "\u767B\u8BB0"
+    ja-jp: "\u767B\u9332"
+    ko-kr: "\uB4F1\uB85D"
+  uuid: 17dbfd56-291d-8c1c-bc43-713283a9dd5a
+  parent_uuid: 0438b504-8613-7887-c420-c837ffb20cb1
+  category: internal
+  icon: ""
+  path: /app/registrations/registrations.php
+  order: ""
+  groups:
+  - admin
+  - superadmin
+- title:
+    en-us: Ring Groups
+    en-gb: Ring Groups
+    ar-eg: "\u0645\u062C\u0645\u0648\u0639\u0627\u062A \u062D\u0635\u0635 \u0627\u0644\u0625\u0639\u0627\u0634\u0629"
+    de-at: Rufgruppen
+    de-ch: Rufgruppen
+    de-de: Rufgruppen
+    es-cl: Grupo de llamados
+    es-mx: Grupos de timbre
+    fr-ca: Groupes Ring
+    fr-fr: Groupes de sonnerie
+    he-il: "\u05E7\u05D1\u05D5\u05E6\u05D5\u05EA \u05D7\u05D9\u05D5\u05D2"
+    it-it: Gruppi di Squillo
+    nl-nl: Bel groepen
+    pl-pl: "Grupy odbiorc\xF3w rozm\xF3w"
+    pt-br: Grupos de chamada
+    pt-pt: Grupos de Ring
+    ro-ro: Grupuri de apeluri
+    ru-ru: "\u0413\u0440\u0443\u043F\u043F\u044B \u0432\u044B\u0437\u043E\u0432\u043E\u0432"
+    sv-se: Ringgrupper
+    uk-ua: "\u0414\u0437\u0432\u0456\u043D\u043A\u043E\u0432\u0456 \u0433\u0440\u0443\u043F\u0438"
+    zh-cn: "\u632F\u94C3\u7EC4"
+    ja-jp: "\u7740\u4FE1\u30B0\u30EB\u30FC\u30D7"
+    ko-kr: "\uC804\uD654 \uC218\uC2E0 \uADF8\uB8F9"
+  uuid: b30f085f-3ec6-2819-7e62-53dfba5cb8d5
+  parent_uuid: fd29e39c-c936-f5fc-8e2b-611681b266b5
+  category: internal
+  icon: ""
+  path: /app/ring_groups/ring_groups.php
+  order: ""
+  groups:
+  - superadmin
+  - admin
+- title:
+    en-us: Settings
+    en-gb: Settings
+    ar-eg: "\u0627\u0644\u062A\u0631\u062A\u064A\u0628\u0627\u062A"
+    de-at: Einstellungen
+    de-de: Einstellungen
+    es-cl: Configuraciones
+    es-mx: Ajustes
+    fr-ca: "R\xE9glages"
+    fr-fr: Configuration
+    he-il: "\u05D4\u05D2\u05D3\u05E8\u05D5\u05EA \u05D4\u05D2\u05D3\u05E8\u05D5\u05EA"
+    it-it: Parametri
+    nl-nl: Instellingen
+    pl-pl: Ustawienia
+    pt-br: "Defini\xE7\xF5es"
+    pt-pt: "Defini\xE7\xF5es"
+    ro-ro: "Set\u0103ri"
+    ru-ru: "\u041A\u043E\u043D\u0444\u0438\u0433\u0443\u0440\u0430\u0446\u0438\u044F"
+    sv-se: "Inst\xE4llningar"
+    uk-ua: "\u041D\u0430\u043B\u0430\u0448\u0442\u0443\u0432\u0430\u043D\u043D\u044F"
+    zh-cn: "\u8BBE\u7F6E"
+    ja-jp: "\u8A2D\u5B9A"
+    ko-kr: "\uC124\uC815"
+  uuid: 148ea42a-3711-3d64-181b-07a6a3c3ed60
+  parent_uuid: 594d99c5-6128-9c88-ca35-4b33392cec0f
+  category: internal
+  icon: ""
+  path: /app/settings/setting_edit.php
+  order: ""
+  groups:
+  - superadmin
+- title:
+    en-us: SIP Profiles
+    en-gb: SIP Profiles
+    ar-eg: "\u0645\u0644\u0641\u0627\u062A \u062A\u0639\u0631\u064A\u0641 SIP"
+    de-at: SIP Profile
+    de-ch: SIP Profile
+    de-de: SIP Profile
+    es-cl: Perfiles SIP
+    es-mx: Perfiles SIP
+    fr-ca: Profils SIP
+    fr-fr: Profiles SIP
+    he-il: "\u05E4\u05E8\u05D5\u05E4\u05D9\u05DC\u05D9\u05DD SIP"
+    it-it: Profili SIP
+    nl-nl: SIP Profielen
+    pl-pl: Profile SIP
+    pt-br: Perfis SIP
+    pt-pt: Perfis SIP
+    ro-ro: Profiluri SIP
+    ru-ru: "\u041F\u0440\u043E\u0444\u0438\u043B\u0438 SIP"
+    sv-se: SIP Profiler
+    uk-ua: "SIP \u043F\u0440\u043E\u0444\u0456\u043B\u0456"
+    zh-cn: "SIP \u914D\u7F6E\u6587\u4EF6"
+    ja-jp: "SIP \u30D7\u30ED\u30D5\u30A1\u30A4\u30EB"
+    ko-kr: "SIP \uD504\uB85C\uD544"
+  uuid: 47014b1d-13ad-921c-313d-ca42c0424b37
+  parent_uuid: 594d99c5-6128-9c88-ca35-4b33392cec0f
+  category: internal
+  icon: ""
+  path: /app/sip_profiles/sip_profiles.php
+  order: ""
+  groups:
+  - superadmin
+- title:
+    en-us: SIP Status
+    es-cl: Estado de SIP
+    de-de: SIP Status
+    de-ch: SIP Status
+    de-at: SIP Status
+    fr-fr: Statut SIP
+    fr-ca: "SIP \xC9tat"
+    fr-ch: LCR
+    pt-pt: Estado do SIP
+    pt-br: Estado do SIP
+    en-gb: SIP Status
+    ar-eg: "SIP \u0627\u0644\u062D\u0627\u0644\u0629"
+    es-mx: "SIP Situaci\xF3n"
+    he-il: "SIP \u05E1\u05D8\u05D8\u05D5\u05E1"
+    it-it: Stato SIP
+    nl-nl: SIP Status
+    pl-pl: Status SIP
+    ro-ro: Stare SIP
+    ru-ru: "\u0421\u0442\u0430\u0442\u0443\u0441 SIP"
+    sv-se: SIP Status
+    uk-ua: "\u0421\u0442\u0430\u043D SIP"
+    zh-cn: "SIP \u73B0\u51B5"
+    ja-jp: "SIP \u30B9\u30C6\u30FC\u30BF\u30B9"
+    ko-kr: "SIP \uC0C1\uD0DC"
+  uuid: b7aea9f7-d3cf-711f-828e-46e56e2e5328
+  parent_uuid: 0438b504-8613-7887-c420-c837ffb20cb1
+  category: internal
+  path: /app/sip_status/sip_status.php
+  groups:
+  - superadmin
+  - admin
+  - user
+  - superadmin
+  icon: ""
+  order: ""
+- title:
+    en-us: Streams
+    en-gb: Streams
+    ar-eg: "\u062A\u064A\u0627\u0631\u0627\u062A"
+    de-at: "Str\xF6me"
+    de-ch: "Str\xF6me"
+    de-de: "Str\xF6me"
+    el-gr: "\u03A1\u03B5\u03CD\u03BC\u03B1\u03C4\u03B1"
+    es-cl: Corrientes
+    es-mx: Corrientes
+    fr-ca: Ruisseaux
+    fr-fr: Ruisseaux
+    he-il: "\u05D6\u05E8\u05DE\u05D9\u05DD"
+    it-it: Flussi
+    nl-nl: Stromen
+    pl-pl: Strumienie
+    pt-br: Fluxos
+    pt-pt: Fluxos
+    ro-ro: Fluxuri
+    ru-ru: "\u041F\u043E\u0442\u043E\u043A"
+    sv-se: "Str\xF6mmar"
+    uk-ua: "\u041F\u043E\u0442\u043E\u043A\u0438"
+    zh-cn: "\u6EAA\u6D41"
+    ja-jp: "\u30B9\u30C8\u30EA\u30FC\u30E0"
+    ko-kr: "\uC2A4\uD2B8\uB9BC"
+  uuid: c9762b7a-a809-444c-96db-f80f0c2bb36f
+  parent_uuid: fd29e39c-c936-f5fc-8e2b-611681b266b5
+  category: internal
+  icon: ""
+  path: /app/streams/streams.php
+  order: ""
+  groups:
+  - superadmin
+- title:
+    en-us: System Status
+    en-gb: System Status
+    ar-eg: "\u0627\u0644\u0646\u0638\u0627\u0645"
+    de-at: Systemstatus
+    de-ch: Systemstatus
+    de-de: Systemstatus
+    es-cl: Estado de Sistema
+    es-mx: "Situaci\xF3n del sistema"
+    fr-ca: "\xC9tat du syst\xE8me"
+    fr-fr: "Etat Syst\xE8me"
+    he-il: "\u05DE\u05E6\u05D1 \u05DE\u05E2\u05E8\u05DB\u05EA"
+    it-it: Stato Sistema
+    nl-nl: Systeem Status
+    pl-pl: Stan systemu
+    pt-br: Estado do sistema
+    pt-pt: Estado do Sistema
+    ro-ro: Starea sistemului
+    ru-ru: "\u0421\u043E\u0441\u0442\u043E\u044F\u043D\u0438\u0435 c\u0438\u0441\u0442\u0435\u043C\u044B"
+    sv-se: System Status
+    uk-ua: "\u0421\u0442\u0430\u043D \u0441\u0438\u0441\u0442\u0435\u043C\u0438 "
+    zh-cn: "\u7CFB\u7EDF\u72B6\u51B5"
+    ja-jp: "\u30B7\u30B9\u30C6\u30E0\u30B9\u30C6\u30FC\u30BF\u30B9"
+    ko-kr: "\uC2DC\uC2A4\uD15C \uC0C1\uD0DC"
+  uuid: 5243e0d2-0e8b-277a-912e-9d8b5fcdb41d
+  parent_uuid: 0438b504-8613-7887-c420-c837ffb20cb1
+  category: internal
+  icon: ""
+  path: /app/system/system.php
+  order: ""
+  groups:
+  - superadmin
+- title:
+    en-us: Time Conditions
+    en-gb: Time Conditions
+    ar-eg: "\u0627\u0644\u0638\u0631\u0648\u0641 \u0627\u0644\u0632\u0645\u0646\u064A\u0629"
+    de-at: Zeitschaltung
+    de-de: Zeitschaltung
+    es-cl: Condic. de Tiempo
+    es-mx: Condiciones del tiempo
+    fr-ca: Heures
+    fr-fr: Conditions Temporelles
+    he-il: "\u05EA\u05E0\u05D0\u05D9 \u05D6\u05DE\u05DF"
+    it-it: Condizioni Temporali
+    nl-nl: Tijdcondities
+    pl-pl: Warunki czasowe
+    pt-br: "Condi\xE7\xF5es temporarias"
+    pt-pt: "Condi\xE7\xF5es Temporais"
+    ro-ro: "Condi\u021Bii de timp"
+    ru-ru: "\u0423\u0441\u043B\u043E\u0432\u0438\u044F \u043F\u043E \u0432\u0440\u0435\u043C\u0435\u043D\u0438"
+    sv-se: Tidsstyrning
+    uk-ua: "\u0427\u0430\u0441\u043E\u0432\u0456 \u0443\u043C\u043E\u0432\u0438"
+    zh-cn: "\u65F6\u95F4\u6761\u4EF6"
+    ja-jp: "\u6642\u9593\u6761\u4EF6"
+    ko-kr: "\uC2DC\uAC04 \uC870\uAC74"
+  uuid: 67aede56-8623-df2d-6338-ecfbde5825f7
+  parent_uuid: fd29e39c-c936-f5fc-8e2b-611681b266b5
+  category: internal
+  icon: ""
+  path: /app/time_conditions/time_conditions.php
+  order: ""
+  groups:
+  - admin
+  - superadmin
+- title:
+    en-us: Variables
+    en-gb: Variables
+    ar-eg: "\u0627\u0644\u0641\u0631\u0648\u0642"
+    de-at: Variablen
+    de-ch: Variablen
+    de-de: Variablen
+    es-cl: Variables
+    es-mx: Variables
+    fr-ca: Variables
+    fr-fr: Variables
+    he-il: "\u05DE\u05E9\u05EA\u05E0\u05D9\u05DD"
+    it-it: Variabili
+    nl-nl: Variabelen
+    pl-pl: Zmienne
+    pt-br: "Vari\xE1veis"
+    pt-pt: "Vari\xE1veis"
+    ro-ro: Variabile
+    ru-ru: "\u041F\u0435\u0440\u0435\u043C\u0435\u043D\u043D\u044B\u0435"
+    sv-se: Variabler
+    uk-ua: "\u0417\u043C\u0456\u043D\u043D\u0456"
+    zh-cn: "\u53D8\u91CF"
+    ja-jp: "\u5909\u6570"
+    ko-kr: "\uBCC0\uC218"
+  uuid: 7a4e9ec5-24b9-7200-89b8-d70bf8afdd8f
+  parent_uuid: 594d99c5-6128-9c88-ca35-4b33392cec0f
+  category: internal
+  icon: ""
+  path: /app/vars/vars.php
+  order: ""
+  groups:
+  - superadmin
+- title:
+    en-us: Voicemail
+    en-gb: Voicemail
+    ar-eg: "\u0627\u0644\u0628\u0631\u064A\u062F \u0627\u0644\u0635\u0648\u062A\u064A"
+    de-at: Sprachnachrichten
+    de-ch: Sprachnachrichten
+    de-de: Sprachnachrichten
+    es-cl: Mensaje de voz
+    es-mx: Mensaje de voz
+    fr-ca: Messagerie vocale
+    fr-fr: Messagerie Vocale
+    he-il: "\u05EA\u05D0 \u05E7\u05D5\u05DC\u05D9"
+    it-it: Caselle Vocali
+    nl-nl: Antwoordapparaat
+    pl-pl: "Poczta g\u0142osowa"
+    pt-br: Correio de voz
+    pt-pt: Correio de voz
+    ro-ro: "Mesageria vocal\u0103"
+    ru-ru: "\u0413\u043E\u043B\u043E\u0441\u043E\u0432\u0430\u044F \u043F\u043E\u0447\u0442\u0430"
+    sv-se: "R\xF6stbrevl\xE5da"
+    uk-ua: "\u0413\u043E\u043B\u043E\u0441\u043E\u0432\u0430 \u043F\u043E\u0448\u0442\u0430"
+    zh-cn: "\u8BED\u97F3\u4FE1\u7BB1"
+    ja-jp: "\u30DC\u30A4\u30B9\u30E1\u30FC\u30EB"
+    ko-kr: "\uC74C\uC131\uC0AC\uC11C\uD568"
+  uuid: 0347f82a-62a0-49d0-bacd-511d080c46d5
+  parent_uuid: fd29e39c-c936-f5fc-8e2b-611681b266b5
+  category: internal
+  icon: ""
+  path: /app/voicemails/voicemails.php
+  order: ""
+  groups:
+  - superadmin
+  - admin
+- title:
+    en-us: Voicemail
+    en-gb: Voicemail
+    ar-eg: "\u0627\u0644\u0628\u0631\u064A\u062F \u0627\u0644\u0635\u0648\u062A\u064A"
+    de-at: Sprachnachrichten
+    de-de: Sprachnachrichten
+    es-cl: Mensaje de voz
+    es-mx: Mensaje de voz
+    fr-ca: Messagerie vocale
+    fr-fr: Messagerie Vocale
+    he-il: "\u05EA\u05D0 \u05E7\u05D5\u05DC\u05D9"
+    it-it: Caselle Vocali
+    nl-nl: Antwoordapparaat
+    pl-pl: "Poczta g\u0142osowa"
+    pt-br: Correio de voz
+    pt-pt: Correio de voz
+    ro-ro: "Mesageria vocal\u0103"
+    ru-ru: "\u0413\u043E\u043B\u043E\u0441\u043E\u0432\u0430\u044F \u043F\u043E\u0447\u0442\u0430"
+    sv-se: "R\xF6stbrevl\xE5da"
+    uk-ua: "\u0413\u043E\u043B\u043E\u0441\u043E\u0432\u0430 \u043F\u043E\u0448\u0442\u0430"
+    zh-cn: "\u8BED\u97F3\u4FE1\u7BB1"
+    ja-jp: "\u30DC\u30A4\u30B9\u30E1\u30FC\u30EB"
+    ko-kr: "\uC74C\uC131\uC0AC\uC11C\uD568"
+  uuid: b8277aba-8697-41e2-aeae-48979b4d4d24
+  parent_uuid: fd29e39c-c936-f5fc-8e2b-611681b266b5
+  category: internal
+  icon: ""
+  path: /app/voicemails/voicemail_messages.php
+  order: ""
+  groups:
+  - user
+- title:
+    en-us: Call Detail Records
+    en-gb: Call Detail Records
+    ar-eg: "\u0633\u062C\u0644\u0627\u062A \u062A\u0641\u0627\u0635\u064A\u0644 \u0627\u0644\u0645\u0643\u0627\u0644\u0645\u0627\u062A"
+    de-at: "Meine Gespr\xE4che"
+    de-de: "Meine Gespr\xE4che"
+    es-cl: Registro de detalle de llamada
+    es-mx: Call Detail Records
+    fr-ca: Call Detail Records
+    fr-fr: Historiques Appels
+    he-il: "\u05E7\u05E8\u05D0 \u05E8\u05E9\u05D5\u05DE\u05D5\u05EA \u05DE\u05E4\u05D5\u05E8\u05D8\u05D5\u05EA"
+    it-it: Dettaglio Chiamate
+    nl-nl: Gespreks data (CDR)
+    pl-pl: "Wykaz rozm\xF3w"
+    pt-br: "Detalhes das grava\xE7\xF5es de voz"
+    pt-pt: "Detalhes das Grava\xE7\xF5es de Voz"
+    ro-ro: "\xCEnregistr\u0103ri de detalii apel"
+    ru-ru: "\u0414\u0435\u0442\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F \u0432\u044B\u0437\u043E\u0432\u043E\u0432"
+    sv-se: Detaljerad Samtalsinformation
+    uk-ua: "\u0414\u0435\u0442\u0430\u043B\u0456\u0437\u0430\u0446\u0456\u044F \u0434\u0437\u0432\u0456\u043D\u043A\u0456\u0432"
+    zh-cn: "\u901A\u8BDD\u8BE6\u60C5\u8BB0\u5F55"
+    ja-jp: "\u901A\u8A71\u8A73\u7D30\u8A18\u9332"
+    ko-kr: "\uD1B5\uD654 \uB0B4\uC5ED \uAE30\uB85D"
+  uuid: 8f80e71a-31a5-6432-47a0-7f5a7b271f05
+  parent_uuid: fd29e39c-c936-f5fc-8e2b-611681b266b5
+  category: internal
+  icon: ""
+  path: /app/xml_cdr/xml_cdr.php
+  order: ""
+  groups:
+  - user
+  - admin
+  - superadmin
+- title:
+    en-us: CDR Statistics
+    en-gb: CDR Statistics
+    ar-eg: "CDR \u0627\u0644\u0625\u062D\u0635\u0627\u0621\u0627\u062A"
+    de-at: Anruf Statistik
+    de-de: Anruf Statistik
+    es-cl: Statistics CDR
+    es-mx: "CDR Estad\xEDsticas"
+    fr-ca: CDR Statistiques
+    fr-fr: Statistiques CDR
+    he-il: "CDR \u05E1\u05D8\u05D8\u05D9\u05E1\u05D8\u05D9\u05E7\u05D5\u05EA"
+    it-it: Statistiche Chiamate
+    nl-nl: Gespreks statistiek
+    pl-pl: "Statystyki wykazu rozm\xF3w"
+    pt-br: Estatisticas do CDR
+    pt-pt: Statistics CDR
+    ro-ro: Statistica CDR
+    ru-ru: "\u0421\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043A\u0430 CDR"
+    sv-se: CDR Statistik
+    uk-ua: "\u0421\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043A\u0430"
+    zh-cn: "CDR \u7EDF\u8BA1"
+    ja-jp: "CDR \u7D71\u8A08"
+    ko-kr: "CDR \uD1B5\uACC4"
+  uuid: 032887d2-2315-4e10-b3a2-8989f719c80c
+  parent_uuid: 0438b504-8613-7887-c420-c837ffb20cb1
+  category: internal
+  icon: ""
+  path: /app/xml_cdr/xml_cdr_statistics.php
+  order: ""
+  groups:
+  - admin
+  - superadmin
+- title:
+    en-us: Extension Summary
+    en-gb: Extension Summary
+    ar-eg: "\u0645\u0644\u062E\u0635 \u0627\u0644\u062A\u0645\u062F\u064A\u062F"
+    de-at: Nebenstellen Statistik
+    de-de: Nebenstellen Statistik
+    es-cl: "Resumen de extensi\xF3n"
+    es-mx: "Resumen de extensi\xF3n"
+    fr-ca: "R\xE9sum\xE9 de l'Extension"
+    fr-fr: "R\xE9sum\xE9 de l'Extension"
+    he-il: "\u05E1\u05D9\u05DB\u05D5\u05DD \u05E9\u05DC\u05D5\u05D7\u05D5\u05EA"
+    it-it: Riassunto Interni
+    nl-nl: Toestel samenvatting
+    pl-pl: "Podsumowanie numer\xF3w wewn\u0119trznych"
+    pt-br: "Extens\xE3o do sum\xE1rio"
+    pt-pt: Extension Summary
+    ro-ro: Rezumatul extensiei
+    ru-ru: "\u041E\u0431\u0449\u0430\u044F \u043F\u043E \u0432\u043D\u0443\u0442\u0440\u0435\u043D\u043D\u0438\u043C
+      \u043D\u043E\u043C\u0435\u0440\u0430\u043C"
+    sv-se: Anknytnings Summering
+    uk-ua: "\u0420\u043E\u0437\u0448\u0438\u0440\u0435\u043D\u043D\u044F \u0440\u0435\u0437\u044E\u043C\u0435"
+    zh-cn: "\u6269\u5C55\u6458\u8981"
+    ja-jp: "\u62E1\u5F35\u6A5F\u80FD\u306E\u6982\u8981"
+    ko-kr: "\uD655\uC7A5 \uC694\uC57D"
+  uuid: 4e45a3c1-6db5-417f-9abb-1d30a4fd0bf2
+  parent_uuid: 0438b504-8613-7887-c420-c837ffb20cb1
+  category: internal
+  icon: ""
+  path: /app/xml_cdr/xml_cdr_extension_summary.php
+  order: ""
+  groups:
+  - admin
+  - superadmin
+...

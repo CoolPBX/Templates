@@ -1,0 +1,3145 @@
+---
+- name: dashboard_view
+  groups:
+  - superadmin
+- name: dashboard_add
+  groups:
+  - superadmin
+- name: dashboard_edit
+  groups:
+  - superadmin
+- name: dashboard_delete
+  groups:
+  - superadmin
+- name: dashboard_all
+  groups:
+  - superadmin
+- name: dashboard_group_view
+  groups:
+  - superadmin
+- name: dashboard_group_add
+  groups:
+  - superadmin
+- name: dashboard_group_edit
+  groups:
+  - superadmin
+- name: dashboard_group_delete
+  groups:
+  - superadmin
+- name: dashboard_group_all
+  groups:
+  - superadmin
+- name: database_view
+  menu:
+    uuid: ebbd754d-ca74-d5b1-a77e-9206ba3ecc3f
+  groups:
+  - superadmin
+- name: database_add
+  groups:
+  - superadmin
+- name: database_edit
+  groups:
+  - superadmin
+- name: database_delete
+  groups:
+  - superadmin
+- name: default_setting_view
+  menu:
+    uuid: 834b2739-9e99-4345-9b0b-7ec3ca332b67
+  groups:
+  - superadmin
+- name: default_setting_add
+  groups:
+  - superadmin
+- name: default_setting_edit
+  groups:
+  - superadmin
+- name: default_setting_delete
+  groups:
+  - superadmin
+- name: domain_setting_view
+  groups:
+  - superadmin
+- name: domain_setting_add
+  groups:
+  - superadmin
+- name: domain_setting_edit
+  groups:
+  - superadmin
+- name: domain_setting_delete
+  groups:
+  - superadmin
+- name: domain_setting_category_edit
+  groups:
+  - superadmin
+- name: domain_view
+  menu:
+    uuid: 4fa7e90b-6d6c-12d4-712f-62857402b801
+  groups:
+  - superadmin
+- name: domain_add
+  groups:
+  - superadmin
+- name: domain_edit
+  groups:
+  - superadmin
+- name: domain_delete
+- name: domain_all
+  groups:
+  - superadmin
+- name: domain_select
+  groups:
+  - superadmin
+- name: group_view
+  menu:
+    uuid: 3b4acc6d-827b-f537-bf21-0093d94ffec7
+  groups:
+  - admin
+  - superadmin
+- name: group_add
+  groups:
+  - superadmin
+- name: group_edit
+  groups:
+  - superadmin
+- name: group_delete
+  groups:
+  - superadmin
+- name: group_domain
+  groups:
+  - superadmin
+- name: group_all
+  groups:
+  - superadmin
+- name: group_global
+  groups:
+  - superadmin
+- name: group_member_view
+  menu:
+    uuid: 3b4acc6d-827b-f537-bf21-0093d94ffec7
+  groups:
+  - admin
+  - superadmin
+- name: group_member_add
+  groups:
+  - superadmin
+- name: group_member_delete
+  groups:
+  - superadmin
+- name: group_permissions
+  groups:
+  - superadmin
+- name: group_permission_view
+  menu:
+    uuid: 3b4acc6d-827b-f537-bf21-0093d94ffec7
+  groups:
+  - superadmin
+- name: group_permission_add
+  groups:
+  - superadmin
+- name: group_permission_edit
+  groups:
+  - superadmin
+- name: group_permission_delete
+  groups:
+  - superadmin
+- name: view_groups
+  groups:
+  - superadmin
+- name: menu_view
+  groups:
+  - superadmin
+- name: menu_add
+  groups:
+  - superadmin
+- name: menu_edit
+  groups:
+  - superadmin
+- name: menu_delete
+  groups:
+  - superadmin
+- name: menu_restore
+  groups:
+  - superadmin
+- name: menu_item_view
+  groups:
+  - superadmin
+- name: menu_item_add
+  groups:
+  - superadmin
+- name: menu_item_edit
+  groups:
+  - superadmin
+- name: menu_item_delete
+  groups:
+  - superadmin
+- name: menu_item_group_view
+  groups:
+  - superadmin
+- name: menu_item_group_add
+  groups:
+  - superadmin
+- name: menu_item_group_edit
+  groups:
+  - superadmin
+- name: menu_item_group_delete
+  groups:
+  - superadmin
+- name: menu_language_view
+  groups:
+  - superadmin
+- name: menu_language_add
+  groups:
+  - superadmin
+- name: menu_language_edit
+  groups:
+  - superadmin
+- name: menu_language_delete
+  groups:
+  - superadmin
+- name: permission_view
+  groups:
+  - superadmin
+- name: permission_add
+  groups:
+  - superadmin
+- name: permission_edit
+  groups:
+  - superadmin
+- name: permission_delete
+  groups:
+  - superadmin
+- name: permission_all
+  groups:
+  - superadmin
+- name: upgrade_source
+  menu:
+    uuid: 71051909-81ff-4301-9997-52b11206b3a6
+  groups:
+  - superadmin
+- name: upgrade_schema
+  menu:
+    uuid: 8c826e92-be3c-0944-669a-24e5b915d562
+  groups:
+  - superadmin
+- name: upgrade_apps
+  menu:
+    uuid: e7bb1296-3141-48c9-a95a-82d2768d0ae4
+  groups:
+  - superadmin
+- name: upgrade_switch
+  groups:
+  - superadmin
+- name: user_log_view
+  groups:
+  - superadmin
+- name: user_log_all
+  groups:
+  - superadmin
+- name: user_log_delete
+- name: user_setting_view
+  groups:
+  - superadmin
+  - admin
+- name: user_setting_add
+  groups:
+  - superadmin
+  - admin
+- name: user_setting_edit
+  groups:
+  - superadmin
+  - admin
+- name: user_setting_delete
+  groups:
+  - superadmin
+  - admin
+- name: user_setting_category_edit
+  groups:
+  - superadmin
+- name: user_view
+  menu:
+    uuid: 0d57cc1e-1874-47b9-7ddd-fe1f57cec99b
+  groups:
+  - admin
+  - superadmin
+- name: user_add
+  groups:
+  - admin
+  - superadmin
+- name: user_edit
+  groups:
+  - admin
+  - superadmin
+- name: user_delete
+  groups:
+  - admin
+  - superadmin
+- name: user_groups
+  groups:
+  - admin
+  - superadmin
+- name: user_domain
+  groups:
+  - superadmin
+- name: user_all
+  groups:
+  - superadmin
+- name: user_import
+  groups:
+  - superadmin
+- name: user_group_view
+  menu:
+    uuid: 3b4acc6d-827b-f537-bf21-0093d94ffec7
+  groups:
+  - superadmin
+  - admin
+- name: user_group_add
+  groups:
+  - superadmin
+  - admin
+- name: user_group_edit
+  groups:
+  - superadmin
+  - admin
+- name: user_group_delete
+  groups:
+  - superadmin
+  - admin
+- name: api_key
+  groups:
+  - superadmin
+- name: view_users
+  groups:
+  - superadmin
+- name: access_control_view
+  groups:
+  - superadmin
+- name: access_control_add
+  groups:
+  - superadmin
+- name: access_control_edit
+  groups:
+  - superadmin
+- name: access_control_delete
+  groups:
+  - superadmin
+- name: access_control_node_view
+  groups:
+  - superadmin
+- name: access_control_node_add
+  groups:
+  - superadmin
+- name: access_control_node_edit
+  groups:
+  - superadmin
+- name: access_control_node_delete
+  groups:
+  - superadmin
+- name: operator_panel_view
+  groups:
+  - superadmin
+  - admin
+- name: operator_panel_manage
+  groups:
+  - superadmin
+  - admin
+- name: operator_panel_eavesdrop
+  groups:
+  - superadmin
+  - admin
+- name: operator_panel_hangup
+  groups:
+  - superadmin
+  - admin
+- name: operator_panel_record
+  groups:
+  - superadmin
+  - admin
+- name: operator_panel_call_details
+  groups:
+  - superadmin
+  - admin
+- name: operator_panel_on_demand
+- name: billing_view
+  menu:
+    uuid: 6ebe753b-0f83-dc34-1c0b-51df2c6f0c3b
+  groups:
+  - superadmin
+  - admin
+  - user
+- name: billing_add
+  groups:
+  - superadmin
+- name: billing_edit
+  groups:
+  - superadmin
+- name: billing_item_view
+  groups:
+  - superadmin
+- name: billing_item_add
+  groups:
+  - superadmin
+- name: billing_item_edit
+  groups:
+  - superadmin
+- name: billing_item_delete
+  groups:
+  - superadmin
+- name: billing_delete
+  groups:
+  - superadmin
+- name: billing_deal_view
+  groups:
+  - superadmin
+- name: billing_deal_add
+  groups:
+  - superadmin
+- name: billing_deal_delete
+  groups:
+  - superadmin
+- name: billing_deal_edit
+  groups:
+  - superadmin
+- name: billing_card_view
+  groups:
+  - superadmin
+- name: billing_card_delete
+  groups:
+  - superadmin
+- name: bridge_view
+  groups:
+  - superadmin
+- name: bridge_add
+  groups:
+  - superadmin
+- name: bridge_edit
+  groups:
+  - superadmin
+- name: bridge_delete
+  groups:
+  - superadmin
+- name: bridge_all
+  groups:
+  - superadmin
+- name: bridge_destinations
+  groups:
+  - superadmin
+  - admin
+- name: call_block_view
+  menu:
+    uuid: 29295c90-b1b9-440b-9c7E-c8363c6e8975
+  groups:
+  - superadmin
+  - admin
+  - user
+- name: call_block_add
+  groups:
+  - superadmin
+  - admin
+  - user
+- name: call_block_edit
+  groups:
+  - superadmin
+  - admin
+  - user
+- name: call_block_delete
+  groups:
+  - superadmin
+  - admin
+  - user
+- name: call_block_all
+  groups:
+  - superadmin
+  - admin
+- name: call_block_extension
+  groups:
+  - superadmin
+  - admin
+- name: call_block_ivr
+  groups:
+  - superadmin
+  - admin
+- name: call_block_ring_group
+  groups:
+  - superadmin
+  - admin
+- name: call_block_voicemail
+  groups:
+  - superadmin
+  - admin
+- name: view_call_block
+  groups:
+  - superadmin
+- name: call_broadcast_view
+  menu:
+    uuid: 50153bbf-78c5-b49e-7bd9-4b3e4b1134e6
+  groups:
+  - admin
+  - superadmin
+- name: call_broadcast_add
+  groups:
+  - admin
+  - superadmin
+- name: call_broadcast_edit
+  groups:
+  - admin
+  - superadmin
+- name: call_broadcast_delete
+  groups:
+  - admin
+  - superadmin
+- name: call_broadcast_all
+  groups:
+  - superadmin
+- name: call_broadcast_send
+  groups:
+  - admin
+  - superadmin
+- name: call_broadcast_start_time
+  groups:
+  - admin
+  - superadmin
+- name: call_broadcast_accountcode
+  groups:
+  - superadmin
+- name: call_broadcast_timeout
+  groups:
+  - admin
+  - superadmin
+- name: call_broadcast_concurrent_limit
+  groups:
+  - admin
+  - superadmin
+- name: call_broadcast_caller_id
+  groups:
+  - admin
+  - superadmin
+- name: call_broadcast_destination_number
+  groups:
+  - admin
+  - superadmin
+- name: call_broadcast_phone_numbers
+  groups:
+  - admin
+  - superadmin
+- name: call_broadcast_voicemail_detection
+  groups:
+  - admin
+  - superadmin
+- name: call_broadcast_toll_allow
+  groups:
+  - admin
+  - superadmin
+- name: call_center_active_view
+  menu:
+    uuid: 7fb0dd87-e984-9980-c512-2c76b887aeb2
+  groups:
+  - admin
+  - superadmin
+- name: call_center_active_options
+  menu:
+    uuid: 7fb0dd87-e984-9980-c512-2c76b887aeb2
+  groups:
+  - admin
+  - superadmin
+- name: call_center_queue_view
+  menu:
+    uuid: 6c072b29-5b6c-49fc-008e-95e24c77de99
+  groups:
+  - agent
+  - admin
+  - superadmin
+- name: call_center_queue_add
+  groups:
+  - admin
+  - superadmin
+- name: call_center_queue_edit
+  groups:
+  - admin
+  - superadmin
+- name: call_center_queue_delete
+  groups:
+  - admin
+  - superadmin
+- name: call_center_all
+  groups:
+  - superadmin
+- name: call_center_agent_view
+  menu:
+    uuid: 597c483a-51a9-f95a-8d54-ea7d87ada2b8
+  groups:
+  - admin
+  - superadmin
+- name: call_center_agent_add
+  groups:
+  - admin
+  - superadmin
+- name: call_center_agent_edit
+  groups:
+  - admin
+  - superadmin
+- name: call_center_agent_delete
+  groups:
+  - admin
+  - superadmin
+- name: call_center_tier_view
+  menu:
+    uuid: 6c072b29-5b6c-49fc-008e-95e24c77de99
+  groups:
+  - admin
+  - superadmin
+- name: call_center_tier_add
+  groups:
+  - admin
+  - superadmin
+- name: call_center_tier_edit
+  groups:
+  - admin
+  - superadmin
+- name: call_center_tier_delete
+  groups:
+  - admin
+  - superadmin
+- name: call_center_log_view
+  menu:
+    uuid: 6c072b29-5b6c-49fc-008e-95e24c77de99
+  groups:
+  - superadmin
+  - admin
+- name: call_center_log_add
+  groups:
+  - superadmin
+  - admin
+- name: call_center_log_edit
+  groups:
+  - superadmin
+  - admin
+- name: call_center_log_delete
+  groups:
+  - superadmin
+  - admin
+- name: call_center_destinations
+  groups:
+  - admin
+  - superadmin
+- name: call_center_outbound_caller_id_name
+- name: call_center_outbound_caller_id_number
+- name: call_center_announce_position
+- name: call_center_announce_sound
+  groups:
+  - admin
+  - superadmin
+- name: call_center_announce_frequency
+  groups:
+  - admin
+  - superadmin
+- name: call_center_email_address
+- name: call_flow_view
+  menu:
+    uuid: b0939384-7055-44e8-8b4c-9f72293e1878
+  groups:
+  - superadmin
+  - admin
+- name: call_flow_add
+  groups:
+  - superadmin
+  - admin
+- name: call_flow_edit
+  groups:
+  - superadmin
+  - admin
+- name: call_flow_delete
+  groups:
+  - superadmin
+  - admin
+- name: call_flow_all
+  groups:
+  - superadmin
+- name: call_flow_context
+  groups:
+  - superadmin
+- name: call_flow_destinations
+  groups:
+  - superadmin
+  - admin
+- name: follow_me
+  groups:
+  - superadmin
+  - admin
+  - user
+  - agent
+- name: call_forward
+  groups:
+  - superadmin
+  - admin
+  - user
+  - agent
+- name: do_not_disturb
+  groups:
+  - superadmin
+  - admin
+  - user
+  - agent
+- name: call_forward_all
+  groups:
+  - superadmin
+- name: call_recording_view
+  groups:
+  - superadmin
+- name: call_recording_add
+- name: call_recording_edit
+- name: call_recording_delete
+  groups:
+  - superadmin
+- name: call_recording_all
+  groups:
+  - superadmin
+- name: call_recording_play
+  groups:
+  - superadmin
+- name: call_recording_download
+  groups:
+  - superadmin
+- name: call_active_view
+  menu:
+    uuid: eba3d07f-dd5c-6b7b-6880-493b44113ade
+  groups:
+  - superadmin
+  - admin
+- name: call_active_hangup
+  groups:
+  - superadmin
+  - admin
+- name: call_active_all
+  groups:
+  - superadmin
+- name: click_to_call_view
+  menu:
+    uuid: f862556f-9ddd-2697-fdf4-bed08ec63aa5
+  groups:
+  - user
+  - admin
+  - superadmin
+- name: click_to_call_call
+  groups:
+  - user
+  - admin
+  - superadmin
+- name: conference_center_view
+  menu:
+    uuid: 95f88726-4706-43f0-b52b-9504a0b8046f
+  groups:
+  - superadmin
+  - admin
+- name: conference_center_add
+  groups:
+  - superadmin
+  - admin
+- name: conference_center_edit
+  groups:
+  - superadmin
+  - admin
+- name: conference_center_delete
+  groups:
+  - superadmin
+  - admin
+- name: conference_center_all
+  groups:
+  - superadmin
+- name: conference_room_view
+  menu:
+    uuid: 95f88726-4706-43f0-b52b-9504a0b8046f
+  groups:
+  - superadmin
+  - admin
+  - user
+- name: conference_room_view_all
+  groups:
+  - superadmin
+  - admin
+- name: conference_room_add
+  groups:
+  - superadmin
+  - admin
+  - user
+- name: conference_room_edit
+  groups:
+  - superadmin
+  - admin
+  - user
+- name: conference_room_delete
+  groups:
+  - superadmin
+  - admin
+  - user
+- name: conference_session_view
+- name: conference_session_play
+  groups:
+  - superadmin
+  - admin
+  - user
+- name: conference_session_details
+  groups:
+  - superadmin
+  - admin
+- name: conference_room_profile
+  groups:
+  - superadmin
+  - admin
+  - user
+- name: conference_room_record
+  groups:
+  - superadmin
+- name: conference_room_max_members
+  groups:
+  - superadmin
+- name: conference_room_wait_mod
+  groups:
+  - superadmin
+  - admin
+  - user
+- name: conference_room_moderator_endconf
+  groups:
+  - superadmin
+  - admin
+  - user
+- name: conference_room_schedule
+  groups:
+  - superadmin
+  - admin
+  - user
+- name: conference_room_announce_name
+  groups:
+  - superadmin
+  - admin
+  - user
+- name: conference_room_announce_count
+  groups:
+  - superadmin
+  - admin
+  - user
+- name: conference_room_announce_recording
+  groups:
+  - superadmin
+  - admin
+  - user
+- name: conference_room_mute
+  groups:
+  - superadmin
+  - admin
+  - user
+- name: conference_room_sounds
+  groups:
+  - superadmin
+  - admin
+  - user
+- name: conference_room_email_address
+- name: conference_room_account_code
+  groups:
+  - superadmin
+  - admin
+- name: conference_room_enabled
+  groups:
+  - superadmin
+  - admin
+  - user
+- name: conference_session_add
+  groups:
+  - superadmin
+  - admin
+- name: conference_session_edit
+  groups:
+  - superadmin
+  - admin
+- name: conference_session_delete
+  groups:
+  - superadmin
+  - admin
+- name: conference_session_detail_view
+- name: conference_session_detail_add
+  groups:
+  - superadmin
+  - admin
+- name: conference_session_detail_edit
+  groups:
+  - superadmin
+  - admin
+- name: conference_session_detail_delete
+  groups:
+  - superadmin
+  - admin
+- name: conference_center_destinations
+  groups:
+  - superadmin
+  - admin
+- name: conference_control_view
+  groups:
+  - superadmin
+- name: conference_control_add
+  groups:
+  - superadmin
+- name: conference_control_edit
+  groups:
+  - superadmin
+- name: conference_control_delete
+  groups:
+  - superadmin
+- name: conference_control_detail_view
+  groups:
+  - superadmin
+- name: conference_control_detail_add
+  groups:
+  - superadmin
+- name: conference_control_detail_edit
+  groups:
+  - superadmin
+- name: conference_control_detail_delete
+  groups:
+  - superadmin
+- name: conference_profile_view
+  groups:
+  - superadmin
+- name: conference_profile_add
+  groups:
+  - superadmin
+- name: conference_profile_edit
+  groups:
+  - superadmin
+- name: conference_profile_delete
+  groups:
+  - superadmin
+- name: conference_profile_param_view
+  groups:
+  - superadmin
+- name: conference_profile_param_add
+  groups:
+  - superadmin
+- name: conference_profile_param_edit
+  groups:
+  - superadmin
+- name: conference_profile_param_delete
+  groups:
+  - superadmin
+- name: conference_view
+  menu:
+    uuid: 9f2a8c08-3e65-c41c-a716-3b53d42bc4d4
+  groups:
+  - superadmin
+  - user
+  - admin
+- name: conference_add
+  groups:
+  - superadmin
+  - admin
+- name: conference_edit
+  groups:
+  - superadmin
+  - admin
+  - user
+- name: conference_delete
+  groups:
+  - superadmin
+  - admin
+- name: conference_all
+  groups:
+  - superadmin
+- name: conference_user_view
+  groups:
+  - superadmin
+  - admin
+- name: conference_user_add
+  groups:
+  - superadmin
+  - admin
+- name: conference_user_edit
+  groups:
+  - superadmin
+  - admin
+- name: conference_user_delete
+  groups:
+  - superadmin
+  - admin
+- name: conference_email_address
+- name: conference_account_code
+  groups:
+  - superadmin
+  - admin
+- name: conference_destinations
+  groups:
+  - superadmin
+  - admin
+- name: conference_active_view
+  menu:
+    uuid: 2d857bbb-43b9-b8f7-a138-642868e0453a
+  groups:
+  - admin
+  - superadmin
+- name: conference_interactive_view
+  groups:
+  - user
+  - admin
+  - superadmin
+- name: conference_interactive_lock
+  groups:
+  - user
+  - admin
+  - superadmin
+- name: conference_interactive_kick
+  groups:
+  - user
+  - admin
+  - superadmin
+- name: conference_interactive_energy
+- name: conference_interactive_volume
+- name: conference_interactive_gain
+- name: conference_interactive_mute
+  groups:
+  - user
+  - admin
+  - superadmin
+- name: conference_interactive_deaf
+  groups:
+  - user
+  - admin
+  - superadmin
+- name: conference_interactive_video
+  groups:
+  - user
+  - admin
+  - superadmin
+- name: contact_view
+  menu:
+    uuid: f14e6ab6-6565-d4e6-cbad-a51d2e3e8ec6
+  groups:
+  - superadmin
+  - admin
+- name: contact_add
+  groups:
+  - superadmin
+  - admin
+- name: contact_edit
+  groups:
+  - superadmin
+  - admin
+- name: contact_delete
+  groups:
+  - superadmin
+  - admin
+- name: contact_all
+  groups:
+  - superadmin
+- name: contact_upload
+  groups:
+  - superadmin
+  - admin
+- name: contact_domain_view
+  groups:
+  - superadmin
+  - admin
+- name: contact_address_view
+  groups:
+  - superadmin
+  - admin
+- name: contact_address_add
+  groups:
+  - superadmin
+  - admin
+- name: contact_address_edit
+  groups:
+  - superadmin
+  - admin
+- name: contact_address_delete
+  groups:
+  - superadmin
+  - admin
+- name: contact_phone_view
+  groups:
+  - superadmin
+  - admin
+- name: contact_phone_add
+  groups:
+  - superadmin
+  - admin
+- name: contact_phone_edit
+  groups:
+  - superadmin
+  - admin
+- name: contact_phone_delete
+  groups:
+  - superadmin
+  - admin
+- name: contact_note_view
+  groups:
+  - superadmin
+  - admin
+- name: contact_note_add
+  groups:
+  - superadmin
+  - admin
+- name: contact_note_edit
+  groups:
+  - superadmin
+  - admin
+- name: contact_note_delete
+  groups:
+  - superadmin
+  - admin
+- name: contact_group_view
+  groups:
+  - superadmin
+  - admin
+- name: contact_group_add
+  groups:
+  - superadmin
+  - admin
+- name: contact_group_edit
+  groups:
+  - superadmin
+  - admin
+- name: contact_group_delete
+  groups:
+  - superadmin
+  - admin
+- name: contact_user_view
+  groups:
+  - superadmin
+  - admin
+- name: contact_user_add
+  groups:
+  - superadmin
+  - admin
+- name: contact_user_edit
+  groups:
+  - superadmin
+  - admin
+- name: contact_user_delete
+  groups:
+  - superadmin
+  - admin
+- name: contact_email_view
+  groups:
+  - superadmin
+  - admin
+- name: contact_email_add
+  groups:
+  - superadmin
+  - admin
+- name: contact_email_edit
+  groups:
+  - superadmin
+  - admin
+- name: contact_email_delete
+  groups:
+  - superadmin
+  - admin
+- name: contact_url_view
+  groups:
+  - superadmin
+  - admin
+- name: contact_url_add
+  groups:
+  - superadmin
+  - admin
+- name: contact_url_edit
+  groups:
+  - superadmin
+  - admin
+- name: contact_url_delete
+  groups:
+  - superadmin
+  - admin
+- name: contact_setting_view
+  groups:
+  - superadmin
+  - admin
+- name: contact_setting_add
+  groups:
+  - superadmin
+  - admin
+- name: contact_setting_edit
+  groups:
+  - superadmin
+  - admin
+- name: contact_setting_delete
+  groups:
+  - superadmin
+  - admin
+- name: contact_relation_view
+  groups:
+  - superadmin
+  - admin
+- name: contact_relation_add
+  groups:
+  - superadmin
+  - admin
+- name: contact_relation_edit
+  groups:
+  - superadmin
+  - admin
+- name: contact_relation_delete
+  groups:
+  - superadmin
+  - admin
+- name: contact_extension_view
+- name: contact_time_view
+- name: contact_time_add
+- name: contact_time_edit
+- name: contact_time_delete
+- name: contact_attachment_view
+  groups:
+  - superadmin
+  - admin
+- name: contact_attachment_add
+  groups:
+  - superadmin
+  - admin
+- name: contact_attachment_edit
+  groups:
+  - superadmin
+  - admin
+- name: contact_attachment_delete
+  groups:
+  - superadmin
+  - admin
+- name: database_transaction_view
+  groups:
+  - superadmin
+- name: database_transaction_add
+  groups:
+  - superadmin
+- name: database_transaction_edit
+  groups:
+  - superadmin
+- name: database_transaction_delete
+- name: destination_view
+  menu:
+    uuid: fd2a708a-ff03-c707-c19d-5a4194375eba
+  groups:
+  - superadmin
+  - admin
+- name: destination_add
+  groups:
+  - superadmin
+- name: destination_edit
+  groups:
+  - superadmin
+  - admin
+- name: destination_delete
+  groups:
+  - superadmin
+  - admin
+- name: destination_import
+  groups:
+  - superadmin
+- name: destination_export
+  groups:
+  - superadmin
+- name: destination_upload
+  groups:
+  - superadmin
+- name: destination_domain
+  groups:
+  - superadmin
+- name: destination_all
+  groups:
+  - superadmin
+- name: destination_trunk_prefix
+- name: destination_area_code
+- name: destination_prefix
+  groups:
+  - superadmin
+  - admin
+- name: destination_number
+  groups:
+  - superadmin
+- name: destination_condition_field
+- name: destination_caller_id_name
+  groups:
+  - superadmin
+- name: destination_caller_id_number
+  groups:
+  - superadmin
+- name: destination_context
+  groups:
+  - superadmin
+- name: destination_cid_name_prefix
+  groups:
+  - superadmin
+- name: destination_record
+  groups:
+  - superadmin
+- name: destination_hold_music
+  groups:
+  - superadmin
+  - admin
+- name: destination_distinctive_ring
+  groups:
+  - superadmin
+- name: destination_accountcode
+  groups:
+  - superadmin
+  - admin
+- name: destination_fax
+  groups:
+  - superadmin
+- name: destination_conditions
+  groups:
+  - superadmin
+- name: destination_user_uuid
+  groups:
+  - superadmin
+- name: destination_emergency
+  groups:
+  - superadmin
+- name: destination_destinations
+  groups:
+  - superadmin
+  - admin
+- name: other_destinations
+  groups:
+  - superadmin
+  - admin
+- name: device_view
+  menu:
+    uuid: f9dce498-b7f9-740f-e592-9e8ff3dac2a0
+  groups:
+  - admin
+  - superadmin
+- name: device_add
+  groups:
+  - admin
+  - superadmin
+- name: device_edit
+  groups:
+  - admin
+  - superadmin
+- name: device_delete
+  groups:
+  - admin
+  - superadmin
+- name: device_mac_address
+  groups:
+  - superadmin
+  - admin
+- name: device_label
+  groups:
+  - superadmin
+  - admin
+- name: device_template
+  groups:
+  - superadmin
+  - admin
+- name: device_files
+  groups:
+  - superadmin
+- name: device_import
+  groups:
+  - superadmin
+- name: device_extension_view
+  groups:
+  - superadmin
+  - admin
+- name: device_extension_add
+  groups:
+  - superadmin
+  - admin
+- name: device_extension_edit
+  groups:
+  - superadmin
+  - admin
+- name: device_extension_delete
+  groups:
+  - superadmin
+  - admin
+- name: device_line_view
+  groups:
+  - superadmin
+  - admin
+- name: device_line_add
+  groups:
+  - superadmin
+  - admin
+- name: device_line_edit
+  groups:
+  - superadmin
+  - admin
+- name: device_line_delete
+  groups:
+  - superadmin
+  - admin
+- name: device_line_server_address
+  groups:
+  - superadmin
+  - admin
+- name: device_line_server_address_primary
+- name: device_line_server_address_secondary
+- name: device_line_label
+  groups:
+  - superadmin
+  - admin
+- name: device_line_display_name
+  groups:
+  - superadmin
+  - admin
+- name: device_line_password
+  groups:
+  - superadmin
+  - admin
+- name: device_line_auth_id
+  groups:
+  - superadmin
+  - admin
+- name: device_line_transport
+  groups:
+  - superadmin
+  - admin
+- name: device_line_port
+  groups:
+  - superadmin
+  - admin
+- name: device_line_shared
+  groups:
+  - superadmin
+- name: device_line_register_expires
+  groups:
+  - superadmin
+  - admin
+- name: device_key_line
+  groups:
+  - superadmin
+  - admin
+- name: device_key_extension
+- name: device_line_outbound_proxy_primary
+- name: device_line_outbound_proxy_secondary
+- name: device_setting_view
+  groups:
+  - superadmin
+- name: device_setting_add
+  groups:
+  - superadmin
+- name: device_setting_edit
+  groups:
+  - superadmin
+- name: device_setting_delete
+  groups:
+  - superadmin
+- name: device_key_view
+  groups:
+  - superadmin
+  - admin
+- name: device_key_add
+  groups:
+  - superadmin
+  - admin
+- name: device_key_edit
+  groups:
+  - superadmin
+  - admin
+- name: device_key_id
+  groups:
+  - superadmin
+  - admin
+- name: device_key_delete
+  groups:
+  - superadmin
+  - admin
+- name: device_key_protected
+  groups:
+  - superadmin
+- name: device_domain
+  groups:
+  - superadmin
+- name: device_user
+  groups:
+  - superadmin
+  - admin
+- name: device_username_password
+  groups:
+  - superadmin
+  - admin
+- name: device_alternate
+  groups:
+  - superadmin
+  - admin
+- name: device_all
+  groups:
+  - superadmin
+- name: device_domain_all
+  groups:
+  - superadmin
+  - admin
+- name: device_vendor
+  groups:
+  - superadmin
+  - admin
+- name: device_location
+  groups:
+  - superadmin
+  - admin
+- name: device_model
+- name: device_firmware
+- name: device_enable
+  groups:
+  - superadmin
+  - admin
+- name: device_description
+  groups:
+  - superadmin
+  - admin
+- name: device_vendor_view
+  groups:
+  - superadmin
+- name: device_vendor_add
+  groups:
+  - superadmin
+- name: device_vendor_edit
+  groups:
+  - superadmin
+- name: device_vendor_delete
+  groups:
+  - superadmin
+- name: device_vendor_restore
+  groups:
+  - superadmin
+- name: device_vendor_function_view
+  groups:
+  - superadmin
+- name: device_vendor_function_add
+  groups:
+  - superadmin
+- name: device_vendor_function_edit
+  groups:
+  - superadmin
+- name: device_vendor_function_delete
+  groups:
+  - superadmin
+- name: device_vendor_delete
+  groups:
+  - superadmin
+- name: device_vendor_function_group_view
+  groups:
+  - superadmin
+- name: device_vendor_function_group_add
+  groups:
+  - superadmin
+- name: device_vendor_function_group_edit
+  groups:
+  - superadmin
+- name: device_vendor_function_group_delete
+  groups:
+  - superadmin
+- name: device_profile_view
+  groups:
+  - superadmin
+  - admin
+- name: device_profile_add
+  groups:
+  - superadmin
+  - admin
+- name: device_profile_edit
+  groups:
+  - superadmin
+  - admin
+- name: device_profile_delete
+  groups:
+  - superadmin
+  - admin
+- name: device_profile_all
+  groups:
+  - superadmin
+- name: device_profile_domain
+  groups:
+  - superadmin
+- name: device_profile_key_view
+  groups:
+  - superadmin
+  - admin
+- name: device_profile_key_add
+  groups:
+  - superadmin
+  - admin
+- name: device_profile_key_edit
+  groups:
+  - superadmin
+  - admin
+- name: device_profile_key_delete
+  groups:
+  - superadmin
+  - admin
+- name: device_profile_key_all
+  groups:
+  - superadmin
+- name: device_profile_setting_view
+  groups:
+  - superadmin
+  - admin
+- name: device_profile_setting_add
+  groups:
+  - superadmin
+  - admin
+- name: device_profile_setting_edit
+  groups:
+  - superadmin
+  - admin
+- name: device_profile_setting_delete
+  groups:
+  - superadmin
+  - admin
+- name: device_profile_setting_all
+  groups:
+  - superadmin
+- name: device_export
+  groups:
+  - superadmin
+- name: device_key_icon
+- name: inbound_route_view
+  menu:
+    uuid: b64b2bbf-f99b-b568-13dc-32170515a687
+  groups:
+  - superadmin
+  - admin
+- name: inbound_route_add
+  groups:
+  - superadmin
+  - admin
+- name: inbound_route_advanced
+  groups:
+  - superadmin
+- name: inbound_route_edit
+  groups:
+  - superadmin
+- name: inbound_route_delete
+  groups:
+  - superadmin
+  - admin
+- name: inbound_route_copy
+  groups:
+  - superadmin
+- name: outbound_route_view
+  menu:
+    uuid: 17e14094-1d57-1106-db2a-a787d34015e9
+  groups:
+  - superadmin
+- name: outbound_route_add
+  groups:
+  - superadmin
+- name: outbound_route_edit
+  groups:
+  - superadmin
+- name: outbound_route_delete
+  groups:
+  - superadmin
+- name: outbound_route_copy
+  groups:
+  - superadmin
+- name: outbound_route_any_gateway
+  groups:
+  - superadmin
+  description: Add outbound routes for any gateways on any domain.
+- name: outbound_route_pin_numbers
+  groups:
+  - superadmin
+- name: dialplan_view
+  menu:
+    uuid: b94e8bd9-9eb5-e427-9c26-ff7a6c21552a
+  groups:
+  - admin
+  - superadmin
+- name: dialplan_add
+  groups:
+  - superadmin
+- name: dialplan_edit
+  groups:
+  - superadmin
+- name: dialplan_delete
+  groups:
+  - superadmin
+- name: dialplan_global
+  groups:
+  - superadmin
+- name: dialplan_xml
+  groups:
+  - superadmin
+- name: dialplan_context
+  groups:
+  - superadmin
+- name: dialplan_detail_view
+  menu:
+    uuid: b94e8bd9-9eb5-e427-9c26-ff7a6c21552a
+  groups:
+  - superadmin
+  - admin
+- name: dialplan_detail_add
+  groups:
+  - superadmin
+- name: dialplan_detail_edit
+  groups:
+  - superadmin
+- name: dialplan_detail_delete
+  groups:
+  - superadmin
+- name: dialplan_domain
+  groups:
+  - superadmin
+- name: dialplan_all
+  groups:
+  - superadmin
+- name: dialplan_destinations
+  groups:
+  - superadmin
+  - admin
+- name: email_queue_view
+  groups:
+  - superadmin
+- name: email_queue_add
+  groups:
+  - superadmin
+- name: email_queue_edit
+  groups:
+  - superadmin
+- name: email_queue_delete
+  groups:
+  - superadmin
+- name: email_queue_all
+  groups:
+  - superadmin
+- name: email_queue_attachment_view
+  groups:
+  - superadmin
+- name: email_queue_attachment_add
+  groups:
+  - superadmin
+- name: email_queue_attachment_edit
+  groups:
+  - superadmin
+- name: email_queue_attachment_delete
+  groups:
+  - superadmin
+- name: email_queue_attachment_all
+  groups:
+  - superadmin
+- name: email_template_view
+  groups:
+  - superadmin
+- name: email_template_add
+  groups:
+  - superadmin
+- name: email_template_edit
+  groups:
+  - superadmin
+- name: email_template_delete
+  groups:
+  - superadmin
+- name: email_template_all
+  groups:
+  - superadmin
+- name: event_guard_log_view
+  groups:
+  - superadmin
+- name: event_guard_log_add
+- name: event_guard_log_edit
+  groups:
+  - superadmin
+- name: event_guard_log_delete
+  groups:
+  - superadmin
+- name: event_guard_log_all
+  groups:
+  - superadmin
+- name: event_guard_log_unblock
+  groups:
+  - superadmin
+- name: extension_setting_view
+  groups:
+  - superadmin
+- name: extension_setting_add
+  groups:
+  - superadmin
+- name: extension_setting_edit
+  groups:
+  - superadmin
+- name: extension_setting_delete
+  groups:
+  - superadmin
+- name: extension_setting_all
+  groups:
+  - superadmin
+- name: extension_view
+  menu:
+    uuid: d3036a99-9a9f-2ad6-a82a-1fe7bebbe2d3
+  groups:
+  - superadmin
+  - admin
+- name: extension_add
+  groups:
+  - superadmin
+  - admin
+- name: extension_edit
+  groups:
+  - superadmin
+  - admin
+- name: extension_delete
+  groups:
+  - superadmin
+  - admin
+- name: extension_extension
+  groups:
+  - superadmin
+  - admin
+- name: number_alias
+- name: extension_toll
+  groups:
+  - superadmin
+- name: extension_call_screen
+  groups:
+  - superadmin
+  - admin
+- name: extension_import
+  groups:
+  - superadmin
+- name: extension_caller_id
+  groups:
+  - superadmin
+  - admin
+  - user
+- name: outbound_caller_id_select
+- name: extension_domain
+  groups:
+  - superadmin
+- name: extension_enabled
+  groups:
+  - superadmin
+  - admin
+- name: extension_user_view
+  menu:
+    uuid: d3036a99-9a9f-2ad6-a82a-1fe7bebbe2d3
+  groups:
+  - superadmin
+  - admin
+- name: extension_user_add
+  groups:
+  - superadmin
+  - admin
+- name: extension_user_edit
+  groups:
+  - superadmin
+  - admin
+- name: extension_user_delete
+  groups:
+  - superadmin
+  - admin
+- name: extension_dial_string
+  groups:
+  - superadmin
+- name: extension_password
+  groups:
+  - superadmin
+  - admin
+- name: effective_caller_id_name
+  groups:
+  - superadmin
+  - admin
+- name: effective_caller_id_number
+  groups:
+  - superadmin
+  - admin
+- name: outbound_caller_id_name
+  groups:
+  - superadmin
+- name: outbound_caller_id_number
+  groups:
+  - superadmin
+- name: emergency_caller_id_name
+  groups:
+  - superadmin
+- name: emergency_caller_id_number
+  groups:
+  - superadmin
+- name: emergency_caller_id_select
+- name: emergency_caller_id_select_empty
+  groups:
+  - superadmin
+- name: extension_user_record
+  groups:
+  - superadmin
+- name: extension_missed_call
+  groups:
+  - superadmin
+  - admin
+- name: extension_accountcode
+  groups:
+  - superadmin
+  - admin
+- name: extension_nibble_account
+- name: extension_user_context
+  groups:
+  - superadmin
+- name: extension_cidr
+  groups:
+  - superadmin
+- name: extension_absolute_codec_string
+  groups:
+  - superadmin
+- name: extension_registered
+- name: extension_force_ping
+  groups:
+  - superadmin
+  - admin
+- name: extension_all
+  groups:
+  - superadmin
+- name: extension_copy
+  groups:
+  - superadmin
+- name: extension_export
+  groups:
+  - superadmin
+- name: extension_advanced
+  groups:
+  - superadmin
+- name: extension_destinations
+  groups:
+  - superadmin
+  - admin
+  - user
+- name: extension_directory
+  groups:
+  - superadmin
+  - admin
+  - user
+- name: extension_max_registrations
+  groups:
+  - superadmin
+- name: extension_limit
+  groups:
+  - superadmin
+  - admin
+  - user
+- name: extension_call_group
+  groups:
+  - superadmin
+  - admin
+  - user
+- name: extension_hold_music
+  groups:
+  - superadmin
+  - admin
+  - user
+- name: fax_extension_view
+  menu:
+    uuid: 9c9642e4-2b9b-2785-18d0-6c0a4ede2b2f
+  groups:
+  - superadmin
+  - admin
+  - user
+  - fax
+- name: fax_extension_add
+  groups:
+  - superadmin
+  - admin
+  - fax
+- name: fax_extension_edit
+  groups:
+  - superadmin
+  - admin
+  - user
+  - fax
+- name: fax_extension_delete
+  groups:
+  - superadmin
+  - admin
+- name: fax_extension_copy
+  groups:
+  - superadmin
+  - admin
+- name: fax_extension_advanced
+  groups:
+  - superadmin
+  - admin
+- name: fax_inbox_view
+  menu:
+    uuid: 9c9642e4-2b9b-2785-18d0-6c0a4ede2b2f
+  groups:
+  - superadmin
+  - admin
+  - user
+  - fax
+- name: fax_inbox_delete
+  groups:
+  - superadmin
+  - admin
+  - user
+  - fax
+- name: fax_sent_view
+  menu:
+    uuid: 9c9642e4-2b9b-2785-18d0-6c0a4ede2b2f
+  groups:
+  - superadmin
+  - admin
+  - user
+- name: fax_sent_delete
+  groups:
+  - superadmin
+  - admin
+  - user
+  - fax
+- name: fax_send
+  groups:
+  - superadmin
+  - admin
+  - user
+  - fax
+- name: fax_view
+  menu:
+    uuid: 9c9642e4-2b9b-2785-18d0-6c0a4ede2b2f
+  groups:
+  - superadmin
+  - admin
+  - user
+  - fax
+- name: fax_add
+  groups:
+  - superadmin
+  - admin
+- name: fax_edit
+  groups:
+  - superadmin
+  - admin
+- name: fax_delete
+  groups:
+  - superadmin
+  - admin
+- name: fax_user_view
+  menu:
+    uuid: 9c9642e4-2b9b-2785-18d0-6c0a4ede2b2f
+  groups:
+  - superadmin
+  - admin
+- name: fax_user_add
+  groups:
+  - superadmin
+  - admin
+- name: fax_user_edit
+  groups:
+  - superadmin
+  - admin
+- name: fax_user_delete
+  groups:
+  - superadmin
+  - admin
+- name: fax_log_view
+  menu:
+    uuid: 9c9642e4-2b9b-2785-18d0-6c0a4ede2b2f
+  groups:
+  - superadmin
+  - admin
+- name: fax_log_delete
+  groups:
+  - superadmin
+  - admin
+- name: fax_file_view
+  groups:
+  - superadmin
+  - admin
+  - user
+  - fax
+- name: fax_file_add
+  groups:
+  - superadmin
+  - admin
+- name: fax_file_edit
+  groups:
+  - superadmin
+  - admin
+  - user
+  - fax
+- name: fax_file_delete
+  groups:
+  - superadmin
+  - admin
+  - user
+  - fax
+- name: fax_active_view
+  groups:
+  - superadmin
+  - admin
+- name: fax_active_all
+  groups:
+  - superadmin
+- name: fax_send_greeting
+- name: fax_destinations
+  groups:
+  - superadmin
+  - admin
+- name: fax_extension_view_domain
+  groups:
+  - superadmin
+  - admin
+- name: fax_extension_view_all
+  groups:
+  - superadmin
+- name: fax_subject
+  groups:
+  - superadmin
+  - admin
+  - user
+  - fax
+- name: fax_message
+  groups:
+  - superadmin
+  - admin
+  - user
+  - fax
+- name: fax_footer
+  groups:
+  - superadmin
+  - admin
+  - user
+  - fax
+- name: fax_download_view
+  groups:
+  - superadmin
+  - admin
+  - user
+  - fax
+- name: fax_queue_view
+  groups:
+  - superadmin
+  - admin
+  - user
+  - fax
+- name: fax_queue_domain
+  groups:
+  - superadmin
+  - admin
+- name: fax_queue_add
+  groups:
+  - superadmin
+- name: fax_queue_edit
+  groups:
+  - superadmin
+- name: fax_queue_delete
+  groups:
+  - superadmin
+- name: fax_queue_all
+  groups:
+  - superadmin
+- name: fifo_view
+  menu:
+    uuid: c535ac0b-1da1-0f9c-4653-7934c6f4732c
+  groups:
+  - admin
+  - superadmin
+- name: fifo_add
+  groups:
+  - admin
+  - superadmin
+- name: fifo_edit
+  groups:
+  - superadmin
+- name: fifo_delete
+  groups:
+  - admin
+  - superadmin
+- name: active_queue_view
+  menu:
+    uuid: 450f1225-9187-49ac-a119-87bc26025f7d
+  groups:
+  - admin
+  - superadmin
+- name: active_queue_add
+  groups:
+  - admin
+  - superadmin
+- name: active_queue_edit
+  groups:
+  - admin
+  - superadmin
+- name: active_queue_delete
+  groups:
+  - admin
+  - superadmin
+- name: follow_me_view
+  menu:
+    uuid: a1144e12-873e-4722-9818-02da1adb6ba3
+  groups:
+  - superadmin
+  - admin
+  - user
+  - agent
+- name: follow_me_add
+  groups:
+  - superadmin
+  - admin
+  - user
+  - agent
+- name: follow_me_edit
+  groups:
+  - superadmin
+  - admin
+  - user
+  - agent
+- name: follow_me_delete
+  groups:
+  - superadmin
+  - admin
+  - user
+  - agent
+- name: follow_me_destination_view
+  groups:
+  - superadmin
+  - admin
+  - user
+  - agent
+- name: follow_me_destination_add
+  groups:
+  - superadmin
+  - admin
+  - user
+  - agent
+- name: follow_me_destination_edit
+  groups:
+  - superadmin
+  - admin
+  - user
+  - agent
+- name: follow_me_destination_delete
+  groups:
+  - superadmin
+  - admin
+  - user
+  - agent
+- name: follow_me_ignore_busy
+  groups:
+  - superadmin
+  - admin
+  - user
+  - agent
+- name: follow_me_cid_name_prefix
+- name: follow_me_cid_number_prefix
+- name: follow_me_prompt
+  groups:
+  - superadmin
+  - admin
+  - user
+  - agent
+- name: gateway_view
+  menu:
+    uuid: 237a512a-f8fe-1ce4-b5d7-e71c401d7159
+  groups:
+  - superadmin
+- name: gateway_add
+  groups:
+  - superadmin
+- name: gateway_edit
+  groups:
+  - superadmin
+- name: gateway_delete
+  groups:
+  - superadmin
+- name: gateway_domain
+  groups:
+  - superadmin
+- name: gateway_all
+  groups:
+  - superadmin
+- name: gateway_channels
+  groups:
+  - superadmin
+- name: gateway_destinations
+  groups:
+  - superadmin
+- name: gswave_view
+  groups:
+  - superadmin
+  - admin
+  - user
+- name: ivr_menu_view
+  menu:
+    uuid: 72259497-a67b-e5aa-cac2-0f2dcef16308
+  groups:
+  - admin
+  - superadmin
+- name: ivr_menu_add
+  groups:
+  - admin
+  - superadmin
+- name: ivr_menu_edit
+  groups:
+  - admin
+  - superadmin
+- name: ivr_menu_delete
+  groups:
+  - admin
+  - superadmin
+- name: ivr_menu_all
+  groups:
+  - superadmin
+- name: ivr_menu_option_view
+  groups:
+  - superadmin
+  - admin
+- name: ivr_menu_option_add
+  groups:
+  - superadmin
+  - admin
+- name: ivr_menu_option_edit
+  groups:
+  - superadmin
+  - admin
+- name: ivr_menu_option_delete
+  groups:
+  - superadmin
+  - admin
+- name: ivr_menu_context
+  groups:
+  - superadmin
+- name: ivr_menu_domain
+  groups:
+  - superadmin
+- name: ivr_menu_destinations
+  groups:
+  - superadmin
+  - admin
+- name: ivr_menus_sub_destinations
+  groups:
+  - superadmin
+  - admin
+- name: ivr_menus_other_destinations
+  groups:
+  - superadmin
+  - admin
+- name: lcr_view
+  menu:
+    uuid: 08d5a003-7d3d-4fb0-8586-6103cbfd7d98
+  groups:
+  - superadmin
+- name: lcr_add
+  groups:
+  - superadmin
+- name: lcr_edit
+  groups:
+  - superadmin
+- name: lcr_delete
+  groups:
+  - superadmin
+- name: log_view
+  menu:
+    uuid: 781ebbec-a55a-9d60-f7bb-f54ab2ee4e7e
+  groups:
+  - superadmin
+- name: log_download
+  groups:
+  - superadmin
+- name: log_path_view
+  groups:
+  - superadmin
+- name: module_view
+  menu:
+    uuid: 49fdb4e1-5417-0e7a-84b3-eb77f5263ea7
+  groups:
+  - superadmin
+- name: module_add
+  groups:
+  - superadmin
+- name: module_edit
+  groups:
+  - superadmin
+- name: module_delete
+  groups:
+  - superadmin
+- name: music_on_hold_view
+  menu:
+    uuid: 1cd1d6cb-912d-db32-56c3-e0d5699feb9d
+  groups:
+  - superadmin
+- name: music_on_hold_add
+  groups:
+  - superadmin
+- name: music_on_hold_edit
+  groups:
+  - superadmin
+- name: music_on_hold_delete
+  groups:
+  - superadmin
+- name: music_on_hold_all
+  groups:
+  - superadmin
+- name: music_on_hold_name
+  groups:
+  - superadmin
+- name: music_on_hold_domain
+  groups:
+  - superadmin
+- name: music_on_hold_path
+  groups:
+  - superadmin
+- name: number_translation_view
+  menu:
+    uuid: 6ad55156-4909-11e7-a919-92ebcb67fe33
+  groups:
+  - superadmin
+- name: number_translation_edit
+  menu:
+    uuid: 6ad556c4-4909-11e7-a919-92ebcb67fe33
+  groups:
+  - superadmin
+- name: number_translation_add
+  menu:
+    uuid: 6ad5585e-4909-11e7-a919-92ebcb67fe33
+  groups:
+  - superadmin
+- name: number_translation_delete
+  menu:
+    uuid: 6ad555d4-4909-11e7-a919-92ebcb67fe33
+  groups:
+  - superadmin
+- name: number_translation_detail_view
+  groups:
+  - superadmin
+- name: number_translation_detail_add
+  groups:
+  - superadmin
+- name: number_translation_detail_edit
+  groups:
+  - superadmin
+- name: number_translation_detail_delete
+  groups:
+  - superadmin
+- name: number_translation_detail_all
+  groups:
+  - superadmin
+- name: phrase_view
+  menu:
+    uuid: a5caa6dc-a6d7-41c3-a484-e556ffd0d2ff
+  groups:
+  - admin
+  - superadmin
+- name: phrase_add
+  groups:
+  - admin
+  - superadmin
+- name: phrase_edit
+  groups:
+  - admin
+  - superadmin
+- name: phrase_delete
+  groups:
+  - admin
+  - superadmin
+- name: phrase_all
+  groups:
+  - superadmin
+- name: phrase_play
+  groups:
+  - user
+  - admin
+  - superadmin
+- name: phrase_execute
+  groups:
+  - superadmin
+- name: phrase_domain
+  groups:
+  - superadmin
+- name: phrase_destinations
+  groups:
+  - admin
+  - superadmin
+- name: pin_number_view
+  groups:
+  - superadmin
+- name: pin_number_add
+  groups:
+  - superadmin
+- name: pin_number_edit
+  groups:
+  - superadmin
+- name: pin_number_delete
+  groups:
+  - superadmin
+- name: recording_view
+  menu:
+    uuid: e4290fd2-3ccc-a758-1714-660d38453104
+  groups:
+  - admin
+  - superadmin
+- name: recording_add
+  groups:
+  - admin
+  - superadmin
+- name: recording_edit
+  groups:
+  - admin
+  - superadmin
+- name: recording_delete
+  groups:
+  - admin
+  - superadmin
+- name: recording_all
+  groups:
+  - superadmin
+- name: recording_upload
+  groups:
+  - admin
+  - superadmin
+- name: recording_play
+  groups:
+  - user
+  - admin
+  - superadmin
+- name: recording_download
+  groups:
+  - user
+  - admin
+  - superadmin
+- name: recording_destinations
+  groups:
+  - user
+  - admin
+  - superadmin
+- name: recording_password
+  groups:
+  - admin
+  - superadmin
+- name: registration_domain
+  menu:
+    uuid: 17dbfd56-291d-8c1c-bc43-713283a9dd5a
+  groups:
+  - admin
+  - superadmin
+- name: registration_all
+  menu:
+    uuid: 17dbfd56-291d-8c1c-bc43-713283a9dd5a
+  groups:
+  - superadmin
+- name: registration_reload
+  menu:
+    uuid: e3bd174e-ef22-46e0-b65f-3598531d29b6
+  groups:
+  - superadmin
+- name: ring_group_view
+  menu:
+    uuid: b30f085f-3ec6-2819-7e62-53dfba5cb8d5
+  groups:
+  - superadmin
+  - admin
+- name: ring_group_add
+  groups:
+  - superadmin
+  - admin
+- name: ring_group_edit
+  groups:
+  - superadmin
+  - admin
+- name: ring_group_delete
+  groups:
+  - superadmin
+  - admin
+- name: ring_group_forward
+  groups:
+  - superadmin
+  - admin
+- name: ring_group_prompt
+  groups:
+  - superadmin
+  - admin
+- name: ring_group_destination_view
+  groups:
+  - superadmin
+  - admin
+- name: ring_group_destination_add
+  groups:
+  - superadmin
+  - admin
+- name: ring_group_destination_edit
+  groups:
+  - superadmin
+  - admin
+- name: ring_group_destination_delete
+  groups:
+  - superadmin
+  - admin
+- name: ring_group_user_view
+  groups:
+  - superadmin
+  - admin
+- name: ring_group_user_add
+  groups:
+  - superadmin
+  - admin
+- name: ring_group_user_edit
+  groups:
+  - superadmin
+  - admin
+- name: ring_group_user_delete
+  groups:
+  - superadmin
+  - admin
+- name: ring_group_missed_call
+  groups:
+  - superadmin
+  - admin
+- name: ring_group_forward_toll_allow
+  groups:
+  - superadmin
+  - admin
+- name: ring_group_caller_id_name
+  groups:
+  - superadmin
+- name: ring_group_caller_id_number
+  groups:
+  - superadmin
+- name: ring_group_cid_name_prefix
+- name: ring_group_cid_number_prefix
+- name: ring_group_context
+  groups:
+  - superadmin
+- name: ring_group_all
+  groups:
+  - superadmin
+- name: ring_group_destinations
+  groups:
+  - superadmin
+  - admin
+- name: setting_view
+  menu:
+    uuid: 148ea42a-3711-3d64-181b-07a6a3c3ed60
+  groups:
+  - superadmin
+- name: setting_edit
+  groups:
+  - superadmin
+- name: sip_profile_view
+  menu:
+    uuid: 47014b1d-13ad-921c-313d-ca42c0424b37
+  groups:
+  - superadmin
+- name: sip_profile_add
+  groups:
+  - superadmin
+- name: sip_profile_edit
+  groups:
+  - superadmin
+- name: sip_profile_delete
+  groups:
+  - superadmin
+- name: sip_profile_setting_view
+  groups:
+  - superadmin
+- name: sip_profile_setting_add
+  groups:
+  - superadmin
+- name: sip_profile_setting_edit
+  groups:
+  - superadmin
+- name: sip_profile_setting_delete
+  groups:
+  - superadmin
+- name: sip_profile_domain_view
+  groups:
+  - superadmin
+- name: sip_profile_domain_add
+  groups:
+  - superadmin
+- name: sip_profile_domain_edit
+  groups:
+  - superadmin
+- name: sip_profile_domain_delete
+  groups:
+  - superadmin
+- name: system_status_sofia_status
+  menu:
+    uuid: b7aea9f7-d3cf-711f-828e-46e56e2e5328
+  groups:
+  - superadmin
+- name: system_status_sofia_status_profile
+  menu:
+    uuid: b7aea9f7-d3cf-711f-828e-46e56e2e5328
+  groups:
+  - superadmin
+- name: sip_status_switch_status
+  groups:
+  - superadmin
+- name: sofia_global_setting_view
+  groups:
+  - superadmin
+- name: sofia_global_setting_add
+  groups:
+  - superadmin
+- name: sofia_global_setting_edit
+  groups:
+  - superadmin
+- name: sofia_global_setting_delete
+  groups:
+  - superadmin
+- name: sofia_global_setting_all
+  groups:
+  - superadmin
+- name: stream_view
+  groups:
+  - superadmin
+- name: stream_add
+  groups:
+  - superadmin
+- name: stream_edit
+  groups:
+  - superadmin
+- name: stream_delete
+  groups:
+  - superadmin
+- name: stream_all
+  groups:
+  - superadmin
+- name: switch_version
+  groups:
+  - superadmin
+- name: switch_uptime
+  groups:
+  - superadmin
+- name: switch_channels
+  groups:
+  - superadmin
+- name: switch_registrations
+  groups:
+  - superadmin
+  - admin
+- name: language_destinations
+  groups:
+  - superadmin
+  - admin
+- name: system_view_info
+  menu:
+    uuid: 5243e0d2-0e8b-277a-912e-9d8b5fcdb41d
+  groups:
+  - superadmin
+- name: system_view_cpu
+  menu:
+    uuid: 5243e0d2-0e8b-277a-912e-9d8b5fcdb41d
+  groups:
+  - superadmin
+- name: system_view_hdd
+  menu:
+    uuid: 5243e0d2-0e8b-277a-912e-9d8b5fcdb41d
+  groups:
+  - superadmin
+- name: system_view_ram
+  menu:
+    uuid: 5243e0d2-0e8b-277a-912e-9d8b5fcdb41d
+  groups:
+  - superadmin
+- name: system_view_database
+  groups:
+  - superadmin
+- name: system_view_memcache
+  menu:
+    uuid: 5243e0d2-0e8b-277a-912e-9d8b5fcdb41d
+- name: system_view_backup
+  menu:
+    uuid: 5243e0d2-0e8b-277a-912e-9d8b5fcdb41d
+  groups:
+  - superadmin
+- name: software_view
+  menu:
+    uuid: 5243e0d2-0e8b-277a-912e-9d8b5fcdb41d
+  groups:
+  - superadmin
+- name: software_add
+- name: software_edit
+- name: software_delete
+- name: time_condition_view
+  menu:
+    uuid: 67aede56-8623-df2d-6338-ecfbde5825f7
+  groups:
+  - admin
+  - superadmin
+- name: time_condition_add
+  groups:
+  - admin
+  - superadmin
+- name: time_condition_edit
+  groups:
+  - admin
+  - superadmin
+- name: time_condition_delete
+  groups:
+  - admin
+  - superadmin
+- name: time_condition_all
+  groups:
+  - superadmin
+- name: time_condition_domain
+  groups:
+  - superadmin
+- name: time_condition_context
+  groups:
+  - superadmin
+- name: time_condition_destinations
+  groups:
+  - admin
+  - superadmin
+- name: tone_destinations
+  groups:
+  - user
+  - admin
+  - superadmin
+- name: var_view
+  menu:
+    uuid: 7a4e9ec5-24b9-7200-89b8-d70bf8afdd8f
+  groups:
+  - superadmin
+- name: var_add
+  groups:
+  - superadmin
+- name: var_edit
+  groups:
+  - superadmin
+- name: var_delete
+  groups:
+  - superadmin
+- name: voicemail_greeting_view
+  groups:
+  - user
+  - admin
+  - superadmin
+- name: voicemail_greeting_add
+  groups:
+  - user
+  - admin
+  - superadmin
+- name: voicemail_greeting_edit
+  groups:
+  - user
+  - admin
+  - superadmin
+- name: voicemail_greeting_delete
+  groups:
+  - user
+  - admin
+  - superadmin
+- name: voicemail_greeting_upload
+  groups:
+  - user
+  - admin
+  - superadmin
+- name: voicemail_greeting_play
+  groups:
+  - user
+  - admin
+  - superadmin
+- name: voicemail_greeting_download
+  groups:
+  - user
+  - admin
+  - superadmin
+- name: voicemail_view
+  menu:
+    uuid: 0347f82a-62a0-49d0-bacd-511d080c46d5
+  groups:
+  - superadmin
+  - admin
+- name: voicemail_add
+  groups:
+  - superadmin
+  - admin
+- name: voicemail_edit
+  groups:
+  - superadmin
+  - admin
+  - user
+  - agent
+- name: voicemail_delete
+  groups:
+  - superadmin
+  - admin
+- name: voicemail_all
+  groups:
+  - superadmin
+- name: voicemail_domain
+  groups:
+  - superadmin
+  - admin
+- name: voicemail_import
+  groups:
+  - superadmin
+- name: voicemail_file
+  groups:
+  - superadmin
+  - admin
+- name: voicemail_message_view
+  menu:
+    uuid: 0347f82a-62a0-49d0-bacd-511d080c46d5
+  groups:
+  - superadmin
+  - admin
+  - user
+  - agent
+- name: voicemail_message_add
+  groups:
+  - superadmin
+  - admin
+  - user
+  - agent
+- name: voicemail_message_delete
+  groups:
+  - superadmin
+  - admin
+  - user
+  - agent
+- name: voicemail_option_add
+  groups:
+  - superadmin
+  - admin
+  - user
+  - agent
+- name: voicemail_option_edit
+  groups:
+  - superadmin
+  - admin
+  - user
+  - agent
+- name: voicemail_option_view
+  groups:
+  - superadmin
+  - admin
+  - user
+  - agent
+- name: voicemail_option_delete
+  groups:
+  - superadmin
+  - admin
+  - user
+  - agent
+- name: voicemail_destination_add
+  groups:
+  - superadmin
+  - admin
+  - user
+  - agent
+- name: voicemail_destination_edit
+  groups:
+  - superadmin
+  - admin
+  - user
+  - agent
+- name: voicemail_destination_view
+  groups:
+  - superadmin
+  - admin
+  - user
+  - agent
+- name: voicemail_destination_delete
+  groups:
+  - superadmin
+  - admin
+  - user
+  - agent
+- name: voicemail_transcription_enabled
+  groups:
+  - superadmin
+  - admin
+- name: voicemail_sms_edit
+  groups:
+  - superadmin
+  - admin
+- name: voicemail_local_after_email
+  groups:
+  - superadmin
+  - admin
+- name: voicemail_forward
+  groups:
+  - superadmin
+  - admin
+  - user
+  - agent
+- name: voicemail_destinations
+  groups:
+  - superadmin
+  - admin
+  - user
+  - agent
+- name: xml_cdr_view
+  menu:
+    uuid: 8f80e71a-31a5-6432-47a0-7f5a7b271f05
+  groups:
+  - user
+  - admin
+  - superadmin
+- name: xml_cdr_domain
+  groups:
+  - superadmin
+  - admin
+- name: xml_cdr_add
+  groups:
+  - superadmin
+- name: xml_cdr_edit
+- name: xml_cdr_delete
+- name: xml_cdr_search
+  groups:
+  - user
+  - admin
+  - superadmin
+- name: xml_cdr_search_direction
+  groups:
+  - user
+  - admin
+  - superadmin
+- name: xml_cdr_search_status
+  groups:
+  - user
+  - admin
+  - superadmin
+- name: xml_cdr_search_extension
+  groups:
+  - superadmin
+  - admin
+- name: xml_cdr_search_caller_id
+  groups:
+  - user
+  - admin
+  - superadmin
+- name: xml_cdr_search_start_range
+  groups:
+  - user
+  - admin
+  - superadmin
+- name: xml_cdr_search_duration
+  groups:
+  - superadmin
+  - admin
+- name: xml_cdr_search_caller_destination
+  groups:
+  - admin
+  - superadmin
+- name: xml_cdr_search_destination
+  groups:
+  - user
+  - admin
+  - superadmin
+- name: xml_cdr_search_tta
+  groups:
+  - superadmin
+  - admin
+- name: xml_cdr_search_hangup_cause
+  groups:
+  - superadmin
+- name: xml_cdr_search_recording
+  groups:
+  - user
+  - admin
+  - superadmin
+- name: xml_cdr_search_order
+  groups:
+  - user
+  - admin
+  - superadmin
+- name: xml_cdr_search_advanced
+  groups:
+  - superadmin
+- name: xml_cdr_direction
+  groups:
+  - user
+  - admin
+  - superadmin
+- name: xml_cdr_extension
+  groups:
+  - admin
+  - superadmin
+- name: xml_cdr_all
+  groups:
+  - superadmin
+- name: xml_cdr_caller_id_name
+  groups:
+  - user
+  - admin
+  - superadmin
+- name: xml_cdr_caller_id_number
+  groups:
+  - user
+  - admin
+  - superadmin
+- name: xml_cdr_caller_destination
+  groups:
+  - admin
+  - superadmin
+- name: xml_cdr_destination
+  groups:
+  - user
+  - admin
+  - superadmin
+- name: xml_cdr_recording
+  groups:
+  - user
+  - admin
+  - superadmin
+- name: xml_cdr_recording_play
+  groups:
+  - user
+  - admin
+  - superadmin
+- name: xml_cdr_recording_download
+  groups:
+  - user
+  - admin
+  - superadmin
+- name: xml_cdr_custom_fields
+  groups:
+  - admin
+  - superadmin
+- name: xml_cdr_start
+  groups:
+  - user
+  - admin
+  - superadmin
+- name: xml_cdr_tta
+  groups:
+  - admin
+  - superadmin
+- name: xml_cdr_duration
+  groups:
+  - user
+  - admin
+  - superadmin
+- name: xml_cdr_pdd
+  groups:
+  - admin
+  - superadmin
+- name: xml_cdr_mos
+  groups:
+  - superadmin
+- name: xml_cdr_status
+  groups:
+  - admin
+  - superadmin
+- name: xml_cdr_hangup_cause
+  groups:
+  - superadmin
+- name: xml_cdr_details
+  groups:
+  - superadmin
+- name: xml_cdr_b_leg
+  groups:
+  - superadmin
+- name: xml_cdr_lose_race
+- name: xml_cdr_enterprise_leg
+- name: xml_cdr_cc_agent_leg
+  groups:
+  - superadmin
+- name: xml_cdr_archive
+- name: xml_cdr_statistics
+  groups:
+  - superadmin
+  - admin
+- name: xml_cdr_export
+  groups:
+  - superadmin
+  - admin
+- name: xml_cdr_export_csv
+  groups:
+  - superadmin
+  - admin
+- name: xml_cdr_export_pdf
+  groups:
+  - superadmin
+  - admin
+- name: xml_cdr_extension_summary_all
+...
